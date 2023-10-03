@@ -2,57 +2,39 @@
  * Оператор switch
  */
 
-/*
- * Напиши скрипт выбора стоимости отеля по кол-ву звёзд.
- * 1 - 20$, 2 - 30$, 3 - 50$, 4 - 70$, 5 - 120$
+const username = "Mango";
+
+switch (value) {
+  case "Mango":
+    console.log("case 1");
+    break;
+  case "Poly":
+    console.log("case 2");
+    break;
+  default:
+    console.log("Default case");
+}
+
+/**
+ * Виконай рефакторинг коду задачі використовуючи switch.
  *
- * Если в переменной stars что-то кроме чисел 1-5, выведи строку
- * 'Такого кол-ва звезд нет'
+ * Якщо до дедлайну 0 днів - виведи рядок "Today"
+ * Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
+ * Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
+ * Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
  */
 
-const stars = 1;
-let price;
+const daysUntilDeadline = 5;
 
-if (stars === 1) {
-  price = 20;
-} else if (stars === 2) {
-  price = 30;
-} else if (stars === 3) {
-  price = 50;
-} else if (stars === 4) {
-  price = 70;
-} else if (stars === 5) {
-  price = 120;
+if (daysUntilDeadline === 0) {
+  console.log("Today");
+} else if (daysUntilDeadline === 1) {
+  console.log("Tomorrow");
+} else if (daysUntilDeadline === 2) {
+  console.log("Overmorrow");
 } else {
-  console.log("Такого кол-ва звезд нет");
+  console.log("Date in the future");
 }
-
-switch (stars) {
-  case 1:
-    price = 20;
-    break;
-
-  case 2:
-    price = 30;
-    break;
-
-  case 3:
-    price = 50;
-    break;
-
-  case 4:
-    price = 70;
-    break;
-
-  case 5:
-    price = 120;
-    break;
-
-  default:
-    console.log("Такого кол-ва звезд нет");
-}
-
-console.log(price);
 
 /*
  * Напиши скрипт выбора опции доставки товара.
@@ -65,12 +47,9 @@ console.log(price);
  * - 'Вам перезвонит менеджер'
  */
 
-//  1. сделать переменные
 const option = 1526;
 let message = "";
 
-// 2. сделать switch 1 2 3
-// 3. в каждом кейсе записать в message строку
 switch (option) {
   case 1:
     message = "Вы сможете забрать товар завтра с 12:00 в нашем офисе";
@@ -88,5 +67,4 @@ switch (option) {
     message = "Вам перезвонит менеджер";
 }
 
-// 4. сделать лог message
 console.log(message);
