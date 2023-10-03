@@ -9,4 +9,4 @@
  * - push/pop
  */
 
-const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
+const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];

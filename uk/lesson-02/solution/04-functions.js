@@ -22,35 +22,6 @@ const r3 = add(30, 50);
 console.log("r3: ", r3);
 
 /**
- * - Стек вызовов
- * - Порядок выполения
- */
-
-function fnA() {
-  console.log("fnA execution");
-}
-
-function fnB() {
-  console.log("fnB execution");
-}
-
-function fnC() {
-  console.log("fnC execution");
-}
-
-console.log("Before fnA execution");
-fnA();
-console.log("After fnA execution");
-
-console.log("Before fnB execution");
-fnB();
-console.log("After fnB execution");
-
-console.log("Before fnC execution");
-fnC();
-console.log("After fnC execution");
-
-/**
  * Напиши функцію calcBMI(weight, height) яка розраховує та повертає індекс
  * маси тіла людини. Для цього необхідно розділити вагу на
  * квадрат висоти.

@@ -9,18 +9,18 @@
  * - Переопределение
  */
 
-const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
-console.table(friends);
+const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];
+console.table(courses);
 console.log([0]);
 console.log([1]);
 console.log([2]);
 console.log([3]);
 
-friends[1] = "Jacob";
-friends[3] = "Adrian";
-console.table(friends);
+courses[1] = "Node.js";
+courses[3] = "Next.js";
+console.table(courses);
 
-console.log(friends.length);
+console.log(courses.length);
 
-const lastIndex = friends.length - 1;
+const lastIndex = courses.length - 1;
 console.log(lastIndex);

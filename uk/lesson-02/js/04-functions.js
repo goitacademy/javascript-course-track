@@ -1,27 +1,10 @@
-/*
+/**
  * Функции
  *
  * - Оголошення та виклик функції
  * - Параметри та аргументи
  * - Повернення значення
  */
-
-/**
- * - Стек вызовов
- * - Порядок выполения
- */
-
-function fnA() {
-  console.log("fnA execution");
-}
-
-function fnB() {
-  console.log("fnB execution");
-}
-
-function fnC() {
-  console.log("fnC execution");
-}
 
 // console.log("Before fnA execution");
 // fnA();
