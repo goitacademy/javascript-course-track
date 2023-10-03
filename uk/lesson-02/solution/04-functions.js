@@ -7,7 +7,7 @@
  */
 
 function add(x, y) {
-  console.log("Выполянется функция add");
+  console.log("add function execution");
   console.log(x, y);
   return x + y;
 }
