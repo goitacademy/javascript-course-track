@@ -1,4 +1,23 @@
 /**
+ * Напиши скрипт который подсчитывает сумму всех чётных чисел в массиве.
+ */
+
+const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+let total = 0;
+
+for (const number of numbers) {
+  if (number % 2 !== 0) {
+    console.log("Not an even number!", number);
+    continue;
+  }
+
+  console.log(`${number} - even!`);
+  total += number;
+}
+
+console.log("Total: ", total);
+
+/**
  * Напиши скрипт, який виводить у консоль ім'я та телефонний номер користувача.
  * У змінних names та phones зберігаються рядки імен та телефонних номерів,
  * розділені комами. Порядковий номер імен та телефонів у рядках вказують на
@@ -22,6 +41,6 @@ const string = "Welcome to the future";
  * для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
  */
 
-const numbers = [2, 17, 94, 1, 23, 37];
+const values = [2, 17, 94, 1, 23, 37];
 let min;
 console.log(min); // 1
