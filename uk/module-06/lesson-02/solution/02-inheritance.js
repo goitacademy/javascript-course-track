@@ -30,30 +30,10 @@ class Warrior extends Hero {
   }
 }
 
-class Berserk extends Warrior {
-  constructor({ warcry, ...restProps } = {}) {
-    super(restProps);
-
-    this.warcry = warcry;
-  }
-
-  babyRage() {
-    console.log(this.warcry);
-  }
-}
-
-const ajax = new Berserk({
-  name: "ajax",
-  xp: 500,
-  weapon: "axe",
-  warcry: "waaaaaaaah",
-});
-
-// console.log(ajax);
-
-// ajax.babyRage();
-// ajax.attack();
-// ajax.gainXp();
+const mango = new Warrior({ name: "mango", xp: 1000, weapon: "halberd" });
+console.log(mango);
+mango.attack();
+mango.gainXp(1000);
 
 class Mage extends Hero {
   constructor({ spells, ...restProps } = {}) {
@@ -66,11 +46,6 @@ class Mage extends Hero {
     console.log(`${this.name} is casting a spell 🧙‍♂️`);
   }
 }
-
-const mango = new Warrior({ name: "mango", xp: 1000, weapon: "halberd" });
-console.log(mango);
-mango.attack();
-mango.gainXp(1000);
 
 const poly = new Mage({ name: "poly", xp: 500, spells: ["fireball"] });
 console.log(poly);
