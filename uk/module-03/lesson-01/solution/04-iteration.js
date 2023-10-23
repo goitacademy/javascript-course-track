@@ -4,7 +4,7 @@
  * - Ітерація по масиву циклом for
  * - Метод includes
  * - Цикл for...of
- * - Отличия в использовании for и for...of
+ * - Різниця у використанні for и for...of
  */
 
 const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
