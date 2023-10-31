@@ -6,6 +6,7 @@
  * - Обратний відлік від N до 0
  * - Збільшення/зменшення лічильника на 2+
  * - Інкремент і декремент
+ * - Цикли while і do...while
  */
 
 console.log("Before");
@@ -41,3 +42,18 @@ console.log(b);
 for (let i = 0; i < 10; i++) {
   console.log(i);
 }
+
+/**
+ * -------------------------------
+ */
+
+console.log("Before while loop");
+
+let counter = 0;
+
+while (counter < 10) {
+  console.log(counter);
+  counter += 1;
+}
+
+console.log("After while loop");
