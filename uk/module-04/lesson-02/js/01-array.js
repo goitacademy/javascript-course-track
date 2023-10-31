@@ -16,7 +16,7 @@ const friends = [
 console.table(friends);
 
 /**
- * Ищем друга по имени
+ * Пошук друга за іменем
  */
 function findFriendByName(allFriends, friendName) {}
 
@@ -24,14 +24,14 @@ function findFriendByName(allFriends, friendName) {}
 // console.log(findFriendByName(friends, "Chelsy"));
 
 /**
- * Получаем имена всех друзей
+ * Отримуємо імена всіх лрузів
  */
 function getAllNames(allFriends) {}
 
 // console.log(getAllNames(friends));
 
 /**
- * Получаем имена только друзей которые онлайн
+ * Отримуємо імена тільки тих друзів, які зараз онлайн
  */
 function getOnlineFriends(allFriends) {}
 
