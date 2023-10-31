@@ -16,14 +16,14 @@ console.log(link);
  * змінної link символом /. Якщо ні, додай до кінця
  * значення link цей символ, але тільки в тому випадку,
  * якщо в link є підрядок "my-site".
- * Використовуй конструкцію if...else или тернарний оператор.
+ * Використовуй конструкцію if...else або тернарний оператор.
  */
 
 let url = "https://somesite.com/about";
 console.log(url);
 
 /*
- * Поиск в строке с методом includes()
+ * Пошук у рядку методом includes()
  */
 
 const blacklistedWord1 = "spam";
