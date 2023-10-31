@@ -21,7 +21,7 @@ const numbers = [
 console.log(numbers);
 
 /**
- * Поиск самой маленькой или большой температуры (числа)
+ * Пошук найменшої аьо найбільшої температури (числа)
  */
 const temps = [18, 14, 12, 21, 17, 29, 24];
 
@@ -30,7 +30,7 @@ console.log(Math.min(...temps));
 console.log(temps);
 
 /**
- * Створення масиву и ссылочный тип
+ * Створення масиву і тип за посиланням
  */
 const a = [{ x: 1 }, { y: 2 }, { z: 3 }];
 const b = [...a];
@@ -47,7 +47,7 @@ console.log("a: ", a);
 console.log("b: ", b);
 
 /*
- * Сшиваем несколько массивов в один через spread
+ * Поєднуємо кілька масивів в один через spread
  */
 const lastWeekTemps = [1, 2, 3];
 const currentTemps = [4, 5, 6];
@@ -72,7 +72,7 @@ const objC = {
 console.log(objC);
 
 /**
- * Обеовляем настройки пользователя
+ * Оновлюємо налаштування користувача
  */
 const defaultSettings = {
   theme: "light",
