@@ -1,5 +1,5 @@
 /**
- * Функция обратного вызова (callback)
+ * Функція зворотнього виклика (callback)
  *
  * - Функція як значення
  * - Колбек-функції
@@ -17,7 +17,7 @@ function fnB(number) {
 fnA("A message");
 
 /**
- * Функция calc(a, b, callback)
+ * Функція calc(a, b, callback)
  */
 
 function calc(a, b) {}
