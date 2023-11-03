@@ -9,8 +9,8 @@ const players = [
 /**
  * Метод every
  *
- * - Поэлементо перебирает оригинальный массив
- * - Возвращает true если все элементы массива удовлетворяют условию
+ * - Поелементно перебирає оригінальний масив
+ * - Повертає true якщо всі елементи масиву задовольняють умову
  */
 const isAllOnline = players.every((player) => player.online);
 // console.log('isAllOnline: ', isAllOnline);
@@ -18,8 +18,8 @@ const isAllOnline = players.every((player) => player.online);
 /**
  * Метод some
  *
- * - Поэлементо перебирает оригинальный массив
- * - Возвращает true если хотя бы один элемент массива удовлетворяет условию
+ * - Поелементно перебирає оригінальний масив
+ * - Повертає true якщо хоча б один елемент масиву задовольняє умову
  */
 const isAnyOnline = players.some((player) => player.online);
 console.log("isAnyOnline: ", isAnyOnline);
