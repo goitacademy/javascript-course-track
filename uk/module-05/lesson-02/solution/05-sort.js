@@ -5,9 +5,9 @@
  * - Свій порядок сортування рядків
  * - Сортування об'єктів
  *
- * По умолчанию:
- *  - сортирует по возрастанию
- *  - приводит элементы к строке и сортирует по [Unicode](https://unicode-table.com/en/)
+ * За замовчуванням:
+ * - сортує за зростанням
+ * - приводить елементи до рядка і сортує за [Unicode](https://unicode-table.com/en/)
  */
 
 const numbers = [1, 9, 6, 2, 3];
@@ -19,8 +19,8 @@ const letters = ["b", "B", "a", "A"];
 console.log("letters", letters.toSorted());
 
 /**
- * compareFunction - функция сравнения (callback)
- * Элементы массива сортируются в соответствии с её возвращаемым значением
+ * compareFunction - функція порівняння (callback)
+ * Елементи масиву сортуються відповідно до її значення, що повертається
  */
 
 console.log(
@@ -35,7 +35,7 @@ console.log("descSortedNumbers", descSortedNumbers);
 console.log("ascSortedNumbers", ascSortedNumbers);
 
 /**
- * Сортировка массива обьектов
+ * Сортування масиву об'єктів
  */
 const players = [
   { id: "player-1", name: "Mango", timePlayed: 310, online: false },
@@ -45,7 +45,7 @@ const players = [
   { id: "player-5", name: "Chelsey", timePlayed: 80, online: true },
 ];
 
-// По игровому времени
+// За ігровим часом
 const sortedByBestPlayers = players.toSorted(
   (prevPlayer, nextPlayer) => nextPlayer.timePlayed - prevPlayer.timePlayed
 );
