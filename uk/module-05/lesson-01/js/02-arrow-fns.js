@@ -1,9 +1,9 @@
 /**
  * Стрілочні функції
- * - Объявление
- * - Явный и неявный возврат
+ * - Оголошення
+ * - Явне і неявне поверненя
  * - Псевдомасив arguments (...args)
- *  - Інлайн стрілочні функції
+ * - Інлайн стрілочні функції
  */
 
 function add(a, b, c) {
@@ -31,7 +31,7 @@ console.log(fnA());
 // console.log(arrowFnA());
 
 /**
- * Функция calc(a, b, callback)
+ * Функція calc(a, b, callback)
  */
 
 function calc(a, b, callback) {
