@@ -1,8 +1,8 @@
 /**
  * Метод reduce
  *
- * - Поэлементо перебирает оригинальный массив
- * - Возвращаемое значение зависит от разработчика
+ * - Поелементно перебирає оригінальний масив
+ * - Значення, що повертається, залежить від розробника
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -11,7 +11,7 @@ const total = numbers.reduce((acc, number) => acc + number, 0);
 // console.log(total);
 
 /**
- * Считаем общую зарплату
+ * Рахуємо загальну зарплату
  */
 
 const salary = {
@@ -27,7 +27,7 @@ const totalSalary = Object.values(salary).reduce(
 console.log(totalSalary);
 
 /**
- * Считаем общее количество часов
+ * Рахуємо загальну кількість годин
  */
 
 const players = [
@@ -46,7 +46,7 @@ const totalTimePlayed = players.reduce(
 console.log(totalTimePlayed);
 
 /**
- * Считаем общую сумму товаров корзины
+ * Рахуємо загальну суму товарів кошика
  */
 const cart = [
   { label: "Apples", price: 100, quantity: 2 },
