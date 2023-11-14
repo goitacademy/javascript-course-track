@@ -29,7 +29,7 @@ const user = {
 user.showTag();
 
 /**
- * Контекст методу об'єкта, но объявлена как внешняя функция.
+ * Контекст методу об'єкта, але оголошена як зовнішня функція.
  */
 
 function showTag() {
@@ -49,7 +49,7 @@ console.log("mango", mango);
 mango.showUserTag();
 
 /**
- * Вызов без контекста, но объявлена как метод объекта.
+ * Виклик без контексту, але оголошена як метод об'єкта.
  */
 
 const poly = {
@@ -67,7 +67,7 @@ const outerShowTag = poly.showTag;
 outerShowTag();
 
 /**
- * Контекст в callback-функциях
+ * Контекст у callback-функціях
  */
 
 const jacob = {
