@@ -15,7 +15,7 @@ const navLinksEl = document.querySelectorAll('.site-nav__link');
 console.log('navLinksEl', navLinksEl);
 
 /*
- * Свойства «навігації» по DOM-вузлах
+ * Властивості «навігації» по DOM-вузлах
  *
  */
 
