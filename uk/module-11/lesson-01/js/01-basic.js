@@ -9,3 +9,10 @@
  */
 
 const list = document.querySelector(".todo-list");
+
+/**
+ * Всередині функції запит, зовні обробка
+ */
+const fetchTodos = () => {};
+
+// fetchTodos().then().catch()

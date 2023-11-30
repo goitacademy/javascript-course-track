@@ -24,3 +24,10 @@ fetch("https://jsonplaceholder.typicode.com/todos")
   .catch((error) => {
     console.log(error);
   });
+
+/**
+ * Всередині функції запит, зовні обробка
+ */
+const fetchTodos = () => {};
+
+// fetchTodos().then().catch()
