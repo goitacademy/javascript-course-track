@@ -2,10 +2,28 @@
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
  */
 
-function fetchPokemon(pokemonId) {}
+function fetchPokemon(pokemonId) {
+  return fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`).then(
+    (response) => response.json()
+  );
+}
 
 const cardContainer = document.querySelector(".card-container");
 const searchForm = document.querySelector(".search-form");
+
+searchForm.addEventListener("submit", onSearch);
+
+function onSearch(e) {
+  e.preventDefault();
+
+  const form = e.currentTarget;
+  const searchQuery = form.elements.query.value;
+
+  fetchPokemon(searchQuery)
+    .then(renderPokemonCard)
+    .catch(onFetchError)
+    .finally(form.reset);
+}
 
 function renderPokemonCard({ name, sprites, weight, height, abilities }) {
   const abilityListItems = abilities
