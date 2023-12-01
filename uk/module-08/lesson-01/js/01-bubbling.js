@@ -1,7 +1,7 @@
 /*
- * Всплытие событий
- * event.target - целевой (исходный) элемент
- * event.currentTarget - текущий элемент, на слушателе которого словили событие
+ * Вспливання подій
+ * event.target - цільовий (вихідний) елемент
+ * event.currentTarget - поточний елемент, на слухачі якого спіймали подію
  */
 
 const parent = document.querySelector("#parent");
