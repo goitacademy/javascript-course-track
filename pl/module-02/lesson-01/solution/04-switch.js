@@ -1,5 +1,5 @@
 /**
- * Оператор switch
+ * Operator switch
  */
 
 const username = "Mango";
@@ -16,12 +16,12 @@ switch (value) {
 }
 
 /**
- * Виконай рефакторинг коду задачі використовуючи switch.
+ * Przeprowadź refaktoryzację kodu zadania za pomocą switch.
  *
- * Якщо до дедлайну 0 днів - виведи рядок "Today"
- * Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
- * Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
- * Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
+ * Jeśli termin upływa za 0 dni - wyświetl wiersz "Today"
+ * Jeśli termin upływa za 1 dzień - wyświetl wiersz "Tomorrow"
+ * Jeśli termin upływa za 2 dni - wyświetl wiersz "Overmorrow"
+ * Jeśli termin upływa za 3+ dni - wyświetl wiersz "Date in the future"
  */
 
 const daysUntilDeadline = 5;
@@ -37,14 +37,14 @@ if (daysUntilDeadline === 0) {
 }
 
 /*
- * Напиши скрипт выбора опции доставки товара.
- * Опция хранится в переменной option: 1 - самовывоз, 2 - курьер, 3 - почта
+ * Napisz skrypt do wyboru opcji dostawy towarów.
+ * Opcja jest przechowywana w zmiennej option: 1 - odbiór osobisty, 2 - kurier, 3 - poczta
  *
- * В переменную message записать сообщение в зависимости от опции.
- * - 'Вы сможете забрать товар завтра с 12:00 в нашем офисе'
- * - 'Курьер доставит заказ завтра с 9:00 до 18:00'
- * - 'Посылка будет отправлена сегодня'
- * - 'Вам перезвонит менеджер'
+ * Do zmiennej message wpisz wiadomość w zależności od wybranej opcji.
+ * - 'Towar będzie dostępny do odbioru jutro od godziny 12:00 w naszym biurze'
+ * - 'Kurier dostarczy zamówienie jutro pomiędzy 9:00 a 18:00'
+ * - 'Paczka zostanie wysłana dzisiaj'
+ * - 'Nasz menedżer wkrótce skontaktuje się z Tobą'
  */
 
 const option = 1526;
@@ -52,19 +52,19 @@ let message = "";
 
 switch (option) {
   case 1:
-    message = "Вы сможете забрать товар завтра с 12:00 в нашем офисе";
+    message = "Towar będzie dostępny do odbioru jutro od godziny 12:00 w naszym biurze";
     break;
 
   case 2:
-    message = "Курьер доставит заказ завтра с 9:00 до 18:00";
+    message = "Kurier dostarczy zamówienie jutro pomiędzy 9:00 a 18:00";
     break;
 
   case 3:
-    message = "Посылка будет отправлена сегодня";
+    message = "Paczka zostanie wysłana dzisiaj";
     break;
 
   default:
-    message = "Вам перезвонит менеджер";
+    message = "Nasz menedżer wkrótce skontaktuje się  Tobą";
 }
 
 console.log(message);
