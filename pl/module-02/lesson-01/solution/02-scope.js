@@ -1,5 +1,5 @@
 /*
- * Блокова область видимості змінних
+ * Zakres blokowy zmiennych
  */
 
 const c = 15;
