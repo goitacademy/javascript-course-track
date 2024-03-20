@@ -1,9 +1,9 @@
 /**
- * Типові помилки
+ * Typowe błędy
  *
- * - Звернення до змінної до її оголошення
- * - Перевизначення значення для змінної оголошеної через const
- * - Обращение по неправильному імени змінної
+ * - Odwoływanie się do zmiennej przed jej zadeklarowaniem
+ * - Nadpisanie wartości dla zmiennej zadeklarowanej za pomocą const
+ * - Odwoływanie się do zmiennej przy użyciu nieprawidłowej nazwy
  *
  */
 
