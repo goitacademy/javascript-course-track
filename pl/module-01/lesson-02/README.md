@@ -1,20 +1,20 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot і обговоримо питання 
+1. Zagramy w Kahoot i omówimy następujące kwestie:
 
-2. Розберемо **оператори**
-- Оператори порівняння
-- Оператори рівності (практика в 02-comp.js)
-- Перетворення типів: числа
-- Перетворення типів: рядків у числа (практика в 01-coercion.js)
-- Арифметичні функції (практика в 03-numbers.js)
+2. Przeanalizujemy **operatory**
+- Operatory porównania
+- Operatory równości (ćwiczenie w 02-comp.js)
+- Konwersja typów: liczby
+- Konwersja typów: ciągi znaków na liczby (ćwiczenie w 01-coercion.js)
+- Funkcje arytmetyczne (ćwiczenie w 03-numbers.js)
 
-3. Познайомимося з **функціями**
-- Оголошення функцій
-- Параметри і аргументи
-- Повернення значення
-- Порядок виконання коду
-- Область видимості функцій (практика 04-functions.js)
+3. Zapoznamy się z **funkcjami**
+- Deklarowanie funkcji
+- Parametry i argumenty
+- Zwracanie wartości
+- Kolejność wykonywania kodu
+- Zakres funkcji (ćwiczenie 04-functions.js)
 
-4. А що робити в ДЗ?
-У домашньому завданні на вас чекають 3 нескладні задачі на використання функцій, шаблонних рядків та застосування арифметичних операцій. ДЗ виконуємо у редакторі коду VS Code
+4. Na czym polega zadanie domowe?
+W zadaniu domowym otrzymasz 3 proste zadania polegające na użyciu funkcji, interpolacji ciągów i operacji arytmetycznych. Zadanie domowe należy wykonywać w edytorze kodu VS Code.
