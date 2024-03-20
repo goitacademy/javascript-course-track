@@ -1,10 +1,10 @@
 /**
- * Розгалуження
+ * Rozgałęzienia
  *
- * - Інструкція if
- * - Інструкція if...else
- * - Блок else...if
- * - Тернарний оператор
+ * - Instrukcja if
+ * - Instrukcja if...else
+ * - Blok else...if
+ * - Operator trójargumentowy
  */
 
 console.log("Before");
