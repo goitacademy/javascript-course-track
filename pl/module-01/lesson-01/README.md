@@ -1,26 +1,26 @@
-# Lesson Plan
+# Plan lekcji
 
-1. Пограємо в Kahoot 
+1. Zagramy w Kahoot 
 
-2. Познайомимось з мовою програмування **JavaScript**
-- Базова термінологія: що таке інструкція, вираз, літерал тощо
-- Як підключити скрипт до сторінки
-- Запуск із LiveServer
-- Виведення даних у консоль
+2. Zapoznamy się z jęzkiem programowania **JavaScript**
+- Podstawowa terminologia: czym jest instrukcja, wyrażenie, literał itp.
+- Jak podłączyć skrypt do strony
+- Uruchamianie z LiveServer
+- Wyprowadzanie danych do konsoli
   
-3. Розберемо **змінні та типи даних**
-- Оголошення змінних з `const` і `let`, (практика в 01-vars.js)
-- Типи даних
-- Оператор typeof (практика 01-vars.js)
-- Типові помилки (практика 02-errors.js)
-- Арифметичні операції (03-operators.js)
+3. Przeanalizujemy **zmienne i typy danych**
+- Deklarowanie zmiennych za pomocą `const` і `let`, (ćwiczenie в 01-vars.js)
+- Typy danych
+- Operator typeof (ćwiczenie 01-vars.js)
+- Typowe błędy (ćwiczenie 02-errors.js)
+- Operacje arytmetyczne (03-operators.js)
 
-4. Рядки
-- Конкатенація рядків
-- Шаблонні рядки
-- Довжина рядка
-- Індексація (практика 04-strings.js)
-- Перетворення типів (практика 05-coercion.js)
+4. Ciągi
+- Konkatenacja ciągów znaków
+- Interpolacja ciągów znaków
+- Długość ciągów znaków
+- Indeksowanie (ćwiczenie 04-strings.js)
+- Konwersja typów (ćwiczenie 05-coercion.js)
 
-5. Що на вас чекатиме на **наступному занятті**? 
-Ми поговоримо про функції та потренуємося використовувати функції для нескладних обчислень
+5. Czego nauczysz się w **kolejnej lekcji**? 
+Porozmawiamy o funkcjach i poćwiczymy używanie funkcji do prostych obliczeń.
