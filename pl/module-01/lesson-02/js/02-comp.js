@@ -3,7 +3,7 @@
  *
  * - Operatory porównania
  * - Operatory równości
- * - Konwersja typu operandu
+ * - Konwersja typów operandów
  */
 
 console.log(5 > 4);
