@@ -1,9 +1,9 @@
 /**
- * Оператори
+ * Operatory
  *
- * - Оператори порівняння
- * - Оператори рівності
- * - Приведение типов операндов
+ * - Operatory porównania
+ * - Operatory równości
+ * - Konwersja typu operandu
  */
 
 console.log(5 > 4);
