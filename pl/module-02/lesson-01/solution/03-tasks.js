@@ -1,7 +1,7 @@
 /**
- * Напиши скрипт для відображення годин та хвилин у консолі браузера у вигляді
- * рядка формату "14 г. 26 хв.". Якщо значення змінної minutes дорівнює 0,
- * то виводь рядок "14 г.", без хвилин.
+ * Napisz skrypt wyświetlający godziny i minuty w konsoli przeglądarki jako
+ * ciąg znaków w formacie "14 godz. 26 min.". Jeśli wartość zmiennej minutes wynosi 0,
+ * wyświetl ciąg "14 godz.", bez minut.
  */
 
 const hours = 14;
@@ -16,12 +16,12 @@ if (minutes > 0) {
 console.log(timestring);
 
 /**
- * Напиши скрипт для відображення часу дедлайну здачі проекту. Використовуй if...else.
+ * Napisz skrypt wyświetlający czas zakończenia projektu. Użyj if...else.
  *
- * Якщо до дедлайну 0 днів - виведи рядок "Today"
- * Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
- * Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
- * Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
+ * Jeśli termin upływa za 0 dni - wyświetl wiersz "Today"
+ * Jeśli termin upływa za 1 dzień - wyświetl wiersz "Tomorrow"
+ * Jeśli termin upływa za 2 dni - wyświetl wiersz "Overmorrow"
+ * Jeśli termin upływa za 3+ dni - wyświetl wiersz "Date in the future"
  */
 
 const daysUntilDeadline = 5;
