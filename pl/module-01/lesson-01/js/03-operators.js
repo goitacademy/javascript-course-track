@@ -8,7 +8,7 @@ const a = 10;
 const b = 5;
 
 /**
- * Wyświetl łączną liczbę jabłek i winogron.  Znajdź różnicę między liczbą jabłek i winogron.
+ * Wyświetl łączną liczbę jabłek i winogron. Różnicę między liczbą jabłek i winogron.
  */
 
 const apples = 47;
