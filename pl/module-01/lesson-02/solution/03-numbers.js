@@ -1,5 +1,5 @@
 /**
- * Арифметичні функції
+ * Funkcje arytmetyczne
  *
  * - Number.parseInt
  * - Number.parseFloat
@@ -15,9 +15,9 @@ elementHeight = Number.parseFloat(elementHeight);
 console.log("elementHeight: ", elementHeight);
 
 /**
- * Напиши скрипт, який виводить у консоль заокруглені вгору/вниз і т.д.
- * значення змінної value. Використовуй методи Math.floor(), Math.ceil()
- * та Math.round(). Перевір що буде в консолі при значеннях 27.3 та 27.9.
+ * Napisz skrypt, który wyświetli w konsoli zaokrąglone w górę/w dół itp.
+ * wartości zmiennej value. Użyj metod Math.floor(), Math.ceil()
+ * i Math.round(). Sprawdź, co zostanie wyświetlone w konsoli z wartościami 27.3 i 27.9.
  */
 
 const value = 27.5;
