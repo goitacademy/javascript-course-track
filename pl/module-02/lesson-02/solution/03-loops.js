@@ -1,12 +1,12 @@
 /**
- * Цикли
+ * Pętle
  *
- * - Цикл for
- * - Відлік від 0 до N
- * - Обратний відлік від N до 0
- * - Збільшення/зменшення лічильника на 2+
- * - Інкремент і декремент
- * - Цикли while і do...while
+* - Pętla for
+ * - Liczenie od 0 do N
+ * - Odliczanie od N do 0
+ * - Zwiększenie/zmniejszenie licznika o 2+.
+ * - Inkrementacja i dekrementacja
+ * - Pętle while і do...while
  */
 
 console.log("Before");
