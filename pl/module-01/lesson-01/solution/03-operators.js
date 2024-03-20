@@ -1,7 +1,7 @@
 /**
- * Арифметичні операції
- * - Оператори +, -, *, /, %, **
- * - Комбіновані оператори
+ * Operacje arytmetyczne
+ * - Operatory +, -, *, /, %, **
+ * - Złożone operatory
  */
 
 const a = 10;
@@ -14,7 +14,7 @@ console.log(x % y);
 console.log(x ** y);
 
 /**
- * Виведи на екран загальну кількість яблук та винограду. Різницю яблук та винограду.
+ * Wyświetl łączną liczbę jabłek i winogron. Różnicę między liczbą jabłek i winogron.
  */
 
 const apples = 47;
@@ -27,7 +27,7 @@ const diff = apples - grapes;
 console.log(diff);
 
 /**
- * Заміни вираз перевизначення комбінованим оператором
+ * Zastąp wyrażenie nadpisujące operatorem złożonym
  */
 
 let students = 100;
@@ -35,7 +35,7 @@ students += 50;
 console.log(students);
 
 /**
- * Розбери пріоритет операторів в інструкції привласнення значення змінної result
+ * Przeanalizuj priorytet operatorów w instrukcji przypisywania wartości do zmiennej result.
  */
 
 const result = 108 + 223 - 2 * 5;
