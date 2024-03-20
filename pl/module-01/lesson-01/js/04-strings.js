@@ -1,11 +1,11 @@
 /**
- * Рядки
+ * Ciągi znaków
  *
- * - Конкатенація рядків
- * - Шаблонні рядки
- * - Довжина рядка
- * - Індексація елементів
- * - Незмінність рядків
+ * - Konkatenacja ciągów znaków
+ * - Interpolacja ciągów znaków
+ * - Długość ciągu znaków
+ * - Indeksowanie elementów
+ * - Niezmienność ciągów znaków
  */
 
 const firstName = "Chelsy";
@@ -20,8 +20,8 @@ const message = "This string is 28 chars long";
 // console.log(message);
 
 /**
- * Склади фразу за допомогою шаблонних рядків
- * A has B bots in stock, де A, B - змінні вставлені в рядок.
+ * Utwórz frazę przy użyciu interpolacji ciągów
+ * A has B bots in stock, gdzie A, B są zmiennymi wstawionymi do ciągu.
  */
 const companyName = "Cyberdyne Systems";
 const repairBots = 150;
