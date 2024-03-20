@@ -1,8 +1,8 @@
 /**
- * Перетворення типів: числа
+ * Konwersja typów: liczby
  *
- * - Явне перетворення типів
- * - Неявне перетворення типів
+ * - Jawna konwersja typów
+ * - Niejawna konwersja typów
  */
 
 console.log(Number("5")); // 5
