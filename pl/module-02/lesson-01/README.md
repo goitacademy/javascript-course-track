@@ -1,22 +1,22 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
 
-2. Познайомимось з розгалуженнями (практика 01-arrays.js)
-- Інструкція if
-- Інструкція if...else,
-- Блок else...if
-- Тернарний оператор (практика 01-branching.js)
-- Блокова область видимості (практика *02-scope.js)
-- Практичні завдання (практика 03-tasks.js)
-- Оператор switch (практика 04-switch.js)
+2. Zapoznamy się z rozgałęzieniami (ćwiczenie 01-arrays.js)
+- Instrukcja if
+- Instrukcja if...else,
+- Blok else...if
+- Operator trójargumentowy (ćwiczenie 01-branching.js)
+- Blokowy zakres (ćwiczenie *02-scope.js)
+- Zadania praktyczne (ćwiczenie 03-tasks.js)
+- Instrukcja switch (ćwiczenie 04-switch.js)
 
-3. Розберемо логічні оператори (практика 05-operators.js)
-- Перетворення типів: логічне
-- Оператор &&
-- Оператор ||
-- Оператор !
+3. Przeanalizujemy oeratory logiczne (ćwiczenie 05-operators.js)
+- Konwersja typów: logiczny
+- Operator &&
+- Operator ||
+- Operator !
 
-4. Розв’яжемо декілька практичних завдань (практика 06-tasks.js)
+4. Rozwiążemy kilka zadań praktycznych (ćwiczenie 06-tasks.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про методи рядків і цикли
+5.  Co na Ciebie czeka w **kolejnej lekcji**? Porozmawiamy o metodach ciągów znaków i pętlach
