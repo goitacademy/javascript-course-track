@@ -1,10 +1,10 @@
 /**
- * Змінні та типи даних
+ * Zmienne i typy danych
  *
- * - Оголошення змінних з let и const
- * - Перевизначення значення
- * - Найменування змінних
- * - Вибір між const і let
- * - Числа, рядки, булі, null, undefined
- * - Оператор typeof
+ * - Deklarowanie zmiennych za pomocą let i const
+ * - Zastępowanie wartości
+ * - Nazywanie zmiennych
+ * - Wybór między const і let
+ * - Liczby, ciągi, wartości logiczne, null, undefined
+ * - Operator typeof
  */
