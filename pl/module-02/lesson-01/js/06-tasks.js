@@ -1,17 +1,17 @@
 /*
- * Напиши скрипт перевірки підписки користувача придоступі до контента
- * - Є три типа підписки: free, pro і vip.
- * - Отримати доступ можуть тільки користувачі pro і vip
+ * Napisz skrypt sprawdzający subskrypcję użytkownika podczas uzyskiwania dostępu do treści.
+ * - Dostępne są trzy rodzaje subskrypcji: free, pro і vip.
+ * - Uzyskać dostęp mogą tylko użytkownicy pro і vip.
  */
 
 const sub = "free";
 
 /*
- * Напиши скрипт, який перевіряє можливість відкрити чат з користувачем.
- * Для цього, користувач має бути:
- * - другом
- * - онлайн
- * - без режима не турбувати
+ * Napisz skrypt który sprawdzi możliwość otwarcia czatu z użytkownikiem.
+ * By to zrobić, użytkownik musi być:
+ * - znajomym
+ * - online
+ * - bez trybu "Nie przeszkadzać"
  */
 
 const isOnline = true;
@@ -19,4 +19,4 @@ const isFriend = true;
 const isDnd = true;
 
 // const canOpenChat = ;
-// console.log("Можно открыть чат? ", canOpenChat);
+// console.log("Mogę otworzyć czat? ", canOpenChat);
