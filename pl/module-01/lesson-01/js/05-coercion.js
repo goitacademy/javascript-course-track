@@ -1,8 +1,8 @@
 /**
- * Перетворення типів: рядки
+ * Konwersja typów: ciągi
  *
- * - Явне перетворення типів
- * - Неявне перетворення типів
+ * - Jawna konwersja typów
+ * - Niejawna konwersja typów
  */
 
 console.log(String(5)); // "5"
