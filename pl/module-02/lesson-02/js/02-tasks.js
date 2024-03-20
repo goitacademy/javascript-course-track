@@ -1,29 +1,29 @@
 /**
- * Форматування посилання (endsWith)
+ * Formatowanie linku (endsWith)
  *
- * Напиши скрипт який перевіряє чи закінчується значення
- *  змінної link символом /. Якщо ні, додай до кінця
- *  значення link цей символ.
- * Використовуй конструкцію if...else.
+ * Napisz skrypt sprawdzający, czy wartość zmiennej
+ * link kończy się znakiem /. Jeśli nie, dodaj ten znak
+ * na końcu wartości link.
+ * Użyj konstrukcji if...else.
  */
 
 let link = "https://my-site.com/about";
 console.log(link);
 
 /**
- * Форматування посилання (includes та логічне «І»)
- * Напиши скрипт який перевіряє чи закінчується значення
- * змінної link символом /. Якщо ні, додай до кінця
- * значення link цей символ, але тільки в тому випадку,
- * якщо в link є підрядок "my-site".
- * Використовуй конструкцію if...else або тернарний оператор.
+ * Formatowanie linku (includes i logiczne «І»)
+ * Napisz skrypt sprawdzający, czy wartość zmiennej
+ * link kończy się znakiem /. Jeśli nie, dodaj ten znak
+ * na końcu wartości link, ale tylko wtedy,
+ * gdy link zawiera podciąg "my-site".
+ * Użyj konstrukcji if...else lub operatora trójargumentowego.
  */
 
 let url = "https://somesite.com/about";
 console.log(url);
 
 /*
- * Пошук у рядку методом includes()
+ * Wyszukiwanie w ciągu znaków przy użyciu metody includes()
  */
 
 const blacklistedWord1 = "spam";
