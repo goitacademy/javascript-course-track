@@ -1,15 +1,15 @@
 /**
- * Напиши цикл for, який виводить у консоль браузера
- * числа за зростанням від a до b, але тільки якщо число кратне 5.
+ * Napisz pętlę for, która będzie wyświetlać w konsoli przeglądarki
+ * liczby w kolejności rosnącej od a do b, ale tylko wtedy, gdy liczba jest wielokrotnością 5.
  */
 
 const a = 100;
 const b = 20;
 
 /*
- * Напиши скрипт, який підраховує суму всіх парних чисел,
- * які входять в діапазон чисел у змінних від min до max.
- * Наприклад, якщо min=0 и max=5, то діапазон 0-5, і в ньому два парних числа - 2 і 4, їх сума 6.
+ * Napisz skrypt obliczający sumę wszystkich liczb parzystych,
+ * znajdujących się w zakresie liczb w zmiennych od min do max.
+ * Na przykład, jeśli min=0 i max=5, to zakres wynosi 0-5 i są w nim dwie liczby parzyste - 2 і 4, a ich suma wynosi 6.
  */
 
 const min = 0;
