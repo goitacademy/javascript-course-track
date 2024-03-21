@@ -1,11 +1,11 @@
 /**
- * Напиши функцію logItems(items), яка отримує масив та використовує цикл,
- * який для кожного елемента масиву буде виводити в консоль повідомлення у
- * форматі <номер елемента> - <значення елемента>. Нумерація елементів
- * повинна починатися з 1.
+ * Napisz funkcję logItems(items), która otrzymuje tablicę i używa pętli,
+ * która dla każdego elementu w tablicy wyświetli w konsoli komunikat w
+ * formacie <numer elementu> - <wartość elementu>. Numeracja elementów
+ * musi zaczynać się od 1.
  *
- * Наприклад для першого елемента масиву ['Mango', 'Poly', 'Ajax'] з
- * індексом 0 буде виведено 1 - Mango, а для індексу 2 виведе 3 - Ajax.
+ * Na przykład dla pierwszego elementu tablicy ['Mango', 'Poly', 'Ajax'] z
+ * indeksem 0 zostanie wyświetlone 1 - Mango, а dla indeksu 2 zostanie wyświetlone 3 - Ajax.
  */
 
 function logItems(items) {}
@@ -14,12 +14,12 @@ logItems(["Mango", "Poly", "Ajax"]);
 logItems(["🍎", "🍇", "🍑", "🍌", "🍋"]);
 
 /**
- * Напиши функцію printInfo(names, phones) яка виводить
- * у консоль ім'я та телефонний номер користувача. У параметри
- * names та phones будуть передані рядки імен та телефонних номерів,
- * розділені комами. Порядковий номер імен та телефонів у рядках
- * вказують на відповідність. Кількість імен та телефонів
- * гарантовано однакова.
+ * Napisz funkcję printInfo(names, phones) która wyświetli w
+ * konsoli imię oraz numer telefonu użytkownika. Parametry
+ * names i phones zostaną przekazane jako oddzielone przecinkami
+ * ciągi imion i numerów telefonów. Liczba porządkowa imion i
+ * numerów telefonów w ciągach wskazuje na dopasowanie. Liczba imion
+ * i numerów telefonów musi być taka sama.
  */
 
 function printInfo(names, phones) {}
@@ -30,9 +30,9 @@ printInfo(
 );
 
 /**
- * Напиши функцію formatTime(minutes) яка переведе значення
- * minutes (кількість хвилин) у рядок у форматі годин
- * та хвилин HH:MM.
+ * Napisz funkcję formatTime(minutes), która konwertuje wartość
+ * minutes (liczba minut) na ciąg znaków w formacie godzin
+ * i minut HH:MM.
  */
 
 const hours = Math.floor(totalMinutes / 60);
