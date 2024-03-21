@@ -1,5 +1,5 @@
 /**
- * Напиши скрипт, який підраховує суму всіх парних чисел у масиві.
+ * Napisz skrypt obliczający sumę wszystkich liczb parzystych w tablicy.
  */
 
 const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
@@ -18,27 +18,27 @@ for (const number of numbers) {
 console.log("Total: ", total);
 
 /**
- * Напиши скрипт, який виводить у консоль ім'я та телефонний номер користувача.
- * У змінних names та phones зберігаються рядки імен та телефонних номерів,
- * розділені комами. Порядковий номер імен та телефонів у рядках вказують на
- * відповідність. Кількість імен та телефонів гарантовано однакова.
+ * Napisz skrypt wyświetlający w konsoli imię i numer telefonu użytkownika.
+ * Zmienne names i phones przechowują oddzielone przecinkami ciągi nazw i
+ * numerów telefonów. Liczba porządkowa imion i numerów telefonów w wierszach
+ * wskazuje dopasowanie. Liczba imion i numerów telefonów musi być taka sama.
  */
 
 const names = "Jacob,William,Solomon,Artemis";
 const phones = "89001234567,89001112233,890055566377,890055566300";
 
 /**
- * Напиши скрипт, який виводить у консоль усі слова рядка
- * крім першого і останнього. Результуючий рядок не повинен починатися
- * або закінчуватися символ пробілу.
- * Скрипт повинен працювати для будь-якого рядка.
+ * Napisz skrypt wyświetlający w konsoli wszystkie słowa ciągu znaków
+ * z wyjątkiem pierwszego i ostatniego. Wynikowy ciąg znaków nie może
+ * zaczynać się ani kończyć znakiem spacji.
+ * Skrypt powinien działać dla dowolnego ciągu znaków.
  */
 
 const string = "Welcome to the future";
 
 /**
- * Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати
- * для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
+ * Napisz skrypt pozwalający znaleźć najmniejszą liczbę w tablicy. Kod powinien
+ * działać dla dowolnej tablicy liczb. Do rozwiązania zadania użyj pętli.
  */
 
 const values = [2, 17, 94, 1, 23, 37];
