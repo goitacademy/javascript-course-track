@@ -1,5 +1,5 @@
 /**
- * Методи масиву
+ * Metody tablicowe
  *
  * - join
  * - split
