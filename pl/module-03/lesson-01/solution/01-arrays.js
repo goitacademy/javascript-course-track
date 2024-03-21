@@ -1,12 +1,12 @@
 /**
- * Масиви
+ * Tablice
  *
- * - Створення масиву
- * - Доступ до елементів
- * - Перевизначення значення елемента
- * - Довжина масиву
- * - Індекс останнього елемента
- * - Перевизначення
+ * - Tworzenie tablicy
+ * - Dostęp do elementów
+ * - Nadpisywanie wartości elementu
+ * - Długość tablicy
+ * - Indeks ostatniego elementu
+ * - Nadpisywanie
  */
 
 const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];
