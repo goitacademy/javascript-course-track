@@ -1,5 +1,5 @@
 /**
- * Псевдомасив arguments и Array.from
+ * Pseudotablica arguments i Array.from
  */
 
 function foo() {
@@ -13,8 +13,8 @@ fn(1, 2, 3, 4, 5);
 fn(1, 2, 3, 4, 5, 6, 7);
 
 /**
- * Напиши функцію add для складання довільної
- * кількості аргументів (чисел)
+ * Napisz funkcję add umożliwiającą dodawanie
+ * dowolnej liczby argumentów (liczb).
  */
 
 const add = function (arguments) {
@@ -32,9 +32,9 @@ console.log(add(1, 2, 3));
 console.log(add(1, 2, 4, 5, 6));
 
 /**
- * Напиши функцію calAverage() яка приймає довільну кількість
- * аргументів і повертає їхнє середнє значення. Усі аргументи
- * будуть лише числами.
+ * Napisz funkcję calAverage(), która przyjmuje dowolną liczbę
+ * argumentów i zwraca ich średnią wartość. Wszystkie argumenty
+ * będą tylko liczbami.
  */
 function calAverage() {}
 
