@@ -1,33 +1,33 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
 
-2. Познайомимось з масивами (практика 01-arrays.js)
+2. Zapoznamy się z tablicami (ćwiczenie 01-arrays.js)
 
-- Створення масиву
-- Доступ до елементів
-- Перевизначення значення елемента
-- Довжина масиву
-- Індекс останнього елемента
-- Присвоєння за посиланням і за значенням (практика 02-refs.js)
+- Tworzenie tablicy
+- Dostęp do elementów
+- Zastępowanie wartości elementu
+- Długość tablicy
+- Indeks ostatniego elementu
+- Przypisanie przez odniesienie i przez wartość (ćwiczenie 02-refs.js)
 
-3. Розберемо методи масивів (практика 03-methods.js)
+3. Przeanalizujemy metody tablicowe (ćwiczenie 03-methods.js)
 
-- Метод `join`
-- Метод `split`
-- Метод `slice`
-- Метод `concat`
-- Метод `indexOf`
-- Метод `push`
+- Metoda `join`
+- Metoda `split`
+- Metoda `slice`
+- Metoda `concat`
+- Metoda `indexOf`
+- Metoda `push`
 
-4. Розглянемо як виконувати ітерацію по масиву
+4. Przyjrzymy się, jak iterować po tablicy
 
-- Ітерація по масиву циклом `for`
-- Метод `includes`
-- Цикл `for...of`
-- Різницф у використанні `for` і `for...of`
+- Iterowanie po tablicy za pomocą pętli `for`
+- Metoda `includes`
+- Pętla `for...of`
+- Różnice w użyciu `for` і `for...of`
 
-5. Розв’яжемо декілька практичних завдань (практика 03-methods.js)
+5. Rozwiążemy kilka praktycznych zadań (ćwiczenie 03-methods.js)
 
-6. Що на вас чекатиме на наступному занятті?
-   Ми поговоримо можливості роботи з функціями та різницю між глобальною та блоковою областями видимості
+6. Czego nauczysz się w następnej lekcji?
+   Omówimy możliwości pracy z funkcjami oraz różnicę między zakresami globalnymi i blokowymi.
