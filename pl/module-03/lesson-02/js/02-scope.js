@@ -1,7 +1,7 @@
 /**
- * - Глобальна область видимості
- * - Блочна область видимості
- * - Пошук за ланцюжком областей видимості
+ * - Zakres globalny
+ * - Zakres blokowy
+ * - Wyszukiwanie poprzez łańcuch zakresów
  */
 
 const globalValue = 10;
@@ -24,10 +24,10 @@ function foo() {
   }
 }
 
-// ❌ Помилка! Змінна a не доступна в цій області видимості
+// ❌ Błąd! Zmienna a nie jest dostępna w tym zakresie
 console.log(a);
 
 for (let i = 0; i < 3; i += 1) {
-  // ❌ Помилка! Змінна a не доступна в цій області видимості
+  // ❌ Błąd! Zmienna a nie jest dostępna w tym zakresie
   console.log(a);
 }
