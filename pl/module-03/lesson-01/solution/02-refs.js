@@ -1,8 +1,8 @@
 /**
- * Передача за посиланням і за значенням
+ * Przekazywanie przez odniesienie i przez wartość
  *
- * Примітиви і складні типи
- * Посилальна рівність (referential equality)
+ * Typy proste i złożone
+ * Równość referencyjna (referential equality)
  */
 
 const a = [1, 2, 3];
