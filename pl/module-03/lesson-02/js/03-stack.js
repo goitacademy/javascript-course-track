@@ -1,6 +1,6 @@
 /**
- * - Стек викликів
- * - Порядок виконання
+ * - Stos wywołań
+ * - Kolejność wykonywania
  */
 
 function fnA() {
