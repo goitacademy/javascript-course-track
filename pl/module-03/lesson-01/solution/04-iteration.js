@@ -1,10 +1,10 @@
 /**
- * Ітерація по масиву
+* Iteracja po tablicy
  *
- * - Ітерація по масиву циклом for
- * - Метод includes
- * - Цикл for...of
- * - Різниця у використанні for и for...of
+ * - Iteracja po tablicy za pomocą pętli for
+ * - Metoda includes
+ * - Pętla for...of
+ * - Różnica w używaniu pętli for i for...of
  */
 
 const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
@@ -22,18 +22,18 @@ for (let friend of friends) {
 }
 
 /**
- * Напиши скрипт для обчислення площі прямокутника зі сторонами,
- * значення яких зберігаються у змінній values у вигляді рядка.
- * Значення гарантовано розділені пробілом.
+ * Napisz skrypt obliczający pole prostokąta o bokach,
+ * których wartości są przechowywane w zmiennej values jako ciąg znaków.
+ * Wartości muszą być oddzielone spacją.
  */
 
 const values = "8 11";
 
 /**
- * Напиши скрипт для перебору масиву fruits.
- * Для кожного елемента масиву виведи в консоль рядок
- * у форматі номер_елемента: значення_елемента.
- * Нумерація елементів повинна починатися з 1.
+* Napisz skrypt iterujący po tablicy fruits.
+ * Dla każdego elementu tablicy wypisz na konsolę wiersz
+ * w formacie numer_elementu: wartość_elementu.
+ * Numeracja elementów powinna zaczynać się od 1.
  */
 
 const fruits = ["🍎", "🍇", "🍑", "🍌", "🍋"];
