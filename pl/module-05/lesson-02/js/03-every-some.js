@@ -7,19 +7,19 @@ const players = [
 ];
 
 /**
- * Метод every
+ * Metoda every
  *
- * - Поелементно перебирає оригінальний масив
- * - Повертає true якщо всі елементи масиву задовольняють умову
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Zwraca wartość true, jeśli wszystkie elementy tablicy spełniają warunek
  */
 const isAllOnline = players;
 // console.log('isAllOnline: ', isAllOnline);
 
 /**
- * Метод some
+ * Metoda some
  *
- * - Поелементно перебирає оригінальний масив
- * - Повертає true якщо хоча б один елемент масиву задовольняє умову
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Zwraca wartość true, jeśli co najmniej jeden element tablicy spełnia warunek
  */
 const isAnyOnline = players;
 console.log("isAnyOnline: ", isAnyOnline);
