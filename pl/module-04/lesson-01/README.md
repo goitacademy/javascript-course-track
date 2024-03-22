@@ -1,23 +1,23 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
    
-2. Познайомимось з об'єктами (практика 01-arrays.js)
-- Створення об'єкта
-- Вкладені властивості
-- Доступ до властивостей через крапку
-- Доступ до вкладених властивостей
-- Доступ до властивостей через квадратні дужки
-- Зміна значення
-- Додавання властивостей (практика 01-objects.js)
-- Масиви і функції - це об'єкти (практика 02-refs.js)
-- Короткі і обчислювальні властивості (практика 03-props.js)
+2. Zapoznamy się z obiektami (ćwiczenie 01-arrays.js)
+- Tworzenie obiektu
+- Zagnieżdżone właściwości
+- Dostęp do właściwości poprzez kropkę
+- Dostęp do zagnieżdżonych właściwości
+- Dostęp do właściwości poprzez nawiasy kwadratowe
+- Zmiana wartości
+- Dodawanie właściwości (ćwiczenie 01-objects.js)
+- Tablice i funkcje - to obiekty (ćwiczenie 02-refs.js)
+- Właściwości krótkie i obliczane (ćwiczenie 03-props.js)
 
-3. Розберемо перебір об'єкта (практика 04-iteration.js)
-- цикл for...in
-- метод Object.keys(),
-- метод Object.values()
+3. Przeanalizujemy iterację po obiekcie (ćwiczenie 04-iteration.js)
+- pętla for...in
+- metoda Object.keys(),
+- metoda Object.values()
 
-4. Розв’яжемо декілька практичних завдань (практика 05-tasks.js)
+4. Rozwiążemy kilka praktycznych zadań (ćwiczenie 05-tasks.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо можливості роботи з функціями та різницю між глобальною та блоковою областями видимості
+5. Co będzie tematem **kolejnej lekcji**? Porozmawiamy o tym, jak pracować z funkcjami i jaka jest różnica między zakresami globalnymi i blokowymi.
