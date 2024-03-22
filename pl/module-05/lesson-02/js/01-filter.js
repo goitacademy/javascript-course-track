@@ -1,11 +1,11 @@
 /**
- * Метод filter
+ * Metoda filter
  *
- * - Поелементно перебирає оригінальний массив
- * - Повертає новий масив (з елементами або порожній)
- * - Додає в масив, що повертається, елементи, які задовольняють умові коллбек-функції
- *    - якщо коллбек повернув true елемент додається в масив, що повертається
- *    - якщо коллбек повернув false елемент НЕ додається в масив, що повертається
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Zwraca nową tablicę (z elementami lub pustą)
+ * - Dodaje do zwracanej tablicy elementy, które spełniają warunek funkcji zwrotnej.
+ *    - jeśli wywołanie zwrotne zwróciło wartość true, element jest dodawany do zwracanej tablicy
+ *    - jeśli wywołanie zwrotne zwróci wartość false, element NIE jest dodawany do zwracanej tablicy
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -100,8 +100,8 @@ const allCars = [
 ];
 
 /**
- * Нехай функція filterByPrice повертає масив автомобілів ціна яких менша ніж
- * значення параметра threshold.
+ * Niech funkcja filterByPrice zwraca tablicę samochodów, których cena jest mniejsza niż 
+ * wartość parametru threshold.
  */
 
 const filterByPrice = (cars, threshold) => {};
@@ -110,8 +110,8 @@ const filterByPrice = (cars, threshold) => {};
 // console.table(filterByPrice(allCars, 25000));
 
 /**
- * Нехай функція getCarsWithDiscount повертає масив автомобілів
- * властивість onSale яких true.
+ * Niech funkcja getCarsWithDiscount zwraca tablicę samochodów,
+ * których właściwość onSale ma wartość true.
  */
 
 const getCarsWithDiscount = (cars) => {};
@@ -119,8 +119,8 @@ const getCarsWithDiscount = (cars) => {};
 // console.table(getCarsWithDiscount(allCars));
 
 /**
- * Нехай функція getCarsWithType повертає масив автомобілів тип яких збігається
- * зі значенням параметра type.
+ * Niech funkcja getCarsWithType zwraca tablicę samochodów, których typ jest zgodny
+ * z wartością parametru type.
  */
 
 const getCarsWithType = (cars, type) => {};
