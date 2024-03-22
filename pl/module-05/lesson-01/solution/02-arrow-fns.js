@@ -1,9 +1,9 @@
 /**
- * Стрілочні функції
- * - Оголошення
- * - Явне і неявне поверненя
- * - Псевдомасив arguments (...args)
- * - Інлайн стрілочні функції
+ * Funkcje strzałkowe
+ * - Deklaracja
+ * - Jawne i niejawne zwracanie
+ * - Pseudotablica arguments (...args)
+ * - Funkcje strzałkowe inline
  */
 
 function add(a, b, c) {
@@ -35,7 +35,7 @@ const arrowFnA = () => ({
 console.log(arrowFnA());
 
 /**
- * Функция calc(a, b, callback)
+ * Funkcja calc(a, b, callback)
  */
 
 const calc = (a, b, callback) => {
