@@ -1,9 +1,9 @@
 /**
- * Масив об'єктів
+  * Tablica obiektów
  *
- * - Перебор масива
- * - Пошук об'єкта за значенням властивості
- * - Колекція значень властивості
+ * - Iterowanie po tablicy
+ * - Wyszukiwanie obiektu według wartości właściwości
+ * - Kolekcja wartości właściwości
  */
 
 const friends = [
@@ -16,7 +16,7 @@ const friends = [
 console.table(friends);
 
 /**
- * Пошук друга за іменем
+ * Wyszukiwanie znajomego według imienia
  */
 function findFriendByName(allFriends, friendName) {
   for (const friend of allFriends) {
@@ -36,7 +36,7 @@ console.log(findFriendByName(friends, "Poly"));
 console.log(findFriendByName(friends, "Chelsy"));
 
 /**
- * Отримуємо імена всіх лрузів
+ * Otrzymujemy imiona wszystkich znajomych
  */
 function getAllNames(allFriends) {
   const names = [];
@@ -52,7 +52,7 @@ function getAllNames(allFriends) {
 console.log(getAllNames(friends));
 
 /**
- * Отримуємо імена тільки тих друзів, які зараз онлайн
+ * Otrzymujemy imiona tylko tych znajomych, którzy są online
  */
 function getOnlineFriends(allFriends) {
   const onlineFriends = [];
@@ -72,15 +72,15 @@ function getOnlineFriends(allFriends) {
 console.log(getOnlineFriends(friends));
 
 /**
- * Напишіть функцію calcTotalPrice(stones, stoneName),
- * яка приймає масив об'єктів та рядок з назвою каменю.
- * Функція рахує і повертає загальну вартість каміння з
- * таким ім'ям, ціною та кількістю з об'єкта
+ * Napisz funkcję calcTotalPrice(stones, stoneName),
+ * która przyjmuje tablicę obiektów i ciąg znaków z nazwą kamienia.
+ * Funkcja oblicza i zwraca całkowity koszt kamieni o
+ * o określonej nazwie, cenie i ilości z obiektu.
  */
 
 const stones = [
-  { name: "Смарагд", price: 1300, quantity: 4 },
-  { name: "Діамант", price: 2700, quantity: 3 },
-  { name: "Сапфір", price: 400, quantity: 7 },
-  { name: "Щебінь", price: 200, quantity: 2 },
+  { name: "Szmaragd", price: 1300, quantity: 4 },
+  { name: "Diament", price: 2700, quantity: 3 },
+  { name: "Szafir", price: 400, quantity: 7 },
+  { name: "Kruszony kamień", price: 200, quantity: 2 },
 ];
