@@ -1,9 +1,9 @@
 /**
- * Об'єкти
+ * Obiekty
  *
- * - Методи об'єкта
- * - Доступ до властивостей об'єкта через this
- * - Зміна за посиланням
+ * - Metody obiektu
+ * - Dostęp do właściwości obiektu poprzez this
+ * - Zmiana przez odniesienie
  */
 
 const playlist = {
