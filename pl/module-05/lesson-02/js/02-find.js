@@ -1,8 +1,8 @@
 /**
- * Метод find
+ * Metoda find
  *
- * - Поелементно перебирає оригінальний масив
- * - Повертає перший елемент, що задовольняє умові або undefined
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Zwraca pierwszy element spełniający warunek lub undefined
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -27,7 +27,7 @@ const cars = [
 ];
 
 /**
- * Шукаємо машину за моделлю
+ * Szukamy samochód według modelu
  */
 const getCarByModel = (cars, model) => {};
 
@@ -36,7 +36,7 @@ const getCarByModel = (cars, model) => {};
 // console.log(getCarByModel(allCars, "Cayenne"));
 
 /**
- * Шукаємо машину за типом кузова
+ * Szukamy samochód według typu nadwozia
  */
 const getCarByType = (cars, type) => {};
 
