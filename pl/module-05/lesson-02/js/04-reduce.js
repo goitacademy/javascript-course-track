@@ -1,8 +1,8 @@
 /**
- * Метод reduce
+ * Metoda reduce
  *
- * - Поелементно перебирає оригінальний масив
- * - Значення, що повертається, залежить від розробника
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Zwracana wartość zależy od dewelopera
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -10,7 +10,7 @@ const total = numbers;
 console.log(total);
 
 /**
- * Рахуємо загальну зарплату
+ * Obliczamy całkowite wynagrodzenie
  */
 
 const salary = {
@@ -23,7 +23,7 @@ const totalSalary = salary;
 console.log(totalSalary);
 
 /**
- * Рахуємо загальну кількість годин
+ * Obliczamy całkowitą liczbę godzin
  */
 
 const players = [
@@ -38,7 +38,7 @@ const totalTimePlayed = players;
 console.log(totalTimePlayed);
 
 /**
- * Рахуємо загальну суму товарів кошика
+ * Obliczamy całkowitą kwotę artykułów w koszyku
  */
 const cart = [
   { label: "Apples", price: 100, quantity: 2 },
