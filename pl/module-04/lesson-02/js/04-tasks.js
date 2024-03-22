@@ -1,6 +1,6 @@
 /*
- * Типів транзакцій всього два.
- * Можна покласти чи зняти гроші з рахунку.
+ * Istnieją tylko dwa rodzaje transakcji.
+ * Można wpłacać lub wypłacać pieniądze ze swojego konta.
  */
 const Transaction = {
   DEPOSIT: "deposit",
@@ -8,54 +8,54 @@ const Transaction = {
 };
 
 /*
- * Кожна транзакція це об'єкт із властивостями: id, type та amount
+ * Każda transakcja jest obiektem z właściwościami: id, type i amount
  */
 
 const account = {
-  // Поточний баланс рахунку
+  // Bieżący bilans konta
   balance: 0,
 
-  // Історія транзакцій
+  // Historia transakcji
   transactions: [],
 
   /*
-   * Метод створює та повертає об'єкт транзакції.
-   * Приймає суму та тип транзакції.
+   * Metoda tworzy i zwraca obiekt transakcji.
+   * Przyjmuje kwotę i typ transakcji.
    */
   createTransaction(amount, type) {},
 
   /*
-   * Метод, що відповідає за додавання суми до балансу.
-   * Приймає суму транзакції.
-   * Викликає createTransaction для створення об'єкта транзакції
-   * після чого додає його до історії транзакцій
+   * Metoda odpowiadająca za dodanie kwoty do bilansu.
+   * Przyjmuje kwotę transakcji.
+   * Wywołuje createTransaction w celu utworzenia obiektu transakcji,
+   * a następnie dodaje go do historii transakcji.
    */
   deposit(amount) {},
 
   /*
-   * Метод, що відповідає за зняття суми з балансу.
-   * Приймає суму транзакції.
-   * Викликає createTransaction для створення об'єкта транзакції
-   * після чого додає його до історії транзакцій.
+   * Metoda odpowiedzialna za usunięcie kwoty z bilansu.
+   * Przyjmuje kwotę transakcji.
+   * Wywołuje createTransaction w celu utworzenia obiektu transakcji,
+   * a następnie dodaje go do historii transakcji.
    *
-   * Якщо amount більше ніж поточний баланс, виводь повідомлення
-   * про те, що зняття такої суми не можливе, недостатньо коштів.
+   * Jeśli amount jest większa niż bieżące saldo, wyświetl komunikat,
+   * że wypłata takiej kwoty nie jest możliwa, nie ma wystarczających środków.
    */
   withdraw(amount) {},
 
   /*
-   * Метод повертає поточний баланс
+   * Metoda zwraca bieżący bilans
    */
   getBalance() {},
 
   /*
-   * Метод шукає та повертає об'єкт транзакції по id
+   * Metoda wyszukuje i zwraca obiekt transakcji według id
    */
   getTransactionDetails(id) {},
 
   /*
-   * Метод повертає кількість коштів
-   * певного типу транзакції з усієї історії транзакцій
+   * Metoda zwraca kwotę środków 
+   * określonego typu transakcji z całej historii transakcji.
    */
   getTransactionTotal(type) {},
 };
