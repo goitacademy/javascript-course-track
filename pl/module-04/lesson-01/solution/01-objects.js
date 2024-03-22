@@ -1,13 +1,13 @@
 /**
- * Об'єкти
+* Obiekty
  *
- * - Створення об'єкта
- * - Вкладені властивості
- * - Доступ до властивостей через крапку
- * - Доступ до вкладених властивостей
- * - Доступ до властивостей через квадратні дужки
- * - Зміна значення властивостей
- * - Додавання властивостей
+ * - Tworzenie obiektu
+ * - Zagnieżdżone właściwości
+ * - Dostęp do właściwości poprzez kropkę
+ * - Dostęp do zagnieżdżonych właściwości
+ * - Dostęp do właściwości poprzez nawiasy kwadratowe
+ * - Zmiana wartości właściwości
+ * - Dodawanie właściwości
  */
 
 const playlist = {
