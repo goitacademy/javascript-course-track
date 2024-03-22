@@ -1,9 +1,9 @@
 /**
- * Напиши скрипт, який для об'єкта user, послідовно:
- * - додає поле mood зі значенням 'happy'
- * - замінює значення hobby на 'skydiving'
- * - замінює значення premium на false
- * - виводить вміст об'єкта user у форматі ключ:значення використовуючи Object.keys() та for...of
+ * Napisz skrypt, który dla obiektu user sekwencyjnie:
+ * - dodaje pole mood z wartością 'happy'
+ * - zastępuje wartość hobby wartością 'skydiving'
+ * - zastępuje wartość premium wartością false
+ * - wyświetla zawartość obiektu user w formacie klucz:wartość przy użyciu Object.keys() i for...of
  */
 
 const user = {
@@ -14,9 +14,9 @@ const user = {
 };
 
 /**
- * У нас є об'єкт, де зберігаються зарплати нашої команди. Напишіть код для
- * підсумовування всіх зарплат і збережіть результат у змінній sum.
- * Повинно вийти 390. Якщо об'єкт salaries порожній, то результат має бути 0.
+ * Mamy obiekt, który przechowuje pensje naszego zespołu. Napisz kod
+ * sumujący wszystkie pensje i zapisujący wynik w zmiennej sum.
+ * Wynik powinien wynosić 390. Jeśli obiekt salaries jest pusty, wynik powinien wynosić 0.
  */
 const salaries = {
   John: 100,
