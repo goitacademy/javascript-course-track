@@ -1,23 +1,23 @@
 /**
- * Синтаксис spread і rest
+ * Składnia spread і rest
  *
- * - Залишкові параметри
- * - Збір частини аргументів
- * - Входження параметрів
- * - Створення масиву
- * - Створення об'єкта
+ * - Parametry reszty
+ * - Zbiór części argumentów
+ * - Wejście parametrów
+ * - Tworzenie tablicy
+ * - Tworzenie obiektu
  */
 
 const numbers = [];
 // console.log(numbers);
 
 /**
- * Пошук найменшої аьо найбільшої температури (числа)
+ * Znalezienie najmniejszej lub największej temperatury (liczby)
  */
 const temps = [18, 14, 12, 21, 17, 29, 24];
 
 /**
- * Створення масиву і тип за посиланням
+ * Tworzenie tablicy i typu przez odniesienie
  */
 const a = [{ x: 1 }, { y: 2 }, { z: 3 }];
 const b = a;
@@ -26,7 +26,7 @@ const b = a;
 // console.log("b: ", b);
 
 /*
- * Поєднуємо кілька масивів в один через spread
+ * Łączymy kilka tablic w jedną przy użyciu spread
  */
 const lastWeekTemps = [1, 2, 3];
 const currentTemps = [4, 5, 6];
@@ -36,7 +36,7 @@ const allTemps = [];
 // console.log(allTemps);
 
 /*
- * Створення об'єкта
+ * Tworzenie obiektu
  */
 const objA = { x: 1, y: 2 };
 const objB = { x: 0, z: 3 };
@@ -45,7 +45,7 @@ const objC = {};
 // console.log(objC);
 
 /**
- * Оновлюємо налаштування користувача
+ * Aktualizujemy ustawienia użytkownika
  */
 const defaultSettings = {
   theme: "light",
