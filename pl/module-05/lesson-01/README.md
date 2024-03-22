@@ -1,25 +1,25 @@
-# План заняття
+# Plan zajęcia
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
 
-2. Познайомимось з колбек-функціями (практика 01-callbacks.js)
-- Функція як значення
-- Колбек-функції
-- Інлайн-колбеки
+2. Zapoznamy się z funkcjami zwrotnymi (ćwiczenie 01-callbacks.js)
+- Funkcja jako wartość
+- Funkcje wywołania zwrotnego
+- Wywołania zwrotne inline
 
-2. Розберемо стрілочні функції (практика 02-arrow-fns.js)
-- Синтаксис
-- Неявне повернення
-- Псевдомасив arguments
-- Колбеки
+2. Przeanalizujemy funkcje strzałkowe (ćwiczenie 02-arrow-fns.js)
+- Składnia
+- Niejawny zwrot
+- Pseudotablica arguments
+- Wywołania zwrotne
 
-3. Детально розглянемо метод forEach(callback) ) (практика 03-foreach.js)
+3. Przyjrzyjmy się dokładnie metodzie forEach(callback) ) (ćwiczenie 03-foreach.js)
 
-4. Обговоримо методи map и flatMap
-- Чисті функції
-- Перебираючі методи
-- Метод map() (практика 04-map.js**)**
-- Масив об'єктів
-- Метод flatMap() (практика 05-flatmap.js)
+4. Omówimy metody map i flatMap
+- Czyste funkcje
+- Metody iteracji
+- Metoda map() (ćwiczenie 04-map.js**)**
+- Tablica obiektów
+- Metoda flatMap() (ćwiczenie 05-flatmap.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про інші популярні методи та розв’яжемо практичні задачі.
+5. Co na Ciebie czeka w **kolejnej lekcji**? Porozmawiamy o innych popularnych metodach i rozwiążemy zadania praktyczne.
