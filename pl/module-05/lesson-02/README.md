@@ -1,7 +1,7 @@
-# План заняття
+# Plan lekcji
 
-- Методи filter, find
-- Методи every, some
-- Метод reduce
-- Метод toSorted
-- Ланцюжки методів
+- Metody filter, find
+- Metody every, some
+- Metoda reduce
+- Metoda toSorted
+- Łańcuchy metod
