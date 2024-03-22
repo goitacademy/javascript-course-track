@@ -1,13 +1,13 @@
 /**
- * Метод toSorted
+ * Metoda toSorted
  *
- * - Свій порядок сортування чисел
- * - Свій порядок сортування рядків
- * - Сортування об'єктів
+ * - Własna kolejność sortowania liczb
+ * - Własna kolejność sortowania ciągów znaków
+ * - Sortowanie obiektów
  *
- * За замовчуванням:
- * - сортує за зростанням
- * - приводить елементи до рядка і сортує за [Unicode](https://unicode-table.com/en/)
+ * Domyślnie:
+ * - sortuje w porządku rosnącym
+ * - rzutuje elementy na ciąg znaków i sortuje według [Unicode](https://unicode-table.com/en/)
  */
 
 const numbers = [1, 9, 6, 2, 3];
@@ -19,8 +19,8 @@ const letters = ["b", "B", "a", "A"];
 console.log("letters", letters.toSorted());
 
 /**
- * compareFunction - функція порівняння (callback)
- * Елементи масиву сортуються відповідно до її значення, що повертається
+ * compareFunction - funkcja porównania (callback)
+ * Elementy tablicy są sortowane zgodnie z jej wartością zwracaną.
  */
 
 console.log(
@@ -35,7 +35,7 @@ console.log("descSortedNumbers", descSortedNumbers);
 console.log("ascSortedNumbers", ascSortedNumbers);
 
 /**
- * Сортування масиву об'єктів
+ * Sortowanie tablicy obiektów
  */
 const players = [
   { id: "player-1", name: "Mango", timePlayed: 310, online: false },
@@ -45,7 +45,7 @@ const players = [
   { id: "player-5", name: "Chelsey", timePlayed: 80, online: true },
 ];
 
-// За ігровим часом
+// Według czasu gry
 const sortedByBestPlayers = players.toSorted(
   (prevPlayer, nextPlayer) => nextPlayer.timePlayed - prevPlayer.timePlayed
 );
