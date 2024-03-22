@@ -1,5 +1,5 @@
 /**
- * Ланцюжки методів
+ * Łańcuchy metod
  */
 const numbers = [1, 5, 2, 4, 3];
 
@@ -106,16 +106,16 @@ const allCars = [
 ];
 
 /**
- * Нехай функція getAvailableCarNames повертає масив моделей автомобілів,
- * але тільки тих, які зараз на розпродажі.
+ * Niech funkcja getAvailableCarNames zwraca tablicę modeli samochodów,
+ * ale tylko tych, które są obecnie na wyprzedaży.
  */
 const getModelsOnSale = (cars) => {};
 
 console.table(getModelsOnSale(allCars));
 
 /**
- * Нехай функція getSortedCarsOnSale повертає масив автомобілів
- * на розпродажі (Властивість onSale), відсортованих за зростанням ціни.
+ * Niech funkcja getSortedCarsOnSale zwraca tablicę samochodów
+ * na wyprzedaży (właściwość onSale), posortowaną według rosnącej ceny.
  */
 const getSortedCarsOnSale = (cars) => {};
 
