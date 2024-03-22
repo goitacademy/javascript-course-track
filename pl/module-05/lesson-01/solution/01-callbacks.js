@@ -1,9 +1,9 @@
 /**
- * Функція зворотнього виклика (callback)
+ * Funkcja wywołania zwrotnego (callback)
  *
- * - Функція як значення
- * - Колбек-функції
- * - Інлайн-колбеки
+ * - Funkcja jako wartość
+ * - Funkcje wywołania zwrotnego
+ * - Wywołania zwrotne inline
  */
 
 function fnA(message, callback) {
@@ -20,7 +20,7 @@ function fnB(number) {
 fnA("A message", fnB);
 
 /**
- * Функція calc(a, b, callback)
+ * Funkcja calc(a, b, callback)
  */
 
 function calc(a, b, callback) {
@@ -37,10 +37,9 @@ calc(10, 8, function (x, y) {
 });
 
 /**
- * Напишіть функцію each(array, callback), яка першим параметром очікує масив,
- * а другим - функцію, яка застосовується до кожного елемента масиву. Функція
- * each повинна повернути новий масив, елементами якого будуть
- * результати виклику коллбека.
+ * Napisz funkcję each(array, callback), która oczekuje tablicy jako pierwszego parametru
+ * i funkcji, która jest stosowana do każdego elementu tablicy jako drugiego parametru. Funkcja 
+ * each powinna zwrócić nową tablicę z wynikami wywołania zwrotnego.
  */
 
 function each(array, callback) {
