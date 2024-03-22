@@ -1,25 +1,25 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Zagramy w Kahoot і omówimy kwestie
 
-2. Розберемо **масив об’єктів** (практика 01-array.js)
+2. Przeanalizujemy **tablicę obiektów** (ćwiczenie 01-array.js)
 
-- Пошук за значенням властивості
-- Колекція значень властивості
+- Wyszukiwanie według wartości właściwości
+- Kolekcja wartości właściwości
 
-3. Обговоримо методи об'єкта (практика 02-methods.js)
+3. Omówimy metody obiektu (ćwiczenie 02-methods.js)
 
-- Доступ до властивостей об'єкта
-- Зміна за посиланням
+- Dostęp do właściwości obiektu
+- Zmiana przez odniesienie
 
-4. Розглянемо синтаксис `spread` і `rest` (практика 03-spread-rest.js)
+4. Przyjrzymy sią składni `spread` і `rest` (ćwiczenie 03-spread-rest.js)
 
-- Залишкові параметри
-- Збір частини аргументів
-- Входження параметрів
-- Створення масиву і об'єктів
-- Остаточные аргументы с rest
+- Parametry reszty
+- Zbiór części argumetów
+- Wejście parametrów
+- Tworzenie tablicy i obiektów
+- Parametry reszty z rest
 
-5. Розв’яжемо декілька практичних завдань (практика **04-tasks.js)**
+5. Rozwiążemy kilka zadań praktycznych (ćwiczenie **04-tasks.js)**
 
-6. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на застосування об'єктів! ДЗ виконуємо у редакторі коду VS Code
+6. Co należy zrobić w zadaniu domowym? W zadaniu domowym będziesz miał 3 małe zadania polegające na wykorzystaniu obiektów! Zadanie domowe należy wykonywać w edytorze kodu VS Code.
