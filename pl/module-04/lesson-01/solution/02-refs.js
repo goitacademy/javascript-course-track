@@ -1,8 +1,8 @@
 /**
- * Об'єкти
+ * Obiekty
  *
- * - Тип даних за посиланням
- * - Масиви і функції - це об'єкти
+ * - Typ danych przez odniesienie
+ * - Tablice i funkcje - to obiekty
  */
 
 console.log([1, 2, 3] === [1, 2, 3]);
