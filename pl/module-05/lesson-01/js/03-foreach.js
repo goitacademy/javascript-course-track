@@ -1,8 +1,8 @@
 /**
- * Метод forEach(callback)
- * - Поелементо перебирає оригінальний масив
- * - Нічого не повертає
- * - Замінює класичний for, якщо не потрібно переривати цикл
+ * Metoda forEach(callback)
+ * - Iteruje po oryginalnej tablicy element po elemencie
+ * - Nie zwraca niczego
+ * - Zastępuje klasyczne for, jeśli nie ma potrzeby przerywania pętli
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -11,7 +11,7 @@ let total = 0;
 console.log(total);
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Przeprowadź refaktoryzację kodu przy użyciu metody forEach i funkcji strzałkowych.
  */
 function logItems(items) {
   console.log(items);
@@ -24,7 +24,7 @@ logItems(["Mango", "Poly", "Ajax"]);
 logItems(["🍎", "🍇", "🍑", "🍌", "🍋"]);
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Przeprowadź refaktoryzację kodu przy użyciu metody forEach i funkcji strzałkowych.
  */
 function printContactsInfo({ names, phones }) {
   const nameList = names.split(",");
@@ -40,7 +40,7 @@ printContactsInfo({
 });
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Przeprowadź refaktoryzację kodu przy użyciu metody forEach i funkcji strzałkowych.
  */
 function calculateAverage(...args) {
   let total = 0;
