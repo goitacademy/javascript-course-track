@@ -2,7 +2,7 @@ function foo() {
   console.log("foo -> this", this);
 }
 
-foo(); // Який this ???
+foo(); // Jaki this ???
 
 /**
  * -------------------------
@@ -17,18 +17,18 @@ const book = {
   },
 };
 
-book.showThis(); // Який this ???
+book.showThis(); // Jaki this ???
 
 const outerShowThis = book.showThis;
-outerShowThis(); // Який this ???
+outerShowThis(); // Jaki this ???
 
 const outerShowTitle = book.showTitle;
-outerShowTitle(); // Який this ???
+outerShowTitle(); // Jaki this ???
 
 /**
- * Напишіть метод calcTotalPrice(stoneName), який приймає назву каменю і
- * розраховує та повертає загальну вартість каменів з таким ім'ям, ціною та
- * кількістю з властивості stones.
+ * Napisz metodę calcTotalPrice(stoneName), która pobiera nazwę kamienia,
+ * oblicza i zwraca całkowity koszt kamieni o tej nazwie, cenie i ilości
+ * z właściwości stones.
  */
 const chopShop = {
   stones: [
