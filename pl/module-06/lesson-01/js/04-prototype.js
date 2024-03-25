@@ -3,7 +3,7 @@
  *
  * - Object.create()
  * - Właściwości własne i obce
- * - Iteraja po właściwościach własnych za pomocą hasOwnProperty()
+ * - Iterowanie po właściwościach własnych za pomocą hasOwnProperty()
  * - Łańcuchy prototypów
  */
 
