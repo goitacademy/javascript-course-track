@@ -1,9 +1,9 @@
 /**
- * Контекст виконання функції
+ * Kontekst funkcji
  *
- * - Метод call
- * - Метод apply
- * - Метод bind
+ * - Metoda call
+ * - Metoda apply
+ * - Metoda bind
  */
 
 const showThis = function (a, b, arr) {
