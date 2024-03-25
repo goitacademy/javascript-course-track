@@ -1,10 +1,10 @@
 /**
- * Прототип об'єкта
+ * Prototyp obiektu
  *
  * - Object.create()
- * - Власні і невласні властивості
- * - Перебір власних властивостей з hasOwnProperty()
- * - Ланцюжки прототипів
+ * - Właściwości własne i obce
+ * - Iteraja po właściwościach własnych za pomocą hasOwnProperty()
+ * - Łańcuchy prototypów
  */
 
 const animal = {
