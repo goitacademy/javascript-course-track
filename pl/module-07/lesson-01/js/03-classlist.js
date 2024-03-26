@@ -1,5 +1,5 @@
 /*
- * Інтерфейс classList
+ * Interfejs classList
  * - add
  * - remove
  * - toggle
