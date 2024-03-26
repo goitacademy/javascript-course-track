@@ -1,8 +1,8 @@
-# План заняття
+# Plan lekcji
 
-- Робота з колекцією даних
-- Пагінація даних
-- Параметри запиту:
-  - Номер групи
-  - Кількість елементів групи
-- Прийом «Завантажити ще»
+- Praca z kolekcją danych
+- Paginacja danych
+- Parametry zapytania:
+  - Numer grupy
+  - Liczba elementów w grupie
+- Sztuczka «Załaduj więcej»
