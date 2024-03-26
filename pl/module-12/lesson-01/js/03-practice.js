@@ -1,7 +1,7 @@
 /**
- * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
+ * Za pomocą https://pokeapi.co/ tworzymy stronę podglądu Pokémonów.
  *
- * Переписуємо на async/await
+ * Przepisujemy na async/await
  */
 
 function fetchPokemon(pokemonId) {
@@ -37,11 +37,11 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
      <img src="${sprites.front_default}" alt="${name}">
    </div>
    <div class="card-body">
-     <h2 class="card-title">Ім'я: ${name}</h2>
-     <p class="card-text">Вага: ${weight}</p>
-     <p class="card-text">Зростання: ${height}</p>
+     <h2 class="card-title">Imię: ${name}</h2>
+     <p class="card-text">Waga: ${weight}</p>
+     <p class="card-text">Wzrost: ${height}</p>
 
-     <p class="card-text"><b>Уміння</b></p>
+     <p class="card-text"><b>Umiejętności</b></p>
      <ul class="list-group">${abilityListItems}</ul>
    </div>
 </div>`;
@@ -49,5 +49,5 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
 }
 
 function onFetchError(error) {
-  alert("Упс, щось пішло не так і ми не знайшли вашого покемона!");
+  alert("Ups, coś poszło nie tak i nie udało nam się znaleźć Twojego Pokémona!");
 }
