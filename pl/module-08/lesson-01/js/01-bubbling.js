@@ -1,7 +1,7 @@
 /*
- * Спливання подій
- * event.target - цільовий (вихідний) елемент
- * event.currentTarget - поточний елемент, на слухачі якого спіймали подію
+ * Bąbelkowe wywoływanie zdarzeń
+ * event.target - element docelowy (źródłowy)
+ * event.currentTarget - bieżący element, na którego nasłuchiwaczu zdarzenie zostało przechwycone
  */
 
 const parent = document.querySelector("#parent");
