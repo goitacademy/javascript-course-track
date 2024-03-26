@@ -1,8 +1,8 @@
 /*
- * Пошук HTML елементу за допомогою querySelector та querySelectorAll
- * - За назвою тегу
- * - За назвою класу
- * - За ID
+ * Wyszukiwanie elementu HTML za pomocą querySelector i querySelectorAll
+ * - Według nazwy znacznika
+ * - Według nazwy klasy
+ * - Według ID
  */
 
 const magicBtn = document.querySelector('.js-magic-btn');
@@ -15,7 +15,7 @@ const navLinksEl = document.querySelectorAll('.site-nav__link');
 console.log('navLinksEl', navLinksEl);
 
 /*
- * Властивості «навігації» по DOM-вузлах
+ * Właściwości "nawigacji" przez węzły DOM
  *
  */
 
