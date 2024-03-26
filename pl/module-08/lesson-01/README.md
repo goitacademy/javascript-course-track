@@ -1,15 +1,15 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
 
-2. Познайомимось з делегуванням подій (практика 01-bubbling.js)
-- Поширення подій
-- Спливання подій
-- Цільовий елемент
-- Припинення спливання
-- Делегування подій (практика 02-delegation.js)
-- Перевірка цільового елемента
+2. Zapoznamy się z delegowaniem zdarzeń (ćwiczenie 01-bubbling.js)
+- Propagowanie zdarzeń
+- Bąbelkowe wywoływanie zdarzeń
+- Element docelowy
+- Zatrzymanie bąbelkowego wywoływania
+- Delegowanie zdarzeń (ćwiczenie 02-delegation.js)
+- Sprawdzanie elementu docelowego
 
-3. Розберемо роботу з бібліотеками та розберемо практичну задачу (03-prodcuts.js)
+3. Przeanalizujemy pracę z bibliotekami i rozwiążemy zadanie praktyczne (03-prodcuts.js)
 
-4. Що на вас чекатиме на наступному занятті? Ми поговоримо про процедурне програмування та ОАП та розглянемо класи.
+4. Co będzie na Ciebie czekać na następnej lekcji? Porozmawiamy o programowaniu proceduralnym, podstawach algorytmizacji i programowania oraz przyjrzymy się klasom.
