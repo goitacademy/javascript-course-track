@@ -9,21 +9,21 @@ textarea.addEventListener("input", onTextareaInput);
 populateTextarea();
 
 /*
- * - Скасовуємо стандартну поведінку
- * - Видаляємо повідомлення зі сховища
- * - Очищуємо форму
+ * - Anulujemy standardowe zachowanie
+ * - Usuwamy wiadomości z hurtowni
+ * - Czyścimy formularz
  */
 function onFormSubmit(evt) {
   evt.preventDefault();
 
-  console.log("Відправляємо форму");
+  console.log("Wysyłamy formularz");
   evt.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
 }
 
 /*
- * - Отримуємо значення поля
- * - Зберігаємо його у сховище
+ * - Pobieramy wartość pola
+ * - Zapisujemy ją w hurtowni
  */
 function onTextareaInput(evt) {
   const message = evt.target.value;
@@ -31,8 +31,8 @@ function onTextareaInput(evt) {
 }
 
 /*
- * - Отримуємо значення зі сховища
- * - Якщо там щось було, оновлюємо DOM
+ * - Pobieramy wartość z hurtowni
+ * - Aktualizujemy DOM, jeśli coś tam było.
  */
 function populateTextarea() {
   const savedMessage = localStorage.getItem(STORAGE_KEY);
