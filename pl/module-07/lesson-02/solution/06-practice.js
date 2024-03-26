@@ -1,8 +1,8 @@
 /**
- * Реалізуй пошук автомобілів по сайту
- * Користувач потрапляє на сайт і одразу бачить форму для пошуку і картки всіх автомобілів (масив cars)
- * Користувач може ввести в форму назву Марки або Моделі авто і в тегу селект обрати що він ввів Марку або Модель (https://prnt.sc/PkkZZRy_ggtT)
- * Після натискання кнопки пошуку (сабміт форми) відмалюй авто які збігаються з критеріями пошуку
+ * Zaimplementuj wyszukiwanie samochodów na stronie.
+ * Użytkownik wchodzi na stronę i natychmiast widzi formularz wyszukiwania i karty wszystkich samochodów (tablica cars).
+ * Użytkownik może wpisać w formularzu nazwę marki lub modelu samochodu i w znaczniku wyboru wybrać markę lub model (https://prnt.sc/PkkZZRy_ggtT).
+ * Po kliknięciu przycisku wyszukiwania (zatwierdzenie formularza) wyświetl samochody spełniające kryteria wyszukiwania.
  */
 
 const cars = [
