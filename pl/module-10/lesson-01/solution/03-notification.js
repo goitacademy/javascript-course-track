@@ -1,8 +1,8 @@
 /**
- * - Показуємо та ховаємо, додаючи/видаляючи клас is-visible
- * - Ховаємо через певний час
- * - Ховаємо при кліці
- * - Не забуваємо чистити таймер
+ * - Pokazujemy i ukrywamy dodając/usuwając klasę is-visible
+ * - Ukrywamy po określonym czasie
+ * - Ukrywamy po kliknięciu
+ * - Pamiętaj o wyzerowaniu licznika czasu
  */
 
 const NOTIFICATION_DELAY = 3000;
@@ -14,7 +14,7 @@ notification.addEventListener("click", onNotificationClick);
 showNotification();
 
 /*
- * Функції
+ * Funkcje
  */
 function onNotificationClick() {
   hideNotification();
@@ -26,7 +26,7 @@ function showNotification() {
 
   timeoutId = setTimeout(() => {
     console.log(
-      "Закриваємо сповіщення автоматично, щоб воно не залишалося відкритим"
+      "Automatycznie zamykamy powiadomienie, aby nie pozostawało otwarte"
     );
     hideNotification();
   }, NOTIFICATION_DELAY);
