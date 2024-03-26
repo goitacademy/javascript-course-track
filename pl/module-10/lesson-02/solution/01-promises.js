@@ -1,6 +1,6 @@
 /**
- * Створення та обробка промісу
- * - Клас Promise
+ * Tworzenie i przetwarzanie obietnicy
+ * - klasa Promise
  * - resolve
  * - reject
  * - then, catch, finally
@@ -12,29 +12,29 @@ const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
     if (canFulfill) {
       resolve(
-        "Проміс виконався успішно, із результатом (виконаний, fulfilled)"
+        "Obietnica została wykonana pomyślnie, z wynikiem (spełniona, fulfilled)"
       );
     }
 
-    reject("Проміс виконався з помилкою (відхилений, rejected)");
+    reject("Obietnica została wykonana z błędem (odrzucona, rejected)");
   }, 1000);
 });
 
 promise
   .then((result) => {
-    console.log(`✅ виконаний - ${result}`);
+    console.log(`✅ spełniona - ${result}`);
   })
   .catch((error) => {
-    console.log(`❌ відхилений - ${error}`);
+    console.log(`❌ odrzucona - ${error}`);
   })
   .finally(() => {
-    console.log("Я буду виконаний у будь-якому випадку");
+    console.log("W każdym razie zostanę spełniona");
   });
 
 /**
- * Ланцюги промісів
- * - декілька послідовних then
- * - then повертає проміс
+ * Łańcuchy obietnic
+ * - kilka następujących po sobie then
+ * - then zwraca obietnicę
  */
 
 promise
@@ -56,5 +56,5 @@ promise
     console.log(error);
   })
   .finally(() => {
-    console.log("Я буду виконаний у будь-якому випадку");
+    console.log("W każdym razie zostanę spełniona");
   });
