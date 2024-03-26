@@ -1,7 +1,7 @@
 /*
- * Промісифікація:
- * - Проблема доступу до результату проміса з колбеком
- * - Функція, яка повертає проміс
+ * Promisyfikacja:
+ * - Problem dostępu do wyniku obietnicy z wywołaniem zwrotnym
+ * - Funkcja zwracająca obietnicę
  */
 
 const makeOrder = (dish) => {
@@ -10,15 +10,15 @@ const makeOrder = (dish) => {
 
     setTimeout(() => {
       if (passed) {
-        resolve(`✅ Ваше замовлення: ${dish}`);
+        resolve(`✅ Twoje zamówienie: ${dish}`);
       }
 
-      reject("❌ Упс, у нас закінчилися продукти");
+      reject("❌ Ups, skończyły się nam produkty");
     }, 1000);
   });
 };
 
-makeOrder("пиріжок")
+makeOrder("pieróg")
   .then((result) => {
     console.log("onMakeOrderSuccess");
     console.log(result);
@@ -29,7 +29,7 @@ makeOrder("пиріжок")
   });
 
 /*
- * Промісифікація «синхронних» функцій
+ * Promisyfikacja fukcji «synchronicznych»
  * - Promise.resolve()
  * - Promise.reject()
  */
@@ -37,11 +37,11 @@ makeOrder("пиріжок")
 const prepareDish = (dish) => {
   const passed = Math.random() > 0.5;
   return passed
-    ? Promise.resolve(`✅ Ваше замовлення: ${dish}`)
-    : Promise.reject("❌ Упс, у нас закінчилися продукти");
+    ? Promise.resolve(`✅ Twoje zamówienie: ${dish}`)
+    : Promise.reject("❌ Ups, skończyły się nam produkty");
 };
 
-makeOrder("пиріжок")
+makeOrder("pieróg")
   .then((result) => {
     console.log("onMakeOrderSuccess");
     console.log(result);
