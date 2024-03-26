@@ -1,14 +1,14 @@
 /**
- * Створи картки з товарами на основі масиву products,
- * приклад картки https://prnt.sc/KmgDlzqOIA3M
+ * Utwórz karty produktów na podstawie tablicy products,
+ * przykładowa karta https://prnt.sc/KmgDlzqOIA3M
  *
- * Реалізуй делегування подій на колекції карток
- * Після кліку на картку повинно з'являтись модальне вікно
- * з детальною інформацією про продукт,
- * приклад модального вікна https://prnt.sc/vWNoCeZcw7ii
+ * Zaimplementuj delegowanie zdarzeń na kolekcji kart.
+ * Po kliknięciu karty powinno pojawić się okno modalne
+ * ze szczegółowymi informacjami o produkcie,
+ * przykład okna modalnego https://prnt.sc/vWNoCeZcw7ii
  *
- * Для реалізації модального вікна використай
- * бібліотеку basicLightbox (https://github.com/electerious/basicLightbox
+ * W celu zaimplementowania okna modalnego, użyj
+ * biblioteki basicLightbox (https://github.com/electerious/basicLightbox
  */
 
 const products = [
@@ -55,7 +55,7 @@ function createMarkup(arr) {
         <li data-id="${id}" class="item product-item">
             <img src="${img}" alt="${name}" width="300"/>
             <h2>${name}</h2>
-            <p>Ціна: ${price} грн</p>
+            <p>Ціна: ${price} uah</p>
         </li>`
     )
     .join("");
@@ -76,7 +76,7 @@ function handlerProductClick(evt) {
     <div class="modal">
       <img src="${product.img}" alt="${product.name}"/>
       <h2>${product.name}</h2>
-      <h3>${product.price} грн</h3>
+      <h3>${product.price} uah</h3>
       <p>${product.description}</p>
     </div>
 `);
