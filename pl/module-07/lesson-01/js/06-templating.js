@@ -1,11 +1,11 @@
 /*
- * Властивість innerHTML
- * - зчитування
- * - запис
+ * Właściwość innerHTML
+ * - odczyt
+ * - zapis
  */
 
 const titleEl = document.querySelector('.title');
 
 /*
- * Вставка розмітки за допомогою insertAdjacentHTML()
+ * Wstawianie znaczników za pomocą insertAdjacentHTML()
  */
