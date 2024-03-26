@@ -1,6 +1,6 @@
 /**
- * Допиши функцію таким чином щоб кожна властивість
- * об'єкта product була незалежним параметром
+ * Uzupełnij funkcję tak, aby każda właściwość
+ * obiektu product była niezależnym parametrem
  */
 
 const product = {
@@ -15,13 +15,13 @@ const product = {
 };
 
 function displayProductInfo() {
-  console.log(`Назва товару: ${name}`);
-  console.log(`Ціна: ${price} грн`);
-  console.log(`Категорія: ${category}`);
-  console.log("Деталі:");
-  console.log(`- Бренд: ${brand}`);
-  console.log(`- Колір: ${color}`);
-  console.log(`- Вага: ${weight} кг`);
+  console.log(`Nazwa produktu: ${name}`);
+  console.log(`Cena: ${price} uah`);
+  console.log(`Kategoria: ${category}`);
+  console.log("Szczegóły:");
+  console.log(`- Brand: ${brand}`);
+  console.log(`- Kolor: ${color}`);
+  console.log(`- waga: ${weight} kg`);
 }
 
 displayProductInfo(product);
