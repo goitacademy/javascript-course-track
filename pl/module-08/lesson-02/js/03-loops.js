@@ -1,5 +1,5 @@
 /**
- * Destrukturyzacja obiektu w cyklu
+ * Destrukturyzacja obiektu w pętli
  */
 
 const users = [
