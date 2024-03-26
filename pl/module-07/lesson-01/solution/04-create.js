@@ -1,18 +1,18 @@
 /*
- * Створення та додавання елементів
+ * Tworzenie i dodawanie elementów
  */
 
 /*
- * Створюємо заголовок
+ * Tworzymy nagłówek
  */
 const titleEl = document.createElement('h1');
 titleEl.classList.add('page-title');
-titleEl.textContent = 'Це заголовок сторінки :)';
+titleEl.textContent = 'To jest tytuł strony :)';
 console.log(titleEl);
 document.body.append(titleEl);
 
 /*
- * Створюємо зображення
+ * Tworzymy obraz
  * https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
  * valais-alpine-mountains-glacier
  */
@@ -28,14 +28,14 @@ const heroEl = document.querySelector('.hero');
 heroEl.append(titleEl, imageEl);
 
 /*
- * Створюємо та додаємо новий пункт меню
+ * Tworzymy i dodajemy nową pozycję menu
  */
 const navItemEl = document.createElement('li');
 navItemEl.classList.add('site-nav__item');
 
 const navLinkEl = document.createElement('a');
 navLinkEl.classList.add('site-nav__link');
-navLinkEl.textContent = 'Особистий кабінет';
+navLinkEl.textContent = 'Konto osobiste';
 navLinkEl.href = '/profile';
 
 navItemEl.append(navLinkEl);
