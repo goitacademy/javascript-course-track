@@ -6,15 +6,15 @@ const LS_KEY = "Array of names";
 const names = ["Alice", "Kate", "Emma"];
 
 /**
- * Збереження
- * Чому треба використовувати метод JSON.stringify
+ * Zapisywanie
+ * Dlaczego warto używać metody JSON.stringify
  */
 
 localStorage.setItem(LS_KEY, JSON.stringify(names));
 
 /**
- * Читання
- * Чому треба використовувати метод JSON.parse
+ * Odczyt
+ * Dlaczego warto używać metody JSON.parse
  */
 
 const value = localStorage.getItem(LS_KEY);
@@ -22,13 +22,13 @@ console.log(value);
 console.log(JSON.parse(value));
 
 /**
- * Видалення
+ * Usuwanie
  */
 
 localStorage.removeItem(LS_KEY);
 
 /**
- * LocalStorage не може зберігати функції
+ * LocalStorage nie może przechowywać funkcji
  */
 
 function add(a, b) {
