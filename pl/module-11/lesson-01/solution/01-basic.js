@@ -1,9 +1,9 @@
 /**
- * Основи запиту
+ * Podstawy zapytań
  * - Fetch API
- * - URL запиту
- * - Владка Network
- * - Обробка відповіді response (404 з fetch)
+ * - Żądanie URL
+ * - Zakładka Network
+ * - Przetwarzanie odpowiedzi response (404 з fetch)
  *
  * https://jsonplaceholder.typicode.com/
  */
@@ -19,14 +19,14 @@ fetch("https://jsonplaceholder.typicode.com/todos")
   })
   .then((data) => {
     console.log(data);
-    // Рендер елементів в DOM (map і insertAdjacentHTML)
+    // Renderowanie elementów w DOM (map і insertAdjacentHTML)
   })
   .catch((error) => {
     console.log(error);
   });
 
 /**
- * Всередині функції запит, зовні обробка
+ * Żądanie wewnątrz funkcji, przetwarzanie na zewnątrz
  */
 const fetchTodos = () => {};
 
