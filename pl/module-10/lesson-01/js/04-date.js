@@ -1,8 +1,8 @@
 /*
- - Створення
- - Unix-час
- - Методи
- - Різниця часу
+ - Tworzenie
+ - Czas uniksowy
+ - Metody
+ - Różnica czasu
  - Date.now()
 */
 
