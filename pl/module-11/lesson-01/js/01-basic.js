@@ -1,9 +1,9 @@
 /**
- * Основи запиту
+ * Podstawy zapytań
  * - Fetch API
- * - URL запиту
- * - Владка Network
- * - Обробка відповіді response (404 з fetch)
+ * - Żądanie URL
+ * - Zakładka Network
+ * - Przetwarzanie odpowiedzi response (404 з fetch)
  *
  * https://jsonplaceholder.typicode.com/
  */
@@ -11,7 +11,7 @@
 const list = document.querySelector(".todo-list");
 
 /**
- * Всередині функції запит, зовні обробка
+ * Żądanie wewnątrz funkcji, przetwarzanie na zewnątrz
  */
 const fetchTodos = () => {};
 
