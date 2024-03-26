@@ -55,7 +55,7 @@ function createMarkup(arr) {
         <li data-id="${id}" class="item product-item">
             <img src="${img}" alt="${name}" width="300"/>
             <h2>${name}</h2>
-            <p>Ціна: ${price} uah</p>
+            <p>Cena: ${price} uah</p>
         </li>`
     )
     .join("");
