@@ -11,7 +11,7 @@ const user = {
   },
 };
 
-// Brak destrukturyzacji
+// Bez destrukturyzacji
 function getUserName(obj) {
   console.log(
     `Hello my name is ${obj.name}, I know html - ${obj.skills.html}, css - ${obj.skills.css} and js -${obj.skills.js}`
