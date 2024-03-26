@@ -1,14 +1,14 @@
 /**
- * Напиши клас Blogger для створення об'єкта блогера з наступними властивостями:
- * - email - пошта, рядок
- * - age - вік, число
- * - numberOfPosts - кількість постів, число
- * - topics - масив тем на яких спеціалізується блогер
+ * Napisz klasę Blogger, by utworzyć obiekt bloggera z następującymi właściwościami:
+ * - email - adres mailowy, ciąg znaków
+ * - age - wiek, liczba
+ * - numberOfPosts - liczba postów, liczba
+ * - topics - tablica tematów, w których specjalizuje się blogger
  *
- * Клас чекає один параметр - об'єкт налаштувань з однойменними властивостями.
+ * Klasa oczekuje jednego parametru - obiektu ustawień o takich samych właściwościach.
  *
- * - Додай метод getInfo(), який, повертає рядок: User ${email} is ${age} years old and has ${numPosts} posts.
- * - Додай метод updatePostCount(value), який у параметрі value приймає кількість постів, які потрібно додати користувачеві.
+ * - Dodaj metodę getInfo(), która zwraca ciąg znaków: User ${email} is ${age} years old and has ${numPosts} posts.
+ * - Dodaj metodę updatePostCount(value), która w parametrze value przyjmuje liczbę postów, które będą dodane do użytkownika.
  */
 
 const mango = new User({
