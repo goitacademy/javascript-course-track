@@ -1,7 +1,7 @@
 /**
- * Наслідування класів
+ * Dziedziczenie klas
  *
  *  - extends
- *  - Конструктор дочірнього класу (super)
- *  - Методи дочірнього класу
+ *  - Konstruktor klasy potomnej (super)
+ *  - Metody klasy potomnej
  */
