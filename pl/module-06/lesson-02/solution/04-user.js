@@ -1,7 +1,7 @@
 /**
- * Напиши клас User, який створює об'єкт із властивостями login та email.
- * Оголоси приватні властивості #login та #email, доступ до яких зроби через
- * гетер та сетер login та email.
+ * Napisz klasę User, która tworzy obiekt z właściwościami login i email.
+ * Zadeklaruj prywatne właściwości #login i #email, do których można uzyskać
+ * dostęp poprzez getter i setter login oraz email.
  */
 const mango = new User({
   login: "Mango",
