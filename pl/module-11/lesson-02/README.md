@@ -1,24 +1,24 @@
-# План заняття
+# Plan lekcji
 
-## 1. Пограємо в Kahoot і обговоримо питання
-## 2. Розберемо роботу з колекцією даних
-- Робота з колекцією даних
-- Сервіс [mockapi](https://mockapi.io/)
-- Робота з приватним API
+## 1. Zagramy w Kahoot і omówimy pytania
+## 2. Przyjrzymy się pracy z kolekcją danych
+- Praca z kolekcją danych
+- Usługa [mockapi](https://mockapi.io/)
+- Praca z prywatnym interfejsem API
   - **C**reate
-    - Метод POST
-    - Тіло
-    - Заголовки
-    - Відповідь
+    - Metoda POST
+    - Treść
+    - Nagłówki
+    - Odpowiedź
   - **R**ead
-    - Метод GET
-    - Відповідь
+    - Metoda GET
+    - Odpowiedź
   - **U**pdate
-    - Методи PUT та PATCH
-    - Тіло
-    - Заголовки
-    - Відповідь
+    - Metody PUT i PATCH
+    - Treść
+    - Nagłówki
+    - Odpowiedź
   - **D**elete
-    - Метод DELETE
-    - Відповідь
-## 3. А що робити в ДЗ? У домашньому завданні ви створите застосунок пошуку зображень за ключовим словом і їх перегляду в галереї.  
+    - Metoda DELETE
+    - Odpowiedź
+## 3. Co należy zrobić w zadaniu domowym? W zadaniu domowym stworzysz aplikację do wyszukiwania obrazów według słowa kluczowego i przeglądania ich w galerii.  
