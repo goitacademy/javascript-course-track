@@ -1,9 +1,9 @@
 /*
- * Типи подій: keypress, keydown, keyup
- * - Обмеження keypress
- * - Властивості key та code
+ * Typy zdarzeń: keypress, keydown, keyup
+ * - Ograniczenia keypress
+ * - Właściwości key i code
  */
 
 /**
- * Обробка комбінацій клавіш
+ * Przetwarzanie skrótów klawiaturowych
  */
