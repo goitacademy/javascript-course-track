@@ -1,16 +1,16 @@
 /**
- * Створення та обробка промісу
- * - Клас Promise
+ * Tworzenie i przetwarzanie obietnicy
+ * - klasa Promise
  * - resolve
  * - reject
  * - then, catch, finally
  */
 
-// "Проміс виконався успішно, із результатом (виконаний, fulfilled)";
-// "Проміс виконався з помилкою (відхилений, rejected)"
+// "Obietnica została wykonana pomyślnie, z wynikiem (spełniona, fulfilled)";
+// "Obietnica została wykonana z błędem (odrzucona, rejected)"
 
 /**
- * Ланцюги промісів
- * - декілька послідовних then
- * - then повертає проміс
+ * Łańcuchy obietnic
+ * - kilka następujących po sobie then
+ * - then zwraca obietnicę
  */
