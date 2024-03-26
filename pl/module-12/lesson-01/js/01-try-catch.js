@@ -1,15 +1,15 @@
 /**
- * Обробка помилок з try...catch
+ * Obsługa błędów za pomocą try...catch
  *
- * - Синтаксис
- * - Які помилки ловить
- * - ❌ помилки парсингу (parsing errors)
- * - ✅ помилки виконання (runtime errors)
- * - Ловить лише помилки в синхронному коді
- * - Як зловити помилку в асинхронному коді
- * - Об'єкт помилки
+ * - Składnia
+ * - Jakie błędy są wychwytywane
+ * - ❌ błędy parsowania (parsing errors)
+ * - ✅ błędy uruchomieniowe (runtime errors)
+ * - Wychwytywanie błędów tylko w kodzie synchronicznym
+ * - Jak wychwycić błąd w kodzie asynchronicznym?
+ * - Obiekt błędu
  * - name
  * - message
  * - stack
- * - Блок catch без об'єкта помилки
+ * - Blok catch bez obiektu błędu
  */
