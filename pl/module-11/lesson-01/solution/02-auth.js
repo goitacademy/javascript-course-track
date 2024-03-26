@@ -1,8 +1,8 @@
 /**
- * Авторизація запитів з ключами
- * Які бувають:
- * - у query string
- * - у хедерах
+ * Autoryzacja żądań za pomocą kluczy
+ * Które są:
+ * - w query string
+ * - w nagłówkach
  *
- * Для прикладу використовуємо https://pixabay.com/api/docs/
+ * Dla przykładu użyjemy https://pixabay.com/api/docs/
  */
