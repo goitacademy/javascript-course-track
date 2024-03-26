@@ -1,11 +1,11 @@
 /**
- * Деструктуризація об'єкта в циклі
+ * Destrukturyzacja obiektu w pętli
  */
 
 const users = [{ name: "Kate" }, { name: "Alex" }, { name: "Mark" }];
 
 /**
- * Без деструктуризації
+ * Bez destrukturyzacji
  */
 // const names = [];
 
@@ -16,7 +16,7 @@ const users = [{ name: "Kate" }, { name: "Alex" }, { name: "Mark" }];
 // console.log(names);
 
 /**
- * З деструктуризацією
+ * Z destrukturyzacją
  */
 // const names = [];
 
