@@ -6,21 +6,21 @@ const LS_KEY = "Array of names";
 const names = ["Alice", "Kate", "Emma"];
 
 /**
- * Збереження
- * Чому треба використовувати метод JSON.stringify
+ * Zapisywanie
+ * Dlaczego warto używać metody JSON.stringify
  */
 
 /**
- * Читання
- * Чому треба використовувати метод JSON.parse
+ * Odczyt
+ * Dlaczego warto używać metody JSON.parse
  */
 
 /**
- * Видалення
+ * Usuwanie
  */
 
 /**
- * LocalStorage не може зберігати функції
+ * LocalStorage nie może przechowywać funkcji
  */
 
 function add(a, b) {
