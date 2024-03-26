@@ -4,5 +4,5 @@
  * - w query string
  * - w nagłówkach
  *
- * Jako przykład użyjemy https://pixabay.com/api/docs/
+ * Dla przykładu użyjemy https://pixabay.com/api/docs/
  */
