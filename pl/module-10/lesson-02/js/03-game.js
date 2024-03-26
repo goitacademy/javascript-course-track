@@ -1,23 +1,23 @@
 /**
- * Напиши програмне забезпечення для ігрового автомата.
- * Для вирішення завдання використай готову розмітку HTML та базову стилізацію.
+ * Napisz oprogramowanie dla automatu do gier.
+ * Do rozwiązania zadania użyj gotowych znaczników HTML i podstawowych stylów.
  *
- * Після натиснення на кнопку "Start game"
- * в кожному віконці по черзі має з'являтись
- * смайлик з затримкою в 1 секунду ('🤑' або '👿')
+ * Po kliknięciu przycisku "Start game"
+ * w każdym oknie powinna pojawić się
+ * emotikona z 1-sekundowym opóźnieniem ('🤑' lub '👿')
  *
- * Під час обробки кожного віконця створи масив з Promis-ами
- * в якому кожен з них буде відповідати за своє віконце,
- * після чого оброби даний масив за допомогою методу Promise.allSettled
+ * Podczas przetwarzania każdego okna utwórz tablicę z obietnicami
+ * w której każde okno będzie odpowiedzialne za własne okno,
+ * a następnie przetwarzaj tę tablicę za pomocą metody Promise.allSettled.
  *
- * Після того як всі віконця були заповнені потрібно
- * щоб скріпт автоматично визначав чи гравець переміг, чи ні.
- * Якщо в кожному віконці однаковий смайлик це означає що користувач переміг
+ * Po wypełnieniu wszystkich pól skrypt musi
+ * automatycznie określić, czy gracz wygrał, czy nie.
+ * Jeśli każde okno ma taką samą emotikonę, oznacza to, że użytkownik wygrał.
  *
- * В поле result виводить повідомлення про статус гри ('Winner' або 'Loser')
+ * Pole result wyświetla komunikat o statusie gry ('Winner' lub 'Loser')
  *
- * Після повторного натискання на кнопку "Start game"
- * поле має очищатись, а гра починатись з початку.
+ * Po ponownym kliknięciu przycisku "Start game"
+ * pole powinno zostać wyczyszczone, a gra powinna rozpocząć się od początku.
  */
 
 const startBtn = document.querySelector(".start-btn");
