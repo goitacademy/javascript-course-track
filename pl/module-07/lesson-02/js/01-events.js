@@ -1,8 +1,8 @@
 /**
- * Подія сlick
+ * Zdarzenie сlick
  *
- * Натискаючи на кнопку "Click me" змусь
- * червоний квадратик зміщуватись на 50px по діагоналі
+ * Klikając przycisk "Click me" spraw, by
+ * czerwony kwadrat przesunął się o 50 pikseli po przekątnej.
  */
 
 const clickMe = document.querySelector(".js-click");
