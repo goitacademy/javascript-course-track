@@ -1,23 +1,23 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Zagramy w Kahoot i omówimy pytania
 
-2. Розберемо: 
-- Що таке збирач проекту на прикладі [Vite] (https://vitejs.dev/)
-- Пакетний менеджер npm
-- Використання Vite-збірки [vanilla-app-template](https://github.com/goitacademy/vanilla-app-template)
-  - Створюємо проект на базі збірки з README
-  - npm-скрипти
+2. Przeanalizujemy: 
+- Czym jest project builder na przykładzie [Vite] (https://vitejs.dev/)
+- Menedżer pakietów npm
+- Korzystanie z kompilatora Vite [vanilla-app-template](https://github.com/goitacademy/vanilla-app-template)
+  - Tworzenie projektu na podstawie kompilacji z README
+  - Skrypty npm
 
-3. Обговоримо:
-- Модульність коду
-- Експорти та імпорти
-- NPM пакети
-  - встановлення
-  - Видалення
-- ECMAScript модулі
-  - Дефолтний (default) експорт та імпорт
-  - Іменований (named) експорт та імпорт
-  - Імпорт простору імен (namespace)
+3. Omówimy:
+- Modułowość kodu
+- Eksport i import
+- Pakiety NPM
+  - instalowanie
+  - odinstalowywanie
+- Moduły ECMAScript
+  - Domyślne (default) eksporty i importy
+  - Nazwany (named) eksport i import
+  - Importowanie przestrzeni nazw (namespace)
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекає 2 задачі: на створення галереї з використанням бібліотеки SimpleLightbox, і написання скрипта, який буде зберігати значення полів у локальне сховище.
+4. Co należy zrobić w zadaniu domowym? W pracy domowej będziesz mieć 2 zadania: utworzenie galerii przy użyciu biblioteki SimpleLightbox oraz napisanie skryptu, który zapisze wartości pól w pamięci lokalnej.
