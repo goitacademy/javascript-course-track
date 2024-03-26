@@ -1,9 +1,9 @@
 /*
- * - Подія submit
- * - Дії браузера за замовчуванням
- * - Властивість elements
+ * - Zdarzenie submit
+ * - Domyślne akcje przeglądarki
+ * - Właściwość elements
  *
- * Оброби форму та збери відгук користувача в об'єкт
+ * Przetwórz formularz i zbierz informacje zwrotne od użytkownika do obiektu
  */
 
 const form = document.querySelector(".js-form");
