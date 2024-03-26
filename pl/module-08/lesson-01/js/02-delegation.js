@@ -1,13 +1,13 @@
 /**
- * Додавання прослуховувача подій на кожен елемент
+ * Dodawanie nasłuchiwacza zdarzeń do każdego elementu
  *
- * Отримай колір квадратика по якому було здійснено клік
+ * Pobierz kolor kwadratu, który został kliknięty
  */
 
 const container = document.querySelector(".container");
 
 /**
- * Дегегування подій
+ * Delegowanie zdarzeń
  *
- * Отримай колір квадратика по якому було здійснено клік
+ * Pobierz kolor kwadratu, który został kliknięty
  */
