@@ -1,26 +1,26 @@
-# План занятия
+# Plan lekcji
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Zagramy w Kahoot і omówimy pytania
 
-2. Розберемо деструктурізацію об'єктів
-    - Навіщо потрібна деструктуризація?
-    - Деструктуризація об'єктів **01-basic.js**
-    - Деструктуризація неіснуючих властивостей
-    - Перейменування змінної
-    - Значення за замовчуванням
-    - Деструктуризація в циклах **03-loops.js**
-    - Деструктуризація параметрів **02-params.js**
-    - Патерн "об'єкт параметрів”
-    - Глибока деструктуризація
+2. Przeanalizujemy destrukturyzację obiektów
+    - Po co nam destrukturyzacja obiektów?
+    - Destrukturyzacja obiektów **01-basic.js**
+    - Destrukturyzacja nieistniejących właściwości
+    - Zmiana nazwy zmiennej
+    - Wartości domyślne
+    - Destrukturyzacja w pętlach **03-loops.js**
+    - Destrukturyzacja parametrów **02-params.js**
+    - Wzorzec "obiekt parametrów"
+    - Głęboka destrukturyzacja
 
-3. Обговоримо деструктурізація масивів
-- Синтаксис
-- Значення за замовчуванням
-- Часткова деструктурізація
-- Пропуск значень
-- Деструктурізація параметрів
-- Переваги
+3. Omówimy destrukturyzację tablic
+- Składnia
+- Wartości domyślne
+- Częściowa destrukturyzacja
+- Pomijanie wartości
+- Destrukturyzacja parametrów
+- Zalety
 
-4. Розберемо на практиці кілька практичних завдань (04-task1.js, 05-task2.js, 06-task3.js)
+4. Przeanalizujemy kilka praktycznych zadań (04-task1.js, 05-task2.js, 06-task3.js)
 
-5. А що робити в ДЗ? У домашньому завданні на вас чекає задача на створення галереї з можливістю кліку по її елементах і перегляду повнорозмірного зображення в модальному вікні. ДЗ виконуємо у редакторі коду VS Code
+5. Co należy zrobić w zadaniu domowym? W zadaniu domowym czeka na Ciebie stworzenie galerii z możliwością kliknięcia jej elementów i wyświetlenia pełnowymiarowego obrazu w oknie modalnym. Zadanie należy wykonywać w edytorze kodu VS Code
