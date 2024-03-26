@@ -1,5 +1,5 @@
 /**
- * Деструктуризація об'єкта в циклі
+ * Destrukturyzacja obiektu w cyklu
  */
 
 const users = [
@@ -15,7 +15,7 @@ const users = [
 ];
 
 /**
- * Без деструктуризації
+ * Bez destrukturyzacji
  */
 const names = [];
 
@@ -26,5 +26,5 @@ for (const user of users) {
 console.log(names);
 
 /**
- * З деструктуризацією
+ * Z destrukturyzacją
  */
