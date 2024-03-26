@@ -4,17 +4,17 @@ const form = document.querySelector(".feedback-form");
 const textarea = form.querySelector("textarea");
 
 /*
- * - Скасовуємо стандартну поведінку
- * - Видаляємо повідомлення зі сховища
- * - Очищуємо форму
+ * - Anulujemy standardowe zachowanie
+ * - Usuwamy wiadomości z hurtowni
+ * - Czyścimy formularz
  */
 
 /*
- * - Отримуємо значення поля
- * - Зберігаємо його у сховище
+ * - Pobieramy wartość pola
+ * - Zapisujemy ją w hurtowni
  */
 
 /*
- * - Отримуємо значення зі сховища
- * - Якщо там щось було, оновлюємо DOM
+ * - Pobieramy wartość z hurtowni
+ * - Aktualizujemy DOM, jeśli coś tam było.
  */
