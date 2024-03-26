@@ -1,21 +1,21 @@
 # js-22
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Zagramy w Kahoot і оmówimy pytania
 
-2. Розберемо, що таке події 
-- Методи addEventListener(), removeEventListener()
-- Об'єкт події 01-events.js
-- Події клавіатури
-- Властивості key і code
-- Клавіші-модифікатори
-- [Список всіх доступних подій](https://developer.mozilla.org/en-US/docs/Web/Events)
+2. Przyjrzymy się czym są zdarzenia 
+- Metody addEventListener(), removeEventListener()
+- Obiekt zdarzenia 01-events.js
+- Zdarzenia klawiatury
+- Właściwości key і code
+- Klawisze modyfikujące
+- [Lista wszystkich dostępnych zdarzeń](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-2. Розберемо на практиці роботу з подіями 
+2. Przyjrzymy się, jak pracować ze zdarzeniami w praktyce 
 02-input.js
 03-forms.js
 04-keyboard.js
 05-mouse.js
 
-3. Розв’яжемо більш просунуту практичну задачу 06-practice.js
+3. Rozwiążemy bardziej zaawansowane zadanie praktyczne 06-practice.js
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекають 6 невеликих задач! ДЗ виконуємо у редакторі коду VS Code
+4. Co należy zrobić w zadaniu domowym? W zadaniu domowym czeka na Ciebie 6 małych zadań! Zadanie domowe należy wykonywać w edytorze kodu VS Code
