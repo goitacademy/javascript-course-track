@@ -1,14 +1,14 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
-2. Познайомимось з поняттям асинхронності в JavaScript
-- Розберемо планування: window.setTimeout() и window.setInterval() (практика 01-timeout.js і 02-interval.js)
-- Розв’яжемо практичну задачу на сповіщення (практика 03-notification.js)
+1. Zagramy w Kahoot
+2. Zapoznamy się z pojęciem asynchronii w JavaScript
+- Przeanalizujemy planowanie: window.setTimeout() i window.setInterval() (ćwiczenie 01-timeout.js і 02-interval.js)
+- Rozwiążemy praktyczne zadanie dotyczące powiadomień (ćwiczenie 03-notification.js)
 
-3. Розберемо роботу з датой і часом
-- Створення дати
-- Різниця часу
-- Метод Date.now() і new Date().getTime() (практика 04-date.js)
-4. Розв’яжемо практичну задачу на створення таймеру (практика 05-timer.js) 
+3. Przyjrzyjmy się pracy z datą i czasem
+- Tworzenie daty
+- Różnica czasu
+- MEtoda Date.now() і new Date().getTime() (ćwiczenie 04-date.js)
+4. Rozwiążemy praktyczne zadanie polegające na utworzeniu timera (ćwiczenie 05-timer.js) 
 
-5. Що на вас чекатиме на наступному занятті? Ми поговоримо про проміси і промісифікацію.
+5. Co będzie na Ciebie czekać na następnej lekcji? Porozmawiamy o obietnicach i promisyfikacji.
