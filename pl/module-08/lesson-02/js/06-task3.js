@@ -1,8 +1,8 @@
 /**
- * Необхідно зрoбити рефакторинг функції calculateHousePerimeter,
- * так щоб вона приймала об'єкт з параметрами будинку,
- * включаючи довжини сторін будинку.
- * Функція повинна розрахувати та повернути периметр будинку.
+ * Przeprowadź refaktoryzację funkcji calculateHousePerimeter,
+ * aby pobierała ona obiekt z parametrami domu, w tym 
+ * długościami jego boków.
+ * Funkcja powinna obliczyć i zwrócić obwód domu.
  */
 
 function calculateHousePerimeter(a, b, c, d) {
@@ -11,4 +11,4 @@ function calculateHousePerimeter(a, b, c, d) {
 }
 
 const perimeter = calculateHousePerimeter(10, 15, 10, 15);
-console.log(`Периметр будинку: ${perimeter}`);
+console.log(`Obwód domu: ${perimeter}`);
