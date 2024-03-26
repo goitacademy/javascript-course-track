@@ -41,10 +41,10 @@ class Timer {
   }
 
   /*
-   * - Приймає час в мілісекундах
-   * - Вираховує скільки в них вміщається годин/хвилин/секунд
-   * - Повертає об'єкт з властивостями hours, mins, secs
-   * - Адська копіпаста з stackoverflow 💩
+   * - Przyjmuje czas w milisekundach
+   * - Oblicza ile mogą zawierać godzin/minut/sekund
+   * - Zwraca obiekt z właściwościami hours, mins, secs
+   * - Piekielne copy-paste ze stackoverflow 💩
    */
   getTimeComponents(time) {
     const hours = this.pad(
@@ -57,7 +57,7 @@ class Timer {
   }
 
   /*
-   * Приймає число, перетворює його в рядок і додає в початок 0, якщо число менше 2-х знаків
+   * Pobiera liczbę, konwertuje ją na ciąg znaków i dodaje 0 na początku, jeśli liczba jest mniejsza niż 2 cyfry.
    */
   pad(value) {
     return String(value).padStart(2, "0");
@@ -72,9 +72,9 @@ startBtn.addEventListener("click", timer.start.bind(timer));
 stopBtn.addEventListener("click", timer.stop.bind(timer));
 
 /*
- * - Приймає час в мілісекундах
- * - Вираховує скільки в них вміщається годин/хвилин/секунд
- * - Рисує інтерфейс
+ * - Przyjmuje czas w milisekundach
+ * - Oblicza ile mogą zawierać godzin/minut/sekund
+ * - Wyświetla interfejs
  */
 function updateClockface({ hours, mins, secs }) {
   clockface.textContent = `${hours}:${mins}:${secs}`;
