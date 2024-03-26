@@ -1,5 +1,5 @@
 /**
- * Деструктуризація об'єкта в параметрах функції
+ * Destrukturyzacja obiektu w parametrach funkcji
  */
 
 const user = {
@@ -11,14 +11,14 @@ const user = {
   },
 };
 
-// Без деструктуризації
+// Bez destrukturyzacji
 function getUserName(obj) {
   console.log(
     `Hello my name is ${obj.name}, I know html - ${obj.skills.html}, css - ${obj.skills.css} and js -${obj.skills.js}`
   );
 }
 
-// З деструктуризацією
+// Z destrukturyzacją
 function getUserName({ name, skills: { html, css, js } } = {}) {
   console.log(
     `Hello my name is ${name}, I know html - ${html}, css - ${css} and js -${js}`
