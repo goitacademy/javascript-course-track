@@ -1,7 +1,7 @@
 /*
- * Типи подій: keypress, keydown, keyup
- * - Обмеження keypress
- * - Властивості key та code
+ * Typy zdarzeń: keypress, keydown, keyup
+ * - Ograniczenia keypress
+ * - Właściwości key i code
  */
 
 document.addEventListener("keydown", handleKeyPress);
@@ -16,7 +16,7 @@ function handleKeyPress(evt) {
 }
 
 /**
- * Обробка комбінацій клавіш
+ * Przetwarzanie skrótów klawiaturowych
  */
 
 document.addEventListener("keydown", handleKeyCombo);
