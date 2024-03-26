@@ -1,5 +1,5 @@
 /**
- * Використовуємо сервіс https://mockapi.io/ для створення бекенду
+ * Za pomocą usługi https://mockapi.io/ tworzymy backend.
  */
 
 /**
@@ -35,24 +35,24 @@ function addBook(book) {
 }
 
 addBook({
-  title: "Тестова книга з CSS",
-  author: "Я",
+  title: "Książka testowa o CSS",
+  author: "Ja",
   genres: ["CSS"],
   Rating: 9,
 })
   .then((book) => {
-    console.log("Прийшла відповідь від бекенда можна малювати");
+    console.log("Otrzymano odpowiedź z backendu, można wyświetlać");
     console.log(book);
   })
   .catch((error) => console.log(error));
 
 addBook({
-  title: "Тестова книга з HTML",
-  author: "Я",
+  title: "Książka testowa o HTML",
+  author: "Ja",
   genres: ["HTML"],
   Rating: 7,
 }).then((book) => {
-  console.log("Прийшла відповідь від бекенда можна малювати");
+  console.log("Otrzymano odpowiedź z backendu, można wyświetlać");
   console.log(book);
 });
 
@@ -72,9 +72,9 @@ function updateBookById(update, bookId) {
   return fetch(`/books/${bookId}`, options).then((res) => res.json());
 }
 
-// updateBookById({ title: "Велика нова книга по NODEJS" }, 19);
+// updateBookById({ title: "Wspaniała nowa książka o NODEJS" }, 19);
 // updateBookById({ rating: 1 }, 18);
-// updateBookById({ rating: 4, author: "Манго" }, 17);
+// updateBookById({ rating: 4, author: "Mango" }, 17);
 
 /**
  * Delete (DELETE)
