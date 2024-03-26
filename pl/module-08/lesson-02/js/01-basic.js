@@ -1,5 +1,5 @@
 /**
- * Деструктуризація об'єкта
+ * Destrukturyzacja obiektu
  */
 
 const user = {
@@ -12,7 +12,7 @@ const user = {
 };
 
 /**
- * Глибока деструктуризація об'єкта
+ * Głęboka destrukturyzacja obiektu
  */
 
 const { skills } = user;
@@ -22,7 +22,7 @@ const { skills } = user;
 // console.log("js", js);
 
 /**
- * Деструктуризація масива
+ * Destrukturyzacja tablicy
  */
 
 const arr = [1, 2, 3, 4, 5];
