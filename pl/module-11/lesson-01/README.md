@@ -1,31 +1,31 @@
-# План заняття
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
    
-2. Частина 1 (теорія): обговоримо HTTP-запити 
+2. Część 1 (teoria): omówimy żądania  HTTP 
 
-[Презентація](https://docs.google.com/presentation/d/1xbFM4RwlP1hRSYaH2C4zIVvIO6x51NcnFBnjjpQvQzA/edit?usp=sharing)
+[Prezentacja](https://docs.google.com/presentation/d/1xbFM4RwlP1hRSYaH2C4zIVvIO6x51NcnFBnjjpQvQzA/edit?usp=sharing)
 
-- Архітектура клієнт-сервер
-- Протоколи передачі даних: HTTP та HTTPS
+- Architektura klient-serwer
+- Protokoły przesyłania danych: HTTP i HTTPS
 - REST API (backend)
-- HTTP-запити
-- Публічні REST API
+- Żądania HTTP
+- Publiczne interfejsy REST API
 
-3. Частина 2 (практика): Розберемо практичні задачі (01-basic.js, 02-auth.js, 03-practice.js)
+3. Część 2 (praktyka): przeanalizujemy praktyczne zadania (01-basic.js, 02-auth.js, 03-practice.js)
 
-- HTTP-запити у браузері
+- Żądania HTTP w przeglądarce
   - Fetch API 
-  - Владка Network
-  - HTTP-методи
-  - Заголовки
-  - MIME-типи
-  - [Параметри запиту](https://pixabay.com/api/docs/)
-- Документація REST API
-- Обробка 404 з fetch
-- Аутентифікація
+  - Zakładka Network
+  - Metody HTTP
+  - Nagłówki
+  - Typy MIME
+  - [Parametry żądania](https://pixabay.com/api/docs/)
+- Dokumentacja REST API
+- Obsługa 404 z fetch
+- Uwierzytelnianie
   - [https://newsapi.org/](https://newsapi.org/)
   - [https://weatherstack.com/](https://weatherstack.com/)
   - [https://pixabay.com/api/docs/](https://pixabay.com/api/docs/)
 
-4. Що на вас чекатиме на наступному занятті? Ми поговоримо про AJAX та CRUD.
+4. Czego nauczysz się w następnej lekcji? Porozmawiamy o AJAX i CRUD.
