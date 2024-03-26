@@ -1,24 +1,24 @@
 /*
- * Метод window.setTimeout(callback, delay, args)
+ * Metoda window.setTimeout(callback, delay, args)
  */
 
-console.log("До виклику setTimeout");
+console.log("Przed wywołaniem setTimeout");
 
-console.log("1 - Всередині зворотного виклику для setTimeout");
+console.log("1 - Wewnątrz wywołania zwrotnego dla setTimeout");
 
-console.log("2 - Всередині зворотного виклику для setTimeout");
+console.log("2 - Wewnątrz wywołania zwrotnego dla setTimeout");
 
-console.log("Після виклику setTimeout");
+console.log("Po wywołaniu setTimeout");
 
 /*
- * Очищення таймаута за допомогою clearTimeout(timeoutId)
+ * Czyszczenie limitu czasu za pomocą clearTimeout(timeoutId)
  */
 const logger = (time) => {
-  console.log(`Лог через ${time} мс, оскільки не скасували таймаут`);
+  console.log(`Log po ${time} ms, ponieważ limit czasu nie został anulowany`);
 };
 
 /**
- * Можливість передати параметри для колбеку
+ * Możliwość przekazywania parametrów dla wywołania zwrotnego
  */
 const id = setTimeout((name, country) => {
   console.log(`Hello, my name is ${name}, I'm from ${country}`);
