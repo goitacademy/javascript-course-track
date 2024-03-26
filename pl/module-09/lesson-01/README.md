@@ -1,24 +1,24 @@
-# План занятия
+# Plan lekcji
 
-1. Пограємо в Kahoot
+1. Zagramy w Kahoot
 
-2. Обговоримо формат JSON
-- Стандарт JSON
-- Перетворення у JSON
-- Парсинг з JSON
-- Перетворення функцій
-- Обробка помилок
+2. Omówimy format JSON
+- Standard JSON
+- Konwersja do formatu JSON
+- Parsowanie za pomocą JSON
+- Funkcje konwertujące
+- Obsługa błędów
 
-3. Розберемо API Web Storage та локальне сховище (практика 01-localstorage.js**)**
+3. Przeanalizujemy interfejs API Web Storage i lokalną pamięć masową (ćwiczenie 01-localstorage.js**)**
 - Сookie
 - Web Storage API
-- Інструменти розробника
-- Локальне сховище
-- Додавання даних
-- Додавання складних даних
-- Отримання і видалення даних
-- Сховище сесії
+- Narzędzia deweloperskie
+- Lokalna pamięć masowa
+- Dodawanie danych
+- Dodawanie złożonych danych
+- Pobieranie i usuwanie danych
+- Przechowywanie sesji
 
-4. Розберемо практичні задачі практика 01-localstorage.js та 02-feedback.js
+4. Przeanalizujemy praktyczne zadania (ćwiczenie 01-localstorage.js i 02-feedback.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про збирач проєкту на прикладі [Vite] та обговоримо модульність коду
+5. Co będzie na Ciebie czekać w **kolejnej lekcji**? Porozmawiamy o kreatorze projektów na przykładzie [Vite] i omówimy modułowość kodu.
