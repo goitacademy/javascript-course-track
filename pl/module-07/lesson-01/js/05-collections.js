@@ -1,17 +1,17 @@
 /*
- * Створюємо та додаємо колекцію
+ * Tworzymy i dodajemy kolekcję
  */
 const options = [
-  { label: 'червоний', color: '#F44336' },
-  { label: 'зелений', color: '#4CAF50' },
-  { label: 'синій', color: '#2196F3' },
-  { label: 'сірий', color: '#607D8B' },
-  { label: 'рожевий', color: '#E91E63' },
-  { label: 'індіго', color: '#3F51B5' },
+  { label: 'czerwony', color: '#F44336' },
+  { label: 'zielony', color: '#4CAF50' },
+  { label: 'niebieski', color: '#2196F3' },
+  { label: 'szary', color: '#607D8B' },
+  { label: 'różowy', color: '#E91E63' },
+  { label: 'indygo', color: '#3F51B5' },
 ];
 
 const colorPickerContainerEl = document.querySelector('.js-color-picker');
 
 /*
- * Пишемо функцію для створення розмітки колорпікера
+ * Piszemy funkcję do tworzenia znaczników selektora kolorów
  */
