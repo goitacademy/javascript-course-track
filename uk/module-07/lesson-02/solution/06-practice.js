@@ -30,7 +30,7 @@ const cars = [
   {
     id: 4,
     car: "BMW",
-    type: "5 siries",
+    type: "5 series",
     price: 9000,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUH96e58ynLO8SXMsFTNYkJci79eAZ8CyqcZsZ8snvzz2sfLl3Ojd1BQoaWBcrMKWvSYc&usqp=CAU",
   },
