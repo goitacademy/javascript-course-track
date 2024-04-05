@@ -4,8 +4,3 @@
  * - Według nazwy klasy
  * - Według ID
  */
-
-/*
- * Właściwości "nawigacji" przez węzły DOM
- *
- */

@@ -13,14 +13,3 @@ console.log('navEl', navEl);
 
 const navLinksEl = document.querySelectorAll('.site-nav__link');
 console.log('navLinksEl', navLinksEl);
-
-/*
- * Właściwości "nawigacji" przez węzły DOM
- *
- */
-
-// const firstNavItemEl = navEl.querySelector('.site-nav__item');
-const firstNavItemEl = navEl.firstElementChild;
-console.log(firstNavItemEl);
-console.log(navEl.children);
-console.log(navEl.lastElementChild);
