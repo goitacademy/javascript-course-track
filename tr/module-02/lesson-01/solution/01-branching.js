@@ -1,10 +1,10 @@
 /**
- * Розгалуження
- *
- * - Інструкція if
- * - Інструкція if...else
- * - Блок else...if
- * - Тернарний оператор
+ * Şubelendirme
+
+ * - If ifadesi
+ * - If...else ifadesi
+ * - Blok else...if
+ * - Üçlü operatör
  */
 
 console.log("Before");

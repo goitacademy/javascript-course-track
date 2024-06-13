@@ -1,22 +1,22 @@
 /**
- * Форматування посилання (endsWith)
+ * Bağlantı biçimlendirme (endsWith)
  *
- * Напиши скрипт який перевіряє чи закінчується значення
- *  змінної link символом /. Якщо ні, додай до кінця
- *  значення link цей символ.
- * Використовуй конструкцію if...else.
+ * Değerinin olup olmadığını kontrol eden bir komut dosyası yazın 
+ *  link değişkeni / karakteri ile biter. Değilse, sonuna ekleyin
+ *  link değerinin bu karakterle değiştirilmesi.
+ * if...else yapısını kullanın.
  */
 
 let link = "https://my-site.com/about";
 console.log(link);
 
 /**
- * Форматування посилання (includes та логічне «І»)
- * Напиши скрипт який перевіряє чи закінчується значення
- * змінної link символом /. Якщо ні, додай до кінця
- * значення link цей символ, але тільки в тому випадку,
- * якщо в link є підрядок "my-site".
- * Використовуй конструкцію if...else або тернарний оператор.
+ * Referans biçimlendirme (includes ve mantıksal "VE") komut dosyası yazın
+ * değerinin olup olmadığını kontrol eden bir komut dosyası yazın
+ * link değişkeni / karakteri ile biter. Değilse, bu karakteri bağlantı değişkeninin sonuna ekleyin 
+ * link değerinin, ancak yalnızca aşağıdaki durumlarda,
+ * link "my-site" alt dizesini içeriyorsa.
+ * if...else yapısını veya üçlü işleci kullanın.
  */
 
 let url = "https://somesite.com/about";
@@ -26,7 +26,7 @@ if (url.includes("my-site") && !link.endsWith("/")) {
 console.log(url);
 
 /*
- * Пошук у рядку методом includes()
+ * includes() yöntemini kullanarak bir dize içinde arama yapma
  */
 
 const blacklistedWord1 = "spam";

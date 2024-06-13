@@ -1,5 +1,5 @@
 /**
- * Оператор switch
+ * Switch operatörü
  */
 
 const username = "Mango";
@@ -16,12 +16,12 @@ switch (value) {
 }
 
 /**
- * Виконай рефакторинг коду задачі використовуючи switch.
+ * Switch kullanarak görev kodunu yeniden düzenleyin.
  *
- * Якщо до дедлайну 0 днів - виведи рядок "Today"
- * Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
- * Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
- * Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
+ * Son teslim tarihine 0 gün kalmışsa, "Today" satırını yazdırın
+ * Son teslim tarihine 1 gün kalmışsa, "Tomorrow" satırını yazdırın
+ * Son teslim tarihine 2 gün kalmışsa, "Overmorrow" satırını yazdırın
+ * Son teslim tarihine 3+ gün kalmışsa, "Date in the future" satırını yazdırın
  */
 
 const daysUntilDeadline = 5;
@@ -37,14 +37,14 @@ if (daysUntilDeadline === 0) {
 }
 
 /*
- * Напиши скрипт выбора опции доставки товара.
- * Опция хранится в переменной option: 1 - самовывоз, 2 - курьер, 3 - почта
+ * Ürün teslimatı seçeneğini seçmek için bir komut dosyası yazın.
+ * Seçenek, option değişkeninde saklanır: 1 - kendi kendine teslimat, 2 - kurye, 3 - posta
  *
- * В переменную message записать сообщение в зависимости от опции.
- * - 'Вы сможете забрать товар завтра с 12:00 в нашем офисе'
- * - 'Курьер доставит заказ завтра с 9:00 до 18:00'
- * - 'Посылка будет отправлена сегодня'
- * - 'Вам перезвонит менеджер'
+ * Seçeneğe bağlı olarak değişken mesaja bir mesaj yazın.
+ * - 'Ürünleri yarın saat 12:00'den itibaren ofisimizden teslim alabileceksiniz'.
+ * - 'Kurye siparişi yarın 9:00 - 18:00 saatleri arasında teslim edecek'.
+ * - 'Paket bugün gönderilecek'.
+ * - 'Bir yönetici sizi geri arayacak'
  */
 
 const option = 1526;
@@ -52,19 +52,19 @@ let message = "";
 
 switch (option) {
   case 1:
-    message = "Вы сможете забрать товар завтра с 12:00 в нашем офисе";
+    message = "Ürünleri yarın saat 12:00'den itibaren ofisimizden teslim alabileceksiniz";
     break;
 
   case 2:
-    message = "Курьер доставит заказ завтра с 9:00 до 18:00";
+    message = "Kurye siparişi yarın 9:00 - 18:00 saatleri arasında teslim edecek";
     break;
 
   case 3:
-    message = "Посылка будет отправлена сегодня";
+    message = "Paket bugün gönderilecek";
     break;
 
   default:
-    message = "Вам перезвонит менеджер";
+    message = "Bir yönetici sizi geri arayacak";
 }
 
 console.log(message);

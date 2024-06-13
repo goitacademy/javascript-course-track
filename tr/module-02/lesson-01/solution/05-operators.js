@@ -1,10 +1,10 @@
 /**
- * Логічні оператори
+ * Mantıksal operatörler
  *
- * - Перетворення типів: логічне
- * - Оператор &&
- * - Оператор ||
- * - Оператор !
+ * - Tip dönüştürme: mantıksal
+ * - && operatörü
+ * - Operatör ||
+ * - Operatör !
  */
 
 console.log(Boolean(true)); // true

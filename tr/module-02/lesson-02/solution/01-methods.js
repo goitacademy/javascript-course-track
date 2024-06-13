@@ -1,5 +1,5 @@
 /**
- * Методи рядків
+ * Dize metodları
  *
  *  - slice
  *  - toLowerCase/toUpperCase

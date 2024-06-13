@@ -1,24 +1,24 @@
-# План заняття
+# Ders planı
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve soruları tartışalım.
 
-2. Розберемо методи рядків (практика 01-methods.js)
-- Метод slice
-- Метод toLowerCase/toUpperCase
-- Метод includes
-- Метод startsWith/endsWith
-- Метод indexOf
-- Метод trim
+2. Dize yöntemlerini analiz edelim (pratik 01-methods.js)
+- slice yöntemi
+- toLowerCase/toUpperCase yöntemi
+- includes yöntemi
+- startsWith/endsWith yöntemi
+- indexOf yöntemi
+- trim yöntemi
 
-3. Розв’яжемо декілька практичних завдань на розгалуження та використання методів рядків (практика 02-tasks.js)
+3. Şubeleme ve dize yöntemlerini kullanarak birkaç pratik görevi çözelim (pratik 02-tasks.js)
 
-4. Розглянемо цикли (практика **03-loops.js)**
-- Цикл while
-- Цикл do…while
-- Цикл for
-- Інкремент і декремент
-- Оператор break і функції
+4. Döngüleri göz önünde bulunduralım (pratik **03-loops.js)**
+- while döngüsü
+- Do...while döngüsü
+- for döngüsü
+- Artırma ve azaltma
+- Break ifadesi ve fonksiyonlar
 
-5. Розв’яжемо декілька практичних завдань (практика 04-tasks.js)
+5. Birkaç pratik görevi çözelim (pratik 04-tasks.js)
 
-6. А що робити в ДЗ? У домашньому завданні на вас чекають 4 невеликі задачі на застосування розгалужень і циклів! ДЗ виконуємо у редакторі коду VS Code
+6. Ödevde neler yapılacak? Ödevde, şubeleme ve döngüler uygulamak için 4 küçük göreviniz olacak! Görevi VS Code düzenleyicisinde yapınız.

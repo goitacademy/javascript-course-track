@@ -1,12 +1,12 @@
 /**
- * Цикли
+ * Döngüler
  *
- * - Цикл for
- * - Відлік від 0 до N
- * - Обратний відлік від N до 0
- * - Збільшення/зменшення лічильника на 2+
- * - Інкремент і декремент
- * - Цикли while і do...while
+ * For döngüsü
+ * - 0'dan N'ye kadar sayın
+ * - N'den 0'a geri sayım
+ * - Sayacı 2+ artırır/azaltır
+ * - Artırma ve azaltma
+ * - While ve do...while döngüleri
  */
 
 console.log("Before");

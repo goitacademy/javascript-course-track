@@ -1,22 +1,22 @@
-# План заняття
+# Ders planı
 
-1. Пограємо в Kahoot
+1. Kahoot oynayalım.
 
-2. Познайомимось з розгалуженнями (практика 01-arrays.js)
-- Інструкція if
-- Інструкція if...else,
-- Блок else...if
-- Тернарний оператор (практика 01-branching.js)
-- Блокова область видимості (практика *02-scope.js)
-- Практичні завдання (практика 03-tasks.js)
-- Оператор switch (практика 04-switch.js)
+2. Şubelendirme ile tanışalım (pratik 01-arrays.js)
+- if ifadesi
+- if...else ifadesi,
+- else...if bloğu
+- Üçlü işlem operatörü (pratik 01-branching.js)
+- Blok kapsamı (pratik *02-scope.js)
+- Pratik görevler (pratik 03-tasks.js)
+- Switch ifadesi (pratik 04-switch.js)
 
-3. Розберемо логічні оператори (практика 05-operators.js)
-- Перетворення типів: логічне
-- Оператор &&
-- Оператор ||
-- Оператор !
+3. Mantıksal operatörleri analiz edelim (pratik 05-operat)
+- Tip dönüşümü: mantıksal
+- Operatör &&
+- Operatör ||
+- Operatör !
 
-4. Розв’яжемо декілька практичних завдань (практика 06-tasks.js)
+4. Bazı pratik görevleri çözelim (pratik 06-tasks.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про методи рядків і цикли
+5. **Sonraki derste** sizleri neler bekliyor? Dize metodları ve döngüler hakkında konuşacağız.

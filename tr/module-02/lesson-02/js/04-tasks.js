@@ -1,15 +1,15 @@
 /**
- * Напиши цикл for, який виводить у консоль браузера
- * числа за зростанням від a до b, але тільки якщо число кратне 5.
+ * Tarayıcı konsoluna yazdıran bir for döngüsü yazın
+ * a'dan b'ye doğru artan sırada sayılar, ancak yalnızca sayı 5'in katı ise.
  */
 
 const a = 100;
 const b = 20;
 
 /*
- * Напиши скрипт, який підраховує суму всіх парних чисел,
- * які входять в діапазон чисел у змінних від min до max.
- * Наприклад, якщо min=0 и max=5, то діапазон 0-5, і в ньому два парних числа - 2 і 4, їх сума 6.
+ * Tüm çift sayıların toplamını hesaplayan bir kod yazın,
+ * min'den max'a kadar olan değişkenlerdeki sayı aralığında olan sayılar.
+ * Örneğin, min = 0 ve max = 5 ise, aralık 0-5'tir ve içinde iki çift sayı vardır - 2 ve 4, toplamları 6'dır.
  */
 
 const min = 0;

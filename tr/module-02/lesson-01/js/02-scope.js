@@ -1,5 +1,5 @@
 /*
- * Блокова область видимості змінних
+ * Değişkenlerin Blok Kapsamı
  */
 
 const c = 15;
