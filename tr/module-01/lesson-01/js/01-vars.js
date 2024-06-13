@@ -1,10 +1,10 @@
 /**
- * Змінні та типи даних
+ * Değişkenler ve veri tipleri
  *
- * - Оголошення змінних з let и const
- * - Перевизначення значення
- * - Найменування змінних
- * - Вибір між const і let
- * - Числа, рядки, булі, null, undefined
- * - Оператор typeof
+ * - Değişkenlerin let ve const ile tanımlanması
+ * - Değerin yeniden atanması
+ * - Değişken isimlendirme
+ * - const ve let arasında seçim yapma
+ * - Sayılar, stringler, booleanlar, null, undefined
+ * - typeof operatörü
  */

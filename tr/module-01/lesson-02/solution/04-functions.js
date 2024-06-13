@@ -1,9 +1,9 @@
 /*
- * Функции
+ * Özellikler
  *
- * - Оголошення та виклик функції
- * - Параметри та аргументи
- * - Повернення значення
+ * - Bir fonksiyon bildirme ve çağırma
+ * - Parametreler ve argümanlar
+ * - Bir değer döndürme
  */
 
 function add(x, y) {
@@ -22,15 +22,15 @@ const r3 = add(30, 50);
 console.log("r3: ", r3);
 
 /**
- * Напиши функцію calcBMI(weight, height) яка розраховує та повертає індекс
- * маси тіла людини. Для цього необхідно розділити вагу на
- * квадрат висоти.
+ * İndeksi hesaplayan ve döndüren bir calcBMI(ağırlık, boy) işlevi yazın
+ * Bir kişinin vücut kütlesinin. Bunu yapmak için, ağırlığı
+ * yüksekliğin karesi.
  *
- * Вага та висота будуть спеціально передані як рядки. Не цілі числа можуть
- * бути задані у вигляді 24.7 або 24,7, тобто як роздільник дробової
- * частини може бути кома.
+ * Ağırlık ve boy bilerek string olarak aktarılacaktır. Tamsayı olmayan sayılar
+ * 24.7 veya 24.7 şeklinde, yani kesirli sayıların ayırıcısı olarak verilebilir.
+ * kısmı virgül olabilir.
  *
- * Індекс маси тіла необхідно округлити до однієї цифри після коми.
+ * Vücut kitle indeksi bir ondalık basamağa yuvarlanmalıdır.
  */
 
 function calcBMI(weight, height) {}

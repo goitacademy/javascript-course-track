@@ -1,9 +1,9 @@
 /**
- * Типові помилки
+ * Tipik hatalar
  *
- * - Звернення до змінної до її оголошення
- * - Перевизначення значення для змінної оголошеної через const
- * - Обращение по неправильному імени змінної
+ * - Değişkenin tanımlanmasından önce ona erişim
+ * - const ile tanımlanan değişkenin değerini yeniden atama
+ * - Yanlış değişken adına erişim
  *
  */
 

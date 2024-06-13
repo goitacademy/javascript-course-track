@@ -1,7 +1,7 @@
 /**
- * Арифметичні операції
- * - Оператори +, -, *, /, %, **
- * - Комбіновані оператори
+ * Aritmetik işlemler
+ * - +, -, *, /, %, ** operatörleri
+ * - Kombine operatörler
  */
 
 const a = 10;
@@ -14,7 +14,7 @@ console.log(x % y);
 console.log(x ** y);
 
 /**
- * Виведи на екран загальну кількість яблук та винограду. Різницю яблук та винограду.
+ * Elma ve üzüm toplam sayısını yazdırın. Elmalar ile üzümler arasındaki farkı bulun.
  */
 
 const apples = 47;
@@ -27,7 +27,7 @@ const diff = apples - grapes;
 console.log(diff);
 
 /**
- * Заміни вираз перевизначення комбінованим оператором
+ * Bir üzerine yazma ifadesini birleşik bir operatörle değiştirme
  */
 
 let students = 100;
@@ -35,7 +35,7 @@ students += 50;
 console.log(students);
 
 /**
- * Розбери пріоритет операторів в інструкції привласнення значення змінної result
+ * Operatörlerin bir değeri result değişkenine atama ifadesindeki önceliğini analiz edin
  */
 
 const result = 108 + 223 - 2 * 5;

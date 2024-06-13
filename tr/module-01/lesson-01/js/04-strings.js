@@ -1,11 +1,11 @@
 /**
- * Рядки
+ * Dize
  *
- * - Конкатенація рядків
- * - Шаблонні рядки
- * - Довжина рядка
- * - Індексація елементів
- * - Незмінність рядків
+ * - Dize birleştirme
+ * - Şablon dizgileri
+ * - Dize uzunluğu
+ * - Elemanların dizinlenmesi
+ * - Dize değişmezliği
  */
 
 const firstName = "Chelsy";
@@ -20,8 +20,8 @@ const message = "This string is 28 chars long";
 // console.log(message);
 
 /**
- * Склади фразу за допомогою шаблонних рядків
- * A has B bots in stock, де A, B - змінні вставлені в рядок.
+ * Şablon dizeleri kullanarak cümleyi oluştur
+ * A has B bots in stock, burada A, B - cümleye yerleştirilmiş değişkenlerdir.
  */
 const companyName = "Cyberdyne Systems";
 const repairBots = 150;

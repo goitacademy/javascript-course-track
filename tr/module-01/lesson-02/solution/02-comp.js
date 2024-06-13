@@ -1,9 +1,9 @@
 /**
- * Оператори
+ * Operatörler
  *
- * - Оператори порівняння
- * - Оператори рівності
- * - Приведение типов операндов
+ * - Karşılaştırma operatörleri
+ * - Eşitlik operatörleri
+ * - Operan türlerinin dönüşümü
  */
 
 console.log(5 > 4);

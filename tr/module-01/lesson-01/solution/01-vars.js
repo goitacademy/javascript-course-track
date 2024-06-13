@@ -1,12 +1,12 @@
 /**
- * Змінні та типи даних
+ * Değişkenler ve veri tipleri
  *
- * - Оголошення змінних з let и const
- * - Перевизначення значення
- * - Найменування змінних
- * - Вибір між const і let
- * - Числа, рядки, булі, null, undefined
- * - Оператор typeof
+ * - let ve const ile değişken tanımlama
+ * - Bir değeri geçersiz kılma
+ * - Değişken isimlendirme
+ * - const ve let arasında seçim yapma
+ * - Sayılar, dizeler, boole, null, undefined
+ * - typeof operatörü
  */
 
 const age = 10;

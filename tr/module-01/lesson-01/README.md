@@ -1,26 +1,29 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot 
+1. Kahoot'ta oynayalım
 
-2. Познайомимось з мовою програмування **JavaScript**
-- Базова термінологія: що таке інструкція, вираз, літерал тощо
-- Як підключити скрипт до сторінки
-- Запуск із LiveServer
-- Виведення даних у консоль
-  
-3. Розберемо **змінні та типи даних**
-- Оголошення змінних з `const` і `let`, (практика в 01-vars.js)
-- Типи даних
-- Оператор typeof (практика 01-vars.js)
-- Типові помилки (практика 02-errors.js)
-- Арифметичні операції (03-operators.js)
+2. **JavaScript** programlama diliyle tanışalım
 
-4. Рядки
-- Конкатенація рядків
-- Шаблонні рядки
-- Довжина рядка
-- Індексація (практика 04-strings.js)
-- Перетворення типів (практика 05-coercion.js)
+- Temel terimler: talimat, ifade, literal ve benzeri şeyler nedir
+- Sayfaya betik nasıl bağlanır
+- LiveServer ile Başlatma
+- Veri çıktısı konsola yazdırma
 
-5. Що на вас чекатиме на **наступному занятті**? 
-Ми поговоримо про функції та потренуємося використовувати функції для нескладних обчислень
+3. **Değişkenler ve veri tipleri** incelenecek
+
+- `const` ve `let` ile değişkenlerin tanımlanması (pratik 01-vars.js)
+- Veri Türleri
+- Typeof operatörü (pratik 01-vars.js)
+- Tipik hatalar (pratik 02-errors.js)
+- Aritmetik İşlemler (03-operators.js)
+
+4. Satırlar
+
+- Dize birleştirme
+- Standart dizeçekleri
+- Satır uzunluğu
+- İndeksleme (pratik 04-strings.js)
+- Veri Türü Dönüşümü (pratik 05-coercion.js)
+
+5. **Bir sonraki ders** sizi neler bekliyor olacak?
+   Fonksiyonları konuşacağız ve basit hesaplamalar için fonksiyonları nasıl kullanacağımızı uygulayacağız
