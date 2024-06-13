@@ -1,33 +1,33 @@
-# План заняття
+# Ders planı
 
-1. Пограємо в Kahoot
+1. Kahoot oynayalım
 
-2. Познайомимось з масивами (практика 01-arrays.js)
+2. Dizilerle tanışalım (alıştırma 01-arrays.js)
 
-- Створення масиву
-- Доступ до елементів
-- Перевизначення значення елемента
-- Довжина масиву
-- Індекс останнього елемента
-- Присвоєння за посиланням і за значенням (практика 02-refs.js)
+- Dizi oluşturma
+- Öğelere erişim
+- Bir öğenin değerini geçersiz kılma
+- Dizi uzunluğu
+- Son öğenin dizini
+- Referansa ve değere göre atama ( alıştırma 02-refs.js)
 
-3. Розберемо методи масивів (практика 03-methods.js)
+3. Dizi yöntemlerini analiz edelim (alıştırma 03-methods.js)
 
-- Метод `join`
-- Метод `split`
-- Метод `slice`
-- Метод `concat`
-- Метод `indexOf`
-- Метод `push`
+- `join` yöntemi
+- `split` yöntemi
+- `slice` yöntemi
+- `concat` yöntemi
+- `indexOf` yöntemi
+- `push` yöntemi
 
-4. Розглянемо як виконувати ітерацію по масиву
+4. Bir dizi üzerinde nasıl yineleme yapacağınızı düşünün
 
-- Ітерація по масиву циклом `for`
-- Метод `includes`
-- Цикл `for...of`
-- Різницф у використанні `for` і `for...of`
+- Bir diziyi `for` döngüsü ile yineleme
+- `includes` yöntemi
+- `for...of` döngüsü
+- `for` ve `for...of` kullanımındaki farklar
 
-5. Розв’яжемо декілька практичних завдань (практика 03-methods.js)
+5. Birkaç pratik sorunu çözelim (alıştırma 03-methods.js)
 
-6. Що на вас чекатиме на наступному занятті?
-   Ми поговоримо можливості роботи з функціями та різницю між глобальною та блоковою областями видимості
+6. Bir sonraki derste sizi neler bekliyor?
+   Fonksiyonlarla çalışma olanaklarını ve global ve blok kapsamları arasındaki farkı tartışacağız

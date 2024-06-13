@@ -1,9 +1,9 @@
 /**
- * Напиши скрипт, який для об'єкта user, послідовно:
- * - додає поле mood зі значенням 'happy'
- * - замінює значення hobby на 'skydiving'
- * - замінює значення premium на false
- * - виводить вміст об'єкта user у форматі ключ:значення використовуючи Object.keys() та for...of
+ * user nesnesi için sıralı bir komut dosyası yazın:
+ * - 'happy' değerine sahip bir ruh hali alanı ekle
+ * - hobinin değerini 'skydiving' ile değiştir'
+ * - premium değerini false ile değiştir
+ * - kullanıcı nesnesinin içeriğini Object.keys() ve for...of kullanarak anahtar:değer biçiminde çıktı al
  */
 
 const user = {
@@ -14,9 +14,9 @@ const user = {
 };
 
 /**
- * У нас є об'єкт, де зберігаються зарплати нашої команди. Напишіть код для
- * підсумовування всіх зарплат і збережіть результат у змінній sum.
- * Повинно вийти 390. Якщо об'єкт salaries порожній, то результат має бути 0.
+ * Ekibimizin maaşlarının saklandığı bir merkezimiz var. Tüm maaşları toplamak ve 
+ * sonucu sum değişkenine kaydetmek için bir kod yazın.
+ * Sonuç 390 olmalıdır. salaries nesnesi boşsa, sonuç 0 olmalıdır.
  */
 const salaries = {
   John: 100,

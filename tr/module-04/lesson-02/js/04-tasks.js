@@ -1,6 +1,6 @@
 /*
- * Типів транзакцій всього два.
- * Можна покласти чи зняти гроші з рахунку.
+ * Yalnızca iki tür işlem vardır.
+ * Hesabınıza para yatırabilir veya hesabınızdan para çekebilirsiniz.
  */
 const Transaction = {
   DEPOSIT: "deposit",
@@ -8,54 +8,54 @@ const Transaction = {
 };
 
 /*
- * Кожна транзакція це об'єкт із властивостями: id, type та amount
+ * Her işlem, özellikleri olan bir nesnedir: id, type ve amount
  */
 
 const account = {
-  // Поточний баланс рахунку
+  // Güncel hesap bakiyesi
   balance: 0,
 
-  // Історія транзакцій
+  // İşlem geçmişi
   transactions: [],
 
   /*
-   * Метод створює та повертає об'єкт транзакції.
-   * Приймає суму та тип транзакції.
+   * Yöntem bir işlem nesnesi oluşturur ve döndürür.
+   * İşlem tutarını ve türünü kabul eder.
    */
   createTransaction(amount, type) {},
 
   /*
-   * Метод, що відповідає за додавання суми до балансу.
-   * Приймає суму транзакції.
-   * Викликає createTransaction для створення об'єкта транзакції
-   * після чого додає його до історії транзакцій
+   * Tutarın bakiyeye eklenmesinden sorumlu yöntem.
+   * İşlem tutarını kabul eder.
+   * Bir işlem nesnesi oluşturmak için createTransaction öğesini çağırır
+   * ve ardından bunu işlem geçmişine ekler
    */
   deposit(amount) {},
 
   /*
-   * Метод, що відповідає за зняття суми з балансу.
-   * Приймає суму транзакції.
-   * Викликає createTransaction для створення об'єкта транзакції
-   * після чого додає його до історії транзакцій.
+   * Tutarın bakiyeden çıkarılmasından sorumlu yöntem.
+   * İşlem tutarını kabul eder.
+   * Bir işlem nesnesi oluşturmak için createTransaction öğesini çağırır
+   * ve ardından bunu işlem geçmişine ekler.
    *
-   * Якщо amount більше ніж поточний баланс, виводь повідомлення
-   * про те, що зняття такої суми не можливе, недостатньо коштів.
+   * Tutar mevcut bakiyeden büyükse, 
+   * para çekme işleminin mümkün olmadığını,
+   * yetersiz bakiye olduğunu belirten bir mesaj görüntüler.
    */
   withdraw(amount) {},
 
   /*
-   * Метод повертає поточний баланс
+   * Yöntem geçerli bakiyeyi döndürür
    */
   getBalance() {},
 
   /*
-   * Метод шукає та повертає об'єкт транзакції по id
+   * Yöntem, bir işlem nesnesini id’sine göre arar ve döndürür
    */
   getTransactionDetails(id) {},
 
   /*
-   * Метод повертає кількість коштів
-   * певного типу транзакції з усієї історії транзакцій
+   * Yöntem, tüm işlem geçmişinden belirli bir işlem türüne ait para miktarını döndürür
    */
   getTransactionTotal(type) {},
 };

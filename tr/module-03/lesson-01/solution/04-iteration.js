@@ -1,10 +1,10 @@
 /**
- * Ітерація по масиву
+ * Bir dizi üzerinde yineleme
  *
- * - Ітерація по масиву циклом for
- * - Метод includes
- * - Цикл for...of
- * - Різниця у використанні for и for...of
+ * - for döngüsü ile bir dizi içinde yineleme
+ * - includes yöntemi
+ * - for...of döngüsü
+ * - for ve for...of kullanımındaki fark
  */
 
 const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
@@ -22,18 +22,18 @@ for (let friend of friends) {
 }
 
 /**
- * Напиши скрипт для обчислення площі прямокутника зі сторонами,
- * значення яких зберігаються у змінній values у вигляді рядка.
- * Значення гарантовано розділені пробілом.
+ * Değerleri values değişkeninde bir dize olarak saklanan,
+ * kenarları olan bir dikdörtgenin alanını hesaplamak için bir kod yazın.
+ * Değerlerin bir boşlukla ayrılması garanti edilmelidir.
  */
 
 const values = "8 11";
 
 /**
- * Напиши скрипт для перебору масиву fruits.
- * Для кожного елемента масиву виведи в консоль рядок
- * у форматі номер_елемента: значення_елемента.
- * Нумерація елементів повинна починатися з 1.
+ * fruits dizisini yinelemek için bir kod yazın.
+ * Dizinin her elemanı için konsola
+ * eleman_sayısı: eleman_değeri biçiminde bir dize yazdırın.
+ * Elemanların numaralandırması 1 ile başlamalıdır.
  */
 
 const fruits = ["🍎", "🍇", "🍑", "🍌", "🍋"];

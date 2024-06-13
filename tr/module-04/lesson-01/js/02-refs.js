@@ -1,8 +1,8 @@
 /**
- * Об'єкти
+ * Nesneler
  *
- * - Тип даних за посиланням
- * - Масиви і функції - це об'єкти
+ * - Referansa göre veri türü
+ * - Diziler ve fonksiyonlar - birer nesnedir
  */
 
 /**

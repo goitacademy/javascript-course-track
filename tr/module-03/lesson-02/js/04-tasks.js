@@ -1,11 +1,11 @@
 /**
- * Напиши функцію logItems(items), яка отримує масив та використовує цикл,
- * який для кожного елемента масиву буде виводити в консоль повідомлення у
- * форматі <номер елемента> - <значення елемента>. Нумерація елементів
- * повинна починатися з 1.
+ * Bir dizi alan ve dizideki her öğe için konsola <öğe numarası> - <öğe değeri>
+ * biçiminde bir mesaj görüntüleyecek bir döngü kullanan bir 
+ * logItems(items) işlevi yazın. Eleman numaralandırması 1 ile başlamalıdır.
  *
- * Наприклад для першого елемента масиву ['Mango', 'Poly', 'Ajax'] з
- * індексом 0 буде виведено 1 - Mango, а для індексу 2 виведе 3 - Ajax.
+ * Örneğin, ['Mango', 'Poly', 'Ajax'] dizisinin 0 indeksli
+ * ilk elemanı için 1 - Mango görüntülenecek 
+ * ve 2 indeksi için 3 - Ajax görüntülenecektir.
  */
 
 function logItems(items) {}
@@ -14,12 +14,11 @@ logItems(["Mango", "Poly", "Ajax"]);
 logItems(["🍎", "🍇", "🍑", "🍌", "🍋"]);
 
 /**
- * Напиши функцію printInfo(names, phones) яка виводить
- * у консоль ім'я та телефонний номер користувача. У параметри
- * names та phones будуть передані рядки імен та телефонних номерів,
- * розділені комами. Порядковий номер імен та телефонів у рядках
- * вказують на відповідність. Кількість імен та телефонів
- * гарантовано однакова.
+ * Şunları yazdıran bir printInfo(names, phones) işlevi yazın 
+ * kullanıcının adını ve telefon numarasını konsola gönderir. 
+ * names ve phones parametrelerine virgülle ayrılmış bir dizi isim ve telefon numarası aktarılır. 
+ * Satırlardaki isim ve telefon numaralarının sıra numarası eşleşmeyi gösterir. 
+ * İsimlerin ve telefon numaralarının sayısının aynı olması garanti edilir.
  */
 
 function printInfo(names, phones) {}
@@ -30,9 +29,9 @@ printInfo(
 );
 
 /**
- * Напиши функцію formatTime(minutes) яка переведе значення
- * minutes (кількість хвилин) у рядок у форматі годин
- * та хвилин HH:MM.
+ * Dakika değerini saat ve dakika HH:MM biçiminde
+ * bir dizeye dönüştüren 
+ * formatTime(minutes) işlevini yazın.
  */
 
 const hours = Math.floor(totalMinutes / 60);

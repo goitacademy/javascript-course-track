@@ -1,12 +1,12 @@
 /**
- * Масиви
+ * Diziler
  *
- * - Створення масиву
- * - Доступ до елементів
- * - Перевизначення значення елемента
- * - Довжина масиву
- * - Індекс останнього елемента
- * - Перевизначення
+ * - Dizi oluşturma
+ * - Unsurlara erişim
+ * - Bir öğenin değerini geçersiz kılma
+ * - Dizinin uzunluğu
+ * - Son öğenin dizini
+ * - Geçersiz kılmalar
  */
 
 const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];

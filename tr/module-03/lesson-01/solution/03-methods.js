@@ -1,5 +1,5 @@
 /**
- * Методи масиву
+ * Dizi yöntemleri
  *
  * - join
  * - split

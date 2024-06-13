@@ -1,13 +1,13 @@
 /**
- * Об'єкти
+ * Nesneler
  *
- * - Створення об'єкта
- * - Вкладені властивості
- * - Доступ до властивостей через крапку
- * - Доступ до вкладених властивостей
- * - Доступ до властивостей через квадратні дужки
- * - Зміна значення властивостей
- * - Додавання властивостей
+ * - Nesne oluşturma
+ * - İç içe geçmiş özellikler
+ * - Bir nokta aracılığıyla özelliklere erişim
+ * - İç içe geçmiş özelliklere erişim
+ * - Köşeli parantezler aracılığıyla özelliklere erişim
+ * - Bir özelliğin değerini değiştirme
+ * - Özellik ekleme
  */
 
 const playlist = {

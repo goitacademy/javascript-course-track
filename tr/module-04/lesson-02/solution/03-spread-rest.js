@@ -1,11 +1,11 @@
 /**
- * Синтаксис spread і rest
+ * spread ve rest sözdizimi
  *
- * - Залишкові параметри
- * - Збір частини аргументів
- * - Входження параметрів
- * - Створення масиву
- * - Створення об'єкта
+ * - Artık parametreler
+ * - Argümanların bir kısmının toplanması
+ * - Parametre oluşumu
+ * - Dizi oluşturma
+ * - Nesne oluşturma
  */
 
 const numbers = [
@@ -21,7 +21,7 @@ const numbers = [
 console.log(numbers);
 
 /**
- * Пошук найменшої аьо найбільшої температури (числа)
+ * En küçük veya en büyük sıcaklığı (sayı) bulma
  */
 const temps = [18, 14, 12, 21, 17, 29, 24];
 
@@ -30,7 +30,7 @@ console.log(Math.min(...temps));
 console.log(temps);
 
 /**
- * Створення масиву і тип за посиланням
+ * Referansa göre dizi ve tür oluşturma
  */
 const a = [{ x: 1 }, { y: 2 }, { z: 3 }];
 const b = [...a];
@@ -47,7 +47,7 @@ console.log("a: ", a);
 console.log("b: ", b);
 
 /*
- * Поєднуємо кілька масивів в один через spread
+ * spread kullanarak birkaç diziyi tek bir dizide birleştirme
  */
 const lastWeekTemps = [1, 2, 3];
 const currentTemps = [4, 5, 6];
@@ -57,7 +57,7 @@ const allTemps = [...lastWeekTemps, ...currentTemps, ...nextWeekTemps];
 console.log(allTemps);
 
 /*
- * Створення об'єкта
+ * Nesne oluşturma
  */
 const objA = { x: 1, y: 2 };
 const objB = { x: 0, z: 3 };
@@ -72,7 +72,7 @@ const objC = {
 console.log(objC);
 
 /**
- * Оновлюємо налаштування користувача
+ * Kullanıcı ayarlarını güncelleme
  */
 const defaultSettings = {
   theme: "light",

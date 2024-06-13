@@ -1,7 +1,7 @@
 /**
- * - Глобальна область видимості
- * - Блочна область видимості
- * - Пошук за ланцюжком областей видимості
+ * - Küresel kapsam
+ * - Bloklanmış görüş alanı
+ * - Kapsam zincirine göre arama
  */
 
 const globalValue = 10;
@@ -24,10 +24,10 @@ function foo() {
   }
 }
 
-// ❌ Помилка! Змінна a не доступна в цій області видимості
+// ❌ Hata! a değişkeni bu kapsamda mevcut değil
 console.log(a);
 
 for (let i = 0; i < 3; i += 1) {
-  // ❌ Помилка! Змінна a не доступна в цій області видимості
+  // ❌ Hata! a değişkeni bu kapsamda mevcut değil
   console.log(a);
 }

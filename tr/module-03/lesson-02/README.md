@@ -1,13 +1,13 @@
-# План заняття
+# Ders planı
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve konuları tartışalım
 
-2. Розберемо **функції**
+2. Şimdi **fonksiyonlara** bakalım
 
-- Псевдомасив arguments (практика 01-args.js)
-- Область видимості (практика 02-scope.js)
-- Стек викликів (практика **03-stack.js)**
+- arguments sözde dizisi (alıştırma 01-args.js)
+- Görünürlüğün kapsamı (alıştırma 02-scope.js)
+- Stack görevi (alıştırma **03-stack.js)**
 
-3. Виконаємо практичне завдання (практика **04-tasks.js)**
+3. Hadi uygulamalı bir görev yapalım (alıştırma **04-tasks.js)**
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на застосування функцій! ДЗ виконуємо у редакторі коду VS Code
+4. Ev ödevinde ne yapmalı? Ev ödevinde, fonksiyonları uygulamak için 3 küçük göreviniz olacak! Ödevi VS Code kod düzenleyicisinde gerçekleştiriyoruz

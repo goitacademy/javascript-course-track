@@ -1,8 +1,8 @@
 /**
- * Передача за посиланням і за значенням
+ * Referans ve değer ile aktarma
  *
- * Примітиви і складні типи
- * Посилальна рівність (referential equality)
+ * İlkel ve karmaşık türler
+ * Referans eşitliği
  */
 
 const a = [1, 2, 3];

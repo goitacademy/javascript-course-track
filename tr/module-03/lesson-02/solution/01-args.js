@@ -1,5 +1,5 @@
 /**
- * Псевдомасив arguments и Array.from
+ * Sözde dizi argümanları ve Array.from
  */
 
 function foo() {
@@ -13,8 +13,8 @@ fn(1, 2, 3, 4, 5);
 fn(1, 2, 3, 4, 5, 6, 7);
 
 /**
- * Напиши функцію add для складання довільної
- * кількості аргументів (чисел)
+ * Herhangi bir sayıda bağımsız değişkeni (sayılar) 
+ * toplamak için bir toplama işlevi yazın)
  */
 
 const add = function (arguments) {
@@ -32,9 +32,9 @@ console.log(add(1, 2, 3));
 console.log(add(1, 2, 4, 5, 6));
 
 /**
- * Напиши функцію calAverage() яка приймає довільну кількість
- * аргументів і повертає їхнє середнє значення. Усі аргументи
- * будуть лише числами.
+ * Herhangi bir sayıda argüman alan ve bunların ortalama değerini 
+ * döndüren bir calAverage() fonksiyonu yazın. 
+ * Tüm argümanlar sadece sayı olacaktır.
  */
 function calAverage() {}
 

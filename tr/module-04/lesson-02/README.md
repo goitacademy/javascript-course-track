@@ -1,25 +1,25 @@
-# План заняття
+# Ders planı
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve konuları tartışalım
 
-2. Розберемо **масив об’єктів** (практика 01-array.js)
+2. Şimdi **nesne dizisini** analiz edelim (alıştırma 01-array.js)
 
-- Пошук за значенням властивості
-- Колекція значень властивості
+- Özellik değerine göre arama
+- Özellik değerlerinin toplanması
 
-3. Обговоримо методи об'єкта (практика 02-methods.js)
+3. Şimdi nesnenin yöntemlerini tartışalım (alıştırma 02-methods.js)
 
-- Доступ до властивостей об'єкта
-- Зміна за посиланням
+- Nesne özelliklerine erişim
+- Linki takip ederek değiştirin
 
-4. Розглянемо синтаксис `spread` і `rest` (практика 03-spread-rest.js)
+4. `spread` ve `rest` sözdizimini göz önünde bulundurun (alıştırma 03-spread-rest.js)
 
-- Залишкові параметри
-- Збір частини аргументів
-- Входження параметрів
-- Створення масиву і об'єктів
-- Остаточные аргументы с rest
+- Artık parametreler
+- Argümanların bir kısmının toplanması
+- Parametre girişi
+- Dizi ve nesne oluşturma
+- rest ile kalan argümanlar
 
-5. Розв’яжемо декілька практичних завдань (практика **04-tasks.js)**
+5. Birkaç alıştımra sorunu çözelim (alıştırma **04-tasks.js)**
 
-6. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на застосування об'єктів! ДЗ виконуємо у редакторі коду VS Code
+6. Ve ev ödevlerinde ne yapmalı? У Ev ödeviniz için nesneleri uygulayacağınız 3 küçük görev var!Ödevimizi VS Code kod düzenleyicisinde yapıyoruz

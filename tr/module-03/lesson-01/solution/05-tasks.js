@@ -1,5 +1,5 @@
 /**
- * Напиши скрипт, який підраховує суму всіх парних чисел у масиві.
+ * Bir dizideki tüm çift sayıların toplamını hesaplayan bir kod yazın.
  */
 
 const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
@@ -18,27 +18,26 @@ for (const number of numbers) {
 console.log("Total: ", total);
 
 /**
- * Напиши скрипт, який виводить у консоль ім'я та телефонний номер користувача.
- * У змінних names та phones зберігаються рядки імен та телефонних номерів,
- * розділені комами. Порядковий номер імен та телефонів у рядках вказують на
- * відповідність. Кількість імен та телефонів гарантовано однакова.
+ * Konsolda kullanıcının adını ve telefon numarasını görüntüleyen bir kod yazın.
+ * names ve phones değişkenleri virgülle ayrılmış isim ve telefon numarası dizelerini saklar. 
+ * Dizelerdeki adların ve telefon numaralarının sıra numarası bir eşleşmeyi gösterir.
+ * İsimlerin ve telefon numaralarının sayısının aynı olması garanti edilir.
  */
 
 const names = "Jacob,William,Solomon,Artemis";
 const phones = "89001234567,89001112233,890055566377,890055566300";
 
 /**
- * Напиши скрипт, який виводить у консоль усі слова рядка
- * крім першого і останнього. Результуючий рядок не повинен починатися
- * або закінчуватися символ пробілу.
- * Скрипт повинен працювати для будь-якого рядка.
+ * Bir dizenin ilk ve son sözcükleri hariç tüm sözcüklerini konsola yazdıran bir kod yazın. 
+ * Ortaya çıkan dize bir boşluk karakteriyle başlamamalı veya bitmemelidir.
+ * Komut dosyası herhangi bir dize için çalışmalıdır.
  */
 
 const string = "Welcome to the future";
 
 /**
- * Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати
- * для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
+ * Bir dizideki en küçük sayıyı bulmak için bir kod yazın. 
+ * Kod herhangi bir sayı dizisi için çalışmalıdır. Problemi çözmek için bir döngü kullanın.
  */
 
 const values = [2, 17, 94, 1, 23, 37];

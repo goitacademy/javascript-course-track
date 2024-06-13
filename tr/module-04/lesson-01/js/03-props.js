@@ -1,8 +1,8 @@
 /**
- * Об'єкти
+ * Nesneler
  *
- * - Короткі властивості
- * - Обчислювальні властивості
+ * - Kısa özellikler
+ * - Hesaplama özellikleri
  */
 
 const username = "Mango";

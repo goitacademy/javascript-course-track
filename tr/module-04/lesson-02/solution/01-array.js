@@ -1,9 +1,9 @@
 /**
- * Масив об'єктів
+ *  Nesne dizisi
  *
- * - Перебор масива
- * - Пошук об'єкта за значенням властивості
- * - Колекція значень властивості
+ * - Dizi aşımı
+ * - Nesneyi özellik değerine göre arama
+ * - Özellik değerlerinin toplanması
  */
 
 const friends = [
@@ -16,7 +16,7 @@ const friends = [
 console.table(friends);
 
 /**
- * Пошук друга за іменем
+ * İsme göre arkadaş bulma
  */
 function findFriendByName(allFriends, friendName) {
   for (const friend of allFriends) {
@@ -36,7 +36,7 @@ console.log(findFriendByName(friends, "Poly"));
 console.log(findFriendByName(friends, "Chelsy"));
 
 /**
- * Отримуємо імена всіх лрузів
+ * Tüm kullanıcıların isimlerini alıyoruz
  */
 function getAllNames(allFriends) {
   const names = [];
@@ -52,7 +52,7 @@ function getAllNames(allFriends) {
 console.log(getAllNames(friends));
 
 /**
- * Отримуємо імена тільки тих друзів, які зараз онлайн
+ * Sadece çevrimiçi olan arkadaşlarımızın isimlerini alıyoruz
  */
 function getOnlineFriends(allFriends) {
   const onlineFriends = [];
@@ -72,10 +72,9 @@ function getOnlineFriends(allFriends) {
 console.log(getOnlineFriends(friends));
 
 /**
- * Напишіть функцію calcTotalPrice(stones, stoneName),
- * яка приймає масив об'єктів та рядок з назвою каменю.
- * Функція рахує і повертає загальну вартість каміння з
- * таким ім'ям, ціною та кількістю з об'єкта
+ * Bir nesne dizisi ve taşın adını içeren bir dize alan calcTotalPrice(stones, stoneName) 
+ * fonksiyonunu yazın. Fonksiyon, nesneden aşağıdaki ad, fiyat ve miktara 
+ * sahip taşların toplam maliyetini hesaplar ve döndürür
  */
 
 const stones = [

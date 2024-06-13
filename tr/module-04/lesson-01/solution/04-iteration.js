@@ -1,9 +1,9 @@
 /**
- * Перебір об'єкта
+ * Bir nesnenin aranması
  *
- * - Цикл for...in
- * - Метод Object.keys
- * - Метод Object.values
+ * - for...in döngüsü
+ * - Object.keys yöntemi
+ * - Object.values yöntemi
  */
 
 const feedback = {

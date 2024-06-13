@@ -1,9 +1,9 @@
 /**
- * Об'єкти
+ *  Nesneler
  *
- * - Методи об'єкта
- * - Доступ до властивостей об'єкта через this
- * - Зміна за посиланням
+ * - Nesne yöntemleri
+ * - Nesne özelliklerine this aracılığıyla erişim
+ * - Linki takip ederek değiştirin
  */
 
 const playlist = {
