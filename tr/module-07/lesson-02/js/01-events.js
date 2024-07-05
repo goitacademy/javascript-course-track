@@ -1,9 +1,8 @@
 /**
- * Подія сlick
+ * Click olayı
  *
- * Натискаючи на кнопку "Click me" змусь
- * червоний квадратик зміщуватись на 50px по діагоналі
+ * "Click me" düğmesine tıkladığınızda
+ * kırmızı kareyi 50px çapraz hareket ettirmek için
  */
-
-const clickMe = document.querySelector(".js-click");
-const box = document.querySelector(".js-box");
+const clickMe = document.querySelector('.js-click');
+const box = document.querySelector('.js-box');

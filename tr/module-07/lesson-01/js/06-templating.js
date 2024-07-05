@@ -1,11 +1,8 @@
 /*
- * Властивість innerHTML
- * - зчитування
- * - запис
+ * innerHTML Özelliği
+ * - okuma
+ * - yazma
  */
-
-const titleEl = document.querySelector('.title');
-
-/*
- * Вставка розмітки за допомогою insertAdjacentHTML()
+const titleEl = document.querySelector('.title');    /*
+ * insertAdjacentHTML() yöntemi kullanarak işaretleme ekleme
  */

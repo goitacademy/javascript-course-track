@@ -1,8 +1,7 @@
 /*
- * Події миші
- * - mouseenter і mouseleave (це ховер)
- * - mouseover і mouseout
- * - mousemove (chatty event - балакуча подія)
+ * Fare Olayları
+ * - mouseenter ve mouseleave (bu hover)
+ * - mouseover ve mouseout
+ * - mousemove (çok konuşan olay - chatty event)
  */
-
-const boxRef = document.querySelector(".js-box");
+const boxRef = document.querySelector('.js-box');

@@ -1,13 +1,10 @@
 /**
- * Додавання прослуховувача подій на кожен елемент
- *
- * Отримай колір квадратика по якому було здійснено клік
+ * Her öğeye olay dinleyici eklemek
+ * 
+ * Tıklanan kareye göre rengi alın 
  */
-
-const container = document.querySelector(".container");
-
-/**
- * Дегегування подій
- *
- * Отримай колір квадратика по якому було здійснено клік
+const container = document.querySelector('.container');    /**
+ * Olayların işlenmesi
+ * 
+ * Tıklanan kareyi rengini al
  */

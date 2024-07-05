@@ -1,5 +1,5 @@
 /**
- * Синтаксис async/await
+ * Sözdizimi async/await
  * try...catch
  */
 

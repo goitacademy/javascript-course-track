@@ -1,22 +1,22 @@
 # js-22
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve konuları tartışalım
 
-2. Розберемо, що таке події
+2. Etkinliklerin ne olduğunu inceleyelim
 
-- Методи addEventListener(), removeEventListener()
-- Об'єкт події 01-events.js
-- Події клавіатури
-- Властивості key і code
-- Клавіші-модифікатори
-- [Список всіх доступних подій](https://developer.mozilla.org/en-US/docs/Web/Events)
+- addEventListener() ve removeEventListener() yöntemleri
+- 01-events.js etkinlik nesnesi
+- Klavye olayları
+- key ve code özellikleri
+- Modifikatör tuşları
+- [Tüm mevcut olayların listesi](https://developer.mozilla.org/en-US/docs/Web/Events)
 
-2. Розберемо на практиці роботу з подіями
+2. Uygulamada etkinliklerle çalışmayı inceleyelim
    02-input.js
    03-forms.js
    04-keyboard.js
    05-mouse.js
 
-3. Розв’яжемо більш просунуту практичну задачу 06-practice.js
+3. Daha gelişmiş bir pratik problemi çözeceğiz 06-practice.js
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекають 6 невеликих задач! ДЗ виконуємо у редакторі коду VS Code
+4. Peki ev ödevinde neler yapılacak? Ev ödevinizde sizi 6 küçük görev bekliyor! Ev ödevini VS Code kod düzenleyicisinde gerçekleştiriyoruz

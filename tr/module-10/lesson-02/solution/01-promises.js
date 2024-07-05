@@ -1,60 +1,43 @@
 /**
- * Створення та обробка промісу
- * - Клас Promise
+ * Promise oluşturma ve işleme alma
+ * - Promise Sınıfı
  * - resolve
  * - reject
  * - then, catch, finally
  */
-
 const promise = new Promise((resolve, reject) => {
   const canFulfill = Math.random() > 0.5;
-
   setTimeout(() => {
     if (canFulfill) {
-      resolve(
-        "Проміс виконався успішно, із результатом (виконаний, fulfilled)"
-      );
+      resolve('Test başarıyla tamamlandı ve sonuç (fulfilled)');
     }
-
-    reject("Проміс виконався з помилкою (відхилений, rejected)");
+    reject('Test bir hata ile reddedildi (rejected)');
   }, 1000);
 });
-
-promise
-  .then((result) => {
-    console.log(`✅ виконаний - ${result}`);
-  })
-  .catch((error) => {
-    console.log(`❌ відхилений - ${error}`);
-  })
-  .finally(() => {
-    console.log("Я буду виконаний у будь-якому випадку");
-  });
-
+promise.then(result => {
+  console.log(`✅ tamamlandı - ${ result }`);
+}).catch(error => {
+  console.log(`❌ reddedildi - ${ error }`);
+}).finally(() => {
+  console.log('Her durumda gerçekleştirilecektir');
+});
 /**
- * Ланцюги промісів
- * - декілька послідовних then
- * - then повертає проміс
+ * Karışıklığın zincirleri
+ * - birkaç ardışık then
+ * - then bir promise döndürür
  */
-
-promise
-  .then((result) => {
-    console.log(result);
-    return result;
-  })
-  .then((x) => {
-    console.log(x);
-    return 10;
-  })
-  .then((y) => {
-    console.log(y);
-  })
-  .then((z) => {
-    console.log(z);
-  })
-  .catch((error) => {
-    console.log(error);
-  })
-  .finally(() => {
-    console.log("Я буду виконаний у будь-якому випадку");
-  });
+promise.then(result => {
+  console.log(result);
+  return result;
+}).then(x => {
+  console.log(x);
+  return 10;
+}).then(y => {
+  console.log(y);
+}).then(z => {
+  console.log(z);
+}).catch(error => {
+  console.log(error);
+}).finally(() => {
+  console.log('Her durumda gerçekleştirilecektir');
+});

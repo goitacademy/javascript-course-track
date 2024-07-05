@@ -1,25 +1,26 @@
-# План занятия
+# Ders planı
 
-1. Пограємо в Kahoot
+1. Kahoot'ta oynayalım
 
-2. Обговоримо формат JSON
+2. JSON formatını tartışacağız
 
-- Стандарт JSON
-- Перетворення у JSON
-- Парсинг з JSON
-- Перетворення функцій
-- Обробка помилок
+- JSON standartı
+- JSON'a dönüştürme
+- JSON'dan ayrıştırma
+- Fonksiyonların dönüştürülmesi
+- Hata işleme
 
-3. Розберемо API Web Storage та локальне сховище (практика 01-localstorage.js)
+3. Web Depolama API'si ve yerel depolama (pratik 01-localstorage.js\*\*)\*\*
 
+- Сookie
 - Web Storage API
-- Інструменти розробника
-- Локальне сховище
-- Додавання даних
-- Додавання складних даних
-- Отримання і видалення даних
-- Сховище сесії
+- Geliştirici araçları
+- Yerel depolama
+- Veri ekleme
+- Karmaşık veri ekleme
+- Veri alma ve silme
+- Oturum deposu
 
-1. Розберемо практичні задачі практика 01-localstorage.js та 02-feedback.js
+4. Pratiklerin uygulanması 01-localstorage.js ve 02-feedback.js
 
-2. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про збирач проєкту на прикладі [Vite] та обговоримо модульність коду
+5. **Bir sonraki dersinizde** sizi neler bekliyor olacak? Proje toplayıcısı örneği olan [Vite] üzerinden proje toplayıcılarını ve kodun modüler yapısını tartışacağız

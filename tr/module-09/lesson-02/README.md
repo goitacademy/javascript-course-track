@@ -1,23 +1,25 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve konuları tartışalım
 
-2. Розберемо: 
-- Що таке збирач проекту на прикладі [Vite] (https://vitejs.dev/)
-- Пакетний менеджер npm
-- Використання Vite-збірки [vanilla-app-template](https://github.com/goitacademy/vanilla-app-template)
-  - Створюємо проект на базі збірки з README
-  - npm-скрипти
+2. Analiz edelim:
 
-3. Обговоримо:
-- Модульність коду
-- Експорти та імпорти
-- NPM пакети
-  - встановлення
-  - Видалення
-- ECMAScript модулі
-  - Дефолтний (default) експорт та імпорт
-  - Іменований (named) експорт та імпорт
-  - Імпорт простору імен (namespace)
+- [Vite] (https://vitejs.dev/) örneği üzerinden proje oluşturma işlemi nedir
+- npm paket yöneticisi
+- [vanilla-app-template](https://github.com/goitacademy/vanilla-app-template) ile Vite derlemesinin kullanımı
+  - README'deki derleme tabanlı bir proje oluşturma
+  - npm komut dosyaları
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекає 2 задачі: на створення галереї з використанням бібліотеки SimpleLightbox, і написання скрипта, який буде зберігати значення полів у локальне сховище.
+3. Tartışacağız:
+
+- Kodun modüler yapısı
+- İhraç ve ithalat
+- NPM paketleri
+  - Yükleme
+  - Kaldırma
+- ECMAScript modülleri
+  - Varsayılan (default) ihraç ve ithalat
+  - Adlandırılmış (named) ihraç ve ithalat
+  - İsim alanı içe aktarma (namespace)
+
+4. Peki ev ödevinde neler yapılacak? Evdeki ödevinizde, SimpleLightbox kütüphanesi kullanarak bir galeri oluşturma ve alan değerlerini yerel depolama alanına kaydeden bir betik yazma gibi 2 görev sizi bekliyor.

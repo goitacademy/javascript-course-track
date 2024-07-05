@@ -1,12 +1,12 @@
 /**
- * Класи
- *  - Оголошення класу
- *  - Конструктор класу
- *  - Методи класу
- *  - Прототип екземпляру
- *  - Приватні властивості
- *  - Геттери і сеттери
- *  - Статичні властивості
+ * Sınıflar
+ * - Sınıf bildirimi
+ * - Sınıf yapıcısı
+ * - Sınıf yöntemleri
+ * - Örnek prototipi
+ * - Özel özellikler
+ * - Getter ve setter'lar
+ * - Statik özellikler
  */
 
 class Car {

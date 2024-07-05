@@ -1,28 +1,23 @@
 /*
- * Типи подій: keypress, keydown, keyup
- * - Обмеження keypress
- * - Властивості key та code
+ * Olay türleri: keypress, keydown, keyup
+ * - Kısıtlamalar keypress
+ * - key ve code özellikleri
  */
-
-document.addEventListener("keydown", handleKeyPress);
-
+document.addEventListener('keydown', handleKeyPress);
 function handleKeyPress(evt) {
   console.log(evt.code);
-  if (evt.code === "Escape") {
-    console.log("😂");
+  if (evt.code === 'Escape') {
+    console.log('😂');
   } else {
-    console.log("😴");
+    console.log('😴');
   }
 }
-
 /**
- * Обробка комбінацій клавіш
+ * Tuş kombinasyonlarının işlenmesi
  */
-
-document.addEventListener("keydown", handleKeyCombo);
-
+document.addEventListener('keydown', handleKeyCombo);
 function handleKeyCombo(evt) {
-  if (evt.ctrlKey && evt.code === "KeyC") {
+  if (evt.ctrlKey && evt.code === 'KeyC') {
     evt.preventDefault();
   }
 }

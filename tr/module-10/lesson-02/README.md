@@ -1,18 +1,20 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot і обговоримо питання 
-2. Познайомимось з Promise (практика 01-promises.js)
-- Життєвий цикл Promise
+1. Kahoot oynayalım ve konuları tartışalım
+2. Promise'yi tanıyalım (pratik 01-promises.js)
+
+- Promise'ın yaşam döngüsü
 - Promise API
-    - Promise.prototype.then(result)
-    - Promise.prototype.catch(error)
-    - Promise.prototype.finally()
-- Ланцюжки промісів
+  - Promise.prototype.then(result)
+  - Promise.prototype.catch(error)
+  - Promise.prototype.finally()
+- Promise zincirleri
 
-3. Розберемо промісіфікацію функцій (практика 02-promisification.js)
-- Промісифікація функцій
-- Статичні методи Promise.all() та Promise.race()
+3. Fonksiyonların promise haline getirilmesini açıklayacağız (pratik 02-promisification.js)
 
-4. Розв’яжемо практичну задачу: ігровий автомат (практика 03-game.js)
+- Fonksiyonların promise haline getirilmesi
+- Promise.all() ve Promise.race() gibi statik yöntemler
 
-5. А що робити в ДЗ? У домашньому завданні на вас чекає 2 задачі: на створення таймера, який здійснює зворотний відлік до певної дати, та генератор промісів.
+4. Uygulamalı örneği çözeceğiz: oyun makinesi (pratik 03-game.js)
+
+5. Peki ev ödevinde neler yapılacak? Ev ödevinde, geri sayım yapan bir zamanlayıcı oluşturma ve promise üreteci sorularıyla karşılaşacaksınız.

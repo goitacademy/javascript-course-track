@@ -1,10 +1,10 @@
 /**
- * Класи
- *  - Оголошення класу
- *  - Конструктор класу
- *  - Методи класу
- *  - Прототип екземпляру
- *  - Приватні властивості
- *  - Геттери і сеттери
- *  - Статичні властивості
+ * Sınıflar
+ *  - Sınıfın bildirimi
+ *  - Sınıfın kurucusu
+ *  - Sınıfın yöntemleri
+ *  - Örnek prototipi
+ *  - Özel özellikler
+ *  - Get ve set metodları
+ *  - Statik özellikler
  */

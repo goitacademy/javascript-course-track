@@ -1,23 +1,19 @@
 /**
- * - Показуємо та ховаємо, додаючи/видаляючи клас is-visible
- * - Ховаємо через певний час
- * - Ховаємо при кліці
- * - Не забуваємо чистити таймер
+ * - Gösterirken ve gizlerken, is-visible sınıfını ekleyerek/kaldırarak
+ * - Belirli bir süre sonra gizliyoruz
+ * - Tıklama ile gizliyoruz
+ * - Zamanlayıcıyı temizlemeyi unutmuyoruz
  */
-
 const NOTIFICATION_DELAY = 3000;
 let timeoutId = null;
-const notification = document.querySelector(".js-alert");
-
+const notification = document.querySelector('.js-alert');
 /*
- * Функції
+ * Fonksiyonlar
  */
-function onNotificationClick() {}
-
-function showNotification() {
-  console.log(
-    "Закриваємо сповіщення автоматично, щоб воно не залишалося відкритим"
-  );
+function onNotificationClick() {
 }
-
-function hideNotification() {}
+function showNotification() {
+  console.log('Bildirimi otomatik olarak kapatıyoruz, böylece açık kalmaz');
+}
+function hideNotification() {
+}

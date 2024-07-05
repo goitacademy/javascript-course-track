@@ -1,20 +1,16 @@
 /**
- * Деструктуризуй об'єкт таким чином щоб отримати значення name, surname, username
+ * Objeyi name, surname, username değerlerini elde etmek için parçala.
  */
-
 const user = {
   id: 1,
-  username: "harry_potter",
+  username: 'harry_potter',
   profile: {
-    name: "Harry",
-    surname: "Potter",
-    age: 25,
-  },
-};
-
-// Деструктуризація об'єкта для отримання окремих змінних
-
-// Виведення отриманих значень
-// console.log(`Ім'я користувача: ${name}`);
-// console.log(`Прізвище користувача: ${surname}`);
-// console.log(`Ім'я користувача (за нікнеймом): ${username}`);
+    name: 'Harry',
+    surname: 'Potter',
+    age: 25
+  }
+};  // Nesne çözümleme, ayrı değişkenlere erişmek için
+    // Elde edilen değerlerin görüntülenmesi
+    // console.log(`Kullanıcı adı: ${name}`);
+    // console.log(`Soyadı: ${surname}`);
+    // console.log(`Kullanıcı adı (rumuz olarak): ${username}`);

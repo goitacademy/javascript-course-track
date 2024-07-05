@@ -1,20 +1,15 @@
-const STORAGE_KEY = "feedback-msg";
-
-const form = document.querySelector(".feedback-form");
-const textarea = form.querySelector("textarea");
-
-/*
- * - Скасовуємо стандартну поведінку
- * - Видаляємо повідомлення зі сховища
- * - Очищуємо форму
+const STORAGE_KEY = 'feedback-msg';
+const form = document.querySelector('.feedback-form');
+const textarea = form.querySelector('textarea');    /*
+ * - Standart davranışı iptal ediyoruz
+ * - Depodan mesajı siliyoruz
+ * - Formu temizliyoruz
  */
-
-/*
- * - Отримуємо значення поля
- * - Зберігаємо його у сховище
+                                                    /*
+ * - Alanın değerini alıyoruz
+ * - Değeri depoda saklıyoruz
  */
-
-/*
- * - Отримуємо значення зі сховища
- * - Якщо там щось було, оновлюємо DOM
+                                                    /*
+ * - Depodan değeri alıyoruz
+ * - Eğer bir değer varsa, DOM'u güncelliyoruz
  */

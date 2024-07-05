@@ -1,9 +1,9 @@
 /**
- * Наслідування класів
- *
- *  - extends
- *  - Конструктор дочірнього класу (super)
- *  - Методи дочірнього класу
+ * Sınıf Kalıtımı
+
+ * - extends
+ * - Alt sınıf yapıcısı (super)
+ * - Alt sınıf yöntemleri
  */
 
 class Hero {

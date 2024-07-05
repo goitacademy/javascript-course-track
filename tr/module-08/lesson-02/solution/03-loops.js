@@ -1,27 +1,23 @@
 /**
- * Деструктуризація об'єкта в циклі
+ * Bir nesneyi döngü içinde yok etme
  */
-
-const users = [{ name: "Kate" }, { name: "Alex" }, { name: "Mark" }];
-
-/**
- * Без деструктуризації
+const users = [
+    { name: 'Kate' },
+    { name: 'Alex' },
+    { name: 'Mark' }
+];    /**
+ * Yeniden yapılandırma olmadan
  */
-// const names = [];
-
-// for (const user of users) {
-//     names.push(user.name)
-// }
-
-// console.log(names);
-
-/**
- * З деструктуризацією
+      // const names = [];
+      // for (const user of users) {
+      //     names.push(user.name)
+      // }
+      // console.log(names);
+      /**
+ * Yeniden yapılandırma ile
  */
-// const names = [];
-
-// for (const { name } of users) {
-//     names.push()
-// }
-
-// console.log(names);
+      // const names = [];
+      // for (const { name } of users) {
+      //     names.push()
+      // }
+      // console.log(names);

@@ -1,26 +1,27 @@
-# План занятия
+# Ders planı
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Kahoot oynayalım ve konuları tartışalım
 
-2. Розберемо деструктурізацію об'єктів
-    - Навіщо потрібна деструктуризація?
-    - Деструктуризація об'єктів **01-basic.js**
-    - Деструктуризація неіснуючих властивостей
-    - Перейменування змінної
-    - Значення за замовчуванням
-    - Деструктуризація в циклах **03-loops.js**
-    - Деструктуризація параметрів **02-params.js**
-    - Патерн "об'єкт параметрів”
-    - Глибока деструктуризація
+2. Nesnelerin parçalara ayrılmasına bir göz atalım
+   - Neden parçalamaya ihtiyacınız var?
+   - **01-basic.js**'de Nesnelerin parçalanması
+   - Mevcut olmayan özelliklerin parçalanması
+   - Bir değişkenin yeniden adlandırılması
+   - Varsayılan değeri ayarlama
+   - **03-loops.js**'de Döngülerde parçalama
+   - **02-params.js**'de Parametrelerin parçalanması
+   - "parametre nesnesi" deseni
+   - Derin parçalama
 
-3. Обговоримо деструктурізація масивів
-- Синтаксис
-- Значення за замовчуванням
-- Часткова деструктурізація
-- Пропуск значень
-- Деструктурізація параметрів
-- Переваги
+3. Dizilerin parçalanmasını tartışalım
 
-4. Розберемо на практиці кілька практичних завдань (04-task1.js, 05-task2.js, 06-task3.js)
+- Söz dizimi
+- Varsayılan değeri ayarlama
+- Kısmi yapılandırma
+- Değerleri atlamak
+- Parametrelerin yapılandırılması
+- Avantajlar
 
-5. А що робити в ДЗ? У домашньому завданні на вас чекає задача на створення галереї з можливістю кліку по її елементах і перегляду повнорозмірного зображення в модальному вікні. ДЗ виконуємо у редакторі коду VS Code
+4. Uygulamada birkaç pratik görevi analiz edelim (04-task1.js, 05-task2.js, 06-task3.js)
+
+5. Peki ev ödevinde neler yapılacak? Evde ödevinizde, galeri oluşturma görevini içeren ve öğelerine tıklanabilen ve tam boyutlu bir görüntünün modda görüntülenebilmesine olanak tanıyan bir görev sizi bekliyor. Ev ödevini VS Code kod düzenleyicisinde gerçekleştiriyoruz

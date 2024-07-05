@@ -1,25 +1,28 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot
+1. Kahoot'ta oynayalım
 
-2. Познайомимось з колбек-функціями (практика 01-callbacks.js)
-- Функція як значення
-- Колбек-функції
-- Інлайн-колбеки
+2. Geri arama fonksiyonları ile tanışalım (pratik 01-callbacks.js)
 
-2. Розберемо стрілочні функції (практика 02-arrow-fns.js)
-- Синтаксис
-- Неявне повернення
-- Псевдомасив arguments
-- Колбеки
+- Fonksiyonlar olarak değer
+- Geri çağrı fonksiyonları
+- İnline geri çağrılar
 
-3. Детально розглянемо метод forEach(callback) ) (практика 03-foreach.js)
+2. Ok fonksiyonlarını ele alacağız (pratik  02-arrow-fns.js)
 
-4. Обговоримо методи map и flatMap
-- Чисті функції
-- Перебираючі методи
-- Метод map() (практика 04-map.js**)**
-- Масив об'єктів
-- Метод flatMap() (практика 05-flatmap.js)
+- Söz dizimi
+- Belirsiz geri dönüş
+- Sözde arguments dizisi
+- Geri çağrılar
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про інші популярні методи та розв’яжемо практичні задачі.
+3. forEach(callback) yöntemini detaylı olarak ele alacağız (pratik  03-foreach.js)
+
+4. map ve flatMap yöntemlerini tartışacağız
+
+- Saf fonksiyonlar
+- Sıralama yöntemleri
+- map() yöntemi (pratik 04-map.js\*\*)\*\*
+- Nesne dizisi
+- flatMap() yöntemi (pratik 05-flatmap.js)
+
+5. **Bir sonraki dersinizde** sizi neler bekliyor olacak? Diğer popüler yöntemler hakkında konuşacağız ve pratik sorunları çözeceğiz.

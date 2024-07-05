@@ -1,18 +1,15 @@
 /**
- * Основи запиту
+ * Sorgunun Temelleri
  * - Fetch API
- * - URL запиту
- * - Владка Network
- * - Обробка відповіді response (404 з fetch)
+ * - URL sorgusu
+ * - Network sekmesi
+ * - Yanıtın işlenmesi (response) (fetch ile 404)
  *
  * https://jsonplaceholder.typicode.com/
  */
-
-const list = document.querySelector(".todo-list");
-
+const list = document.querySelector('.todo-list');
 /**
- * Всередині функції запит, зовні обробка
+ * Fonksiyon içinde istek, dışında işleme
  */
-const fetchTodos = () => {};
-
-// fetchTodos().then().catch()
+const fetchTodos = () => {
+};    // fetchTodos().then().catch()

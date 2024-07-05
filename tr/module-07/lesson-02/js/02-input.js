@@ -1,13 +1,10 @@
 /**
- * - Подія input
- * - Подія blur
+ * - input olayı
+ * - blur olayı
  *
- * Виводь в консоль все що користувач вводить в input
+ * Kullanıcının input alanına girdiği her şeyi konsola yazdırın
  */
-
-const userName = document.querySelector(".js-user-name");
-
-/**
- * Користувач вводить в input своє ім'я після втрати
- * фокусу отримує alert з повідомленням-привітанням
+const userName = document.querySelector('.js-user-name');    /**
+ * Kullanıcı kaybettikten sonra ismini input alanına girer.
+ * Odakta olduğunda bir alert ile selamlaşan bir ileti alır.
  */

@@ -1,16 +1,14 @@
 /**
- * Створення та обробка промісу
- * - Клас Promise
+ * Promise oluşturma ve işleme alma
+ * - Promise Sınıfı
  * - resolve
  * - reject
  * - then, catch, finally
  */
-
-// "Проміс виконався успішно, із результатом (виконаний, fulfilled)";
-// "Проміс виконався з помилкою (відхилений, rejected)"
-
+// "Test başarıyla tamamlandı, bir sonuç (fulfilled)"
+// "Test bir hata ile başarısız oldu (rejected)"
 /**
- * Ланцюги промісів
- * - декілька послідовних then
- * - then повертає проміс
+ * Karışıklığın zincirleri
+ * - birkaç ardışık then
+ * - then bir promise döndürür
  */

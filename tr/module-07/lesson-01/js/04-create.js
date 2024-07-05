@@ -1,22 +1,18 @@
 /*
- * Створення та додавання елементів
+ * Başlık oluşturma ve öğeler ekleme
  */
-
 /*
- * Створюємо заголовок
+ * Başlık oluşturuyoruz
  */
 const titleEl = document.createElement('h1');
-
 /*
- * Створюємо зображення
+ * Görüntü oluşturuyoruz
  * https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
  * valais-alpine-mountains-glacier
  */
 const imageEl = document.createElement('img');
-
 const heroEl = document.querySelector('.hero');
-
 /*
- * Створюємо та додаємо новий пункт меню
+ * Yeni bir menü öğesi oluşturuyor ve ekliyoruz
  */
 const navItemEl = document.createElement('li');

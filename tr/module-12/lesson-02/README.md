@@ -1,8 +1,8 @@
-# План заняття
+# Ders Planı
 
-- Робота з колекцією даних
-- Пагінація даних
-- Параметри запиту:
-  - Номер групи
-  - Кількість елементів групи
-- Прийом «Завантажити ще»
+- Veri koleksiyonu ile çalışma
+- Veri sayfalama
+- Sorgu parametreleri:
+  - Grup numarası
+  - Grup elemanları sayısı
+- "Daha fazla yükle" seçeneği

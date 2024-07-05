@@ -1,30 +1,29 @@
 # js-22
 
-1. Пограємо в Kahoot
+1. Kahoot'ta oynayalım
 
-2. Познайомимось з об'єктною моделлю документа DOM
+2. Döküman Nesne Modeli (DOM) ile tanışalım
 
-- JavaScript у браузері
-- HTML-документ і DOM,
-- DOM-дерево
-- Пошук елементів з використанням querySelector ы querySelectorAll (практика
-  01-selectors.js)
+- JavaScript tarayıcıda
+- HTML belgesi ve DOM
+- DOM ağacı
+- QuerySelector ve querySelectorAll kullanarak öğeleri arama (pratik 01-selectors.js)
+- DOM gezinme
 
-1. Розберемо властивості та атрибути (практика 02-properties.js)
+3. Özellikler ve nitelikleri analiz edelim (pratik 02-properties.js)
 
-- Доступ до властивостей
-- Властивості textContent, classList, style (практика 03-classlist.js)
-- Доступ до атрибутів
-- Власні атрибути
+- Özelliklere erişim
+- TextContent, classList ve style özellikleri (pratik 03-classlist.js)
+- Özelliklere erişim
+- Öz nitelikler
 
-4. Обговоримо cтворення та видалення елементів
+4. Öğelerin oluşturulması ve silinmesini tartışalım
 
-- Створеня елементів
-- Додавання елементів (практика 04-create.js і 05-collections.js)
-- Видалення елементів
-- Властивість innerHTML, метод insertAdjacentHTML() (практика 06-templating.js)
+- Öğelerin yaratılması
+- Eleman ekleme (pratik 04-create.js ve 05-collections.js)
+- Öğeleri kaldırma
+- InnerHTML özelliği, insertAdjacentHTML() yöntemi (pratik 06-templating.js)
 
-5. Розберемо практичну задачу 07-transactions.js
+5. 07 transactions.js uygulamasındaki pratik bir problemi çözeceğiz
 
-6. Що на вас чекатиме на наступному занятті? Ми поговоримо про події та події
-   елементів форм.
+6. Bir sonraki dersinizde sizi neler bekliyor olacak? Olaylar ve form öğeleri hakkında konuşacağız.

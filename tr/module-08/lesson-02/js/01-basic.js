@@ -1,28 +1,28 @@
 /**
- * Деструктуризація об'єкта
+ * Nesne Yıkımı
  */
-
 const user = {
-  username: "Jacob name",
+  username: 'Jacob name',
   skills: {
     html: true,
     css: false,
-    js: true,
-  },
+    js: true
+  }
 };
-
 /**
- * Глибока деструктуризація об'єкта
+ * Obje'nin derin yapılandırılması
  */
-
-const { skills } = user;
-
+const {skills} = user;
 // console.log("html", html);
 // console.log("css", css);
 // console.log("js", js);
-
 /**
- * Деструктуризація масива
+ * Dizi Yapısının Ayrıştırılması
  */
-
-const arr = [1, 2, 3, 4, 5];
+const arr = [
+  1,
+  2,
+  3,
+  4,
+  5
+];

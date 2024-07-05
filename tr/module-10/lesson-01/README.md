@@ -1,14 +1,17 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot
-2. Познайомимось з поняттям асинхронності в JavaScript
-- Розберемо планування: window.setTimeout() и window.setInterval() (практика 01-timeout.js і 02-interval.js)
-- Розв’яжемо практичну задачу на сповіщення (практика 03-notification.js)
+1. Kahoot'ta oynayalım
+2. JavaScript'te asenkronluk kavramıyla tanışalım
 
-3. Розберемо роботу з датой і часом
-- Створення дати
-- Різниця часу
-- Метод Date.now() і new Date().getTime() (практика 04-date.js)
-4. Розв’яжемо практичну задачу на створення таймеру (практика 05-timer.js) 
+- Planlamayı gözden geçirelim: window.setTimeout() ve window.setInterval() (pratik 01-timeout.js ve 02-interval.js)
+- Bildirim uygulamasıyla ilgili bir pratik sorunu çözeceğiz (pratik 03-notification.js)
 
-5. Що на вас чекатиме на наступному занятті? Ми поговоримо про проміси і промісифікацію.
+3. Tarih ve saat ile çalışmayı gözden geçireceğiz
+
+- Tarih oluşturma
+- Zaman farkı
+- Date.now() ve new Date().getTime() metodları (pratik 04-date.js)
+
+4. Zamanlayıcı oluşturma uygulamasıyla ilgili pratik bir sorunu çözelim (pratik 05-timer.js)
+
+5. Bir sonraki dersinizde sizi neler bekliyor olacak? Promise ve Promisification konusunu konuşacağız.

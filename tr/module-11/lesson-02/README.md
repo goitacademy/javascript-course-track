@@ -1,24 +1,27 @@
-# План заняття
+# Ders Planı
 
-## 1. Пограємо в Kahoot і обговоримо питання
-## 2. Розберемо роботу з колекцією даних
-- Робота з колекцією даних
-- Сервіс [mockapi](https://mockapi.io/)
-- Робота з приватним API
+## 1. Kahoot oynayalım ve konuları tartışalım
+
+## 2. Veri koleksiyonu ile çalışmayı inceleyelim
+
+- Veri koleksiyonu ile çalışma
+- [mockapi](https://mockapi.io/) hizmeti
+- Özel API ile çalışma
   - **C**reate
-    - Метод POST
-    - Тіло
-    - Заголовки
-    - Відповідь
+    - POST Metodu
+    - Body
+    - Başlıklar
+    - Cevap
   - **R**ead
-    - Метод GET
-    - Відповідь
+    - GET Metodu
+    - Cevap
   - **U**pdate
-    - Методи PUT та PATCH
-    - Тіло
-    - Заголовки
-    - Відповідь
+    - PUT ve PATCH Metodları
+    - Body
+    - Başlıklar
+    - Cevap
   - **D**elete
-    - Метод DELETE
-    - Відповідь
-## 3. А що робити в ДЗ? У домашньому завданні ви створите застосунок пошуку зображень за ключовим словом і їх перегляду в галереї.  
+    - DELETE Metodu
+    - Cevap
+
+## 3. Peki ev ödevinde neler yapılacak? Ev ödevinizde anahtar kelimeye göre resim arama ve galeride görüntüleme uygulaması oluşturacaksınız.

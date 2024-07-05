@@ -1,7 +1,7 @@
-# План заняття
+# Ders Planı
 
-- Методи filter, find
-- Методи every, some
-- Метод reduce
-- Метод toSorted
-- Ланцюжки методів
+- filter ve find yöntemleri
+- every ve some yöntemleri
+- reduce yöntemi
+- toSorted yöntemi
+- Yöntem zincirlemesi

@@ -1,26 +1,29 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot
+1. Kahoot'ta oynayalım
 
-2. Познайомимось з контекстом виконання функції 
-- Ключове слово this
-- Глобальний контекст
-- Контекст методу об'єкта (практика 01-this.js)
+2. Fonksiyonun gerçekleştirilme bağlamıyla tanışın
 
-3. Розв'яжемо практичну задачу (практика 02-tasks.js)
-   
-4. Обговоримо методи і функції
-- Методи call(), apply(), bind() і втрата контексту
-- Метод bind() і колбеки (практика 03-methods.js)
-- Стрілочні функції
-- Алгоритм визначення this (практика 01-callbacks.js)
+- Anahtar kelime this
+- Global bağlam
+- Nesne yöntemi bağlamı (pratik 01-this.js)
 
-5. Розберемо прототипи
-- Прототип об'єкта
-- Перевірка прототипу
-- Власні і невласні властивості
-- Перебір власних властивостей
-- Ланцюжки прототипів
-- Кінець ланцюжка прототипів (практика 04-prototype.js)
+3. Pratik bir sorunu çözeceğiz (pratik 02-görevler.js)
 
-6. Що на вас чекатиме на наступному занятті? Ми поговоримо про процедурне програмування та ООП та розглянемо класи.
+4. Yöntemler ve fonksiyonlar üzerine tartışma
+
+- Call(), apply(), bind() yöntemleri ve bağlam kaybı
+- Bind() yöntemi ve geri çağrılar (pratik 03-yöntemler.js)
+- Ok işlevleri
+- This deyiminin belirlenmesi algoritması (pratik 01-geri çağrılar.js)
+
+5. Prototipleri analiz edelim
+
+- Nesne prototipi
+- Prototip kontrolü
+- Kendi ve kendine ait olmayan özelliklerin kontrolü
+- Kendi özelliklerin kontrolü
+- Prototip zincirleri
+- Prototip zincirinin sonu (pratik 04-prototype.js)
+
+6. Bir sonraki dersinizde sizi neler bekliyor olacak? Prosedürel programlama ve Nesne Yönelimli Programlama (OOP) hakkında konuşacağız ve sınıfları inceleyeceğiz.

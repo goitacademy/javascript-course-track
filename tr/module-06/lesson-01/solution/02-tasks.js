@@ -1,26 +1,24 @@
 function foo() {
-  console.log("foo -> this", this);
+  console.log('foo -> this', this);
 }
-
-foo(); // Який this ???
-
+foo();
+// Bu this nedir ???
 /**
  * -------------------------
  */
 const book = {
-  title: "React for beginners",
+  title: 'React for beginners',
   showThis() {
-    console.log("showThis -> this", this);
+    console.log('showThis -> this', this);
   },
   showTitle() {
-    console.log("showTitle -> this.title", this.title);
-  },
+    console.log('showTitle -> this.title', this.title);
+  }
 };
-
-book.showThis(); // Який this ???
-
+book.showThis();
+// Bu this nedir ???
 const outerShowThis = book.showThis;
-outerShowThis(); // Який this ???
-
+outerShowThis();
+// Bu this nedir ???
 const outerShowTitle = book.showTitle;
-outerShowTitle(); // Який this ???
+outerShowTitle();  // Bu this nedir ???

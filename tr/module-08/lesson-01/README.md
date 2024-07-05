@@ -1,15 +1,16 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot
+1. Kahoot'ta oynayalım
 
-2. Познайомимось з делегуванням подій (практика 01-bubbling.js)
-- Поширення подій
-- Спливання подій
-- Цільовий елемент
-- Припинення спливання
-- Делегування подій (практика 02-delegation.js)
-- Перевірка цільового елемента
+2. Olaylar yönetime tanışın (pratik 01-bubbling.js)
 
-3. Розберемо роботу з бібліотеками та розберемо практичну задачу (03-prodcuts.js)
+- Olayların yayılması
+- Olayların kabarması
+- Hedef öğe
+- Akışın durdurulması
+- Olay delegasyonu (pratik 02-delegation.js)
+- Hedef öğe kontrolü
 
-4. Що на вас чекатиме на наступному занятті? Ми поговоримо про процедурне програмування та ОАП та розглянемо класи.
+3. Kütüphanelerle çalışmayı ve pratik bir problemi çözmeyi inceleyelim (03-products.js)
+
+4. Bir sonraki dersinizde sizi neler bekliyor olacak? Prosedürel programlama ve OOP hakkında konuşacağız ve sınıfları ele alacağız.

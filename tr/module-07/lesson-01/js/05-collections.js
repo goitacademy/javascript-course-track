@@ -1,17 +1,32 @@
 /*
- * Створюємо та додаємо колекцію
+ * Koleksiyon oluşturup ekliyoruz
  */
 const options = [
-  { label: 'червоний', color: '#F44336' },
-  { label: 'зелений', color: '#4CAF50' },
-  { label: 'синій', color: '#2196F3' },
-  { label: 'сірий', color: '#607D8B' },
-  { label: 'рожевий', color: '#E91E63' },
-  { label: 'індіго', color: '#3F51B5' },
+    {
+        label: 'kırmızı',
+        color: '#F44336'
+    },
+    {
+        label: 'yeşil',
+        color: '#4CAF50'
+    },
+    {
+        label: 'mavi',
+        color: '#2196F3'
+    },
+    {
+        label: 'gri',
+        color: '#607D8B'
+    },
+    {
+        label: 'pembe',
+        color: '#E91E63'
+    },
+    {
+        label: 'çivit',
+        color: '#3F51B5'
+    }
 ];
-
-const colorPickerContainerEl = document.querySelector('.js-color-picker');
-
-/*
- * Пишемо функцію для створення розмітки колорпікера
+const colorPickerContainerEl = document.querySelector('.js-color-picker');    /*
+ * Renk seçici işaretlemesi oluşturmak için bir işlev yazma
  */

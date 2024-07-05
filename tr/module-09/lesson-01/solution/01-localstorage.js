@@ -1,50 +1,42 @@
 /**
  * LocalStorage
  */
-
-const LS_KEY = "Array of names";
-const names = ["Alice", "Kate", "Emma"];
-
+const LS_KEY = 'Array of names';
+const names = [
+  'Alice',
+  'Kate',
+  'Emma'
+];
 /**
- * Збереження
- * Чому треба використовувати метод JSON.stringify
+ * Kaydet
+ * Neden JSON.stringify yöntemini kullanmalısınız
  */
-
 localStorage.setItem(LS_KEY, JSON.stringify(names));
-
 /**
- * Читання
- * Чому треба використовувати метод JSON.parse
+ * Okuma
+ * Neden JSON.parse yöntemini kullanmalısınız
  */
-
 const value = localStorage.getItem(LS_KEY);
 console.log(value);
 console.log(JSON.parse(value));
-
 /**
- * Видалення
+ * Silme
  */
-
 localStorage.removeItem(LS_KEY);
-
 /**
- * LocalStorage не може зберігати функції
+ * LocalStorage işlevleri depolayamaz
  */
-
 function add(a, b) {
   return a + b;
 }
-
-localStorage.setItem("my function", JSON.stringify(add));
-console.log(localStorage.getItem("my function"));
-
+localStorage.setItem('my function', JSON.stringify(add));
+console.log(localStorage.getItem('my function'));
 const calculator = {
   a: 5,
   b: 10,
   add() {
     return this.a + this.b;
-  },
+  }
 };
-
-localStorage.setItem("my function", JSON.stringify(calculator));
-console.log(localStorage.getItem("my function"));
+localStorage.setItem('my function', JSON.stringify(calculator));
+console.log(localStorage.getItem('my function'));

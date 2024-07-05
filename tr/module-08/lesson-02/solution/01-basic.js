@@ -1,44 +1,39 @@
 /**
- * Деструктуризація об'єкта
+ * Nesne Yıkımı
  */
-
 const user = {
-  username: "Jacob name",
+  username: 'Jacob name',
   skills: {
     html: true,
     css: false,
-    js: true,
-  },
+    js: true
+  }
 };
-
-const { username, skills } = user;
-
-console.log("name", username);
-console.log("skills", skills);
-
+const {username, skills} = user;
+console.log('name', username);
+console.log('skills', skills);
 /**
- * Глибока деструктуризація об'єкта
+ * Obje'nin derin yapılandırılması
  */
-
 const {
-  skills: { html, css, js },
+  skills: {html, css, js}
 } = user;
-
-console.log("html", html);
-console.log("css", css);
-console.log("js", js);
-
+console.log('html', html);
+console.log('css', css);
+console.log('js', js);
 /**
- * Деструктуризація масива
+ * Dizi Yapısının Ayrıştırılması
  */
-
-const arr = [1, 2, 3, 4, 5];
-
-// const first = arr[0];
-// const second = arr[1];
-// console.log(second);
-
-// const [first, , second, , third] = arr;
-// console.log(first);
-// console.log(second);
-// console.log(third);
+const arr = [
+  1,
+  2,
+  3,
+  4,
+  5
+];  // const first = arr[0];
+    // const second = arr[1];
+    // console.log(second);
+    // const [first, , second, , third] = arr;
+    // console.log(first);
+    // console.log(second);
+    // console.log(third);

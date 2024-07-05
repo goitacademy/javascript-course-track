@@ -1,8 +1,8 @@
-# План заняття
+# Ders Planı
 
-1. Пограємо в Kahoot і обговоримо питання 
-2. Розберемо обробку помилок з try...catch (практика 01-try-catch.js)
-3. Обговоримо синтаксис async/await (практика 02-async.js)
-4. Розв'яжемо практичну задачу (03-practice.js)
-5. Розберемо HTTP клієнт [Axios](https://axios-http.com/) (практика 04-axios.js)
-7. Що на вас чекатиме на наступному занятті? Ми поговоримо про пагінацію. 
+1. Kahoot oynayalım ve konuları tartışalım
+2. Hata işleme try...catch ile ilgili ayrıntıları inceleyeceğiz (pratik 01-try-catch.js)
+3. async/await sentaksını tartışacağız (pratik 02-async.js)
+4. Uygulamalı bir sorunu çözeceğiz (03-practice.js)
+5. HTTP istemci [Axios'u](https://axios-http.com/) inceleyeceğiz (pratik 04-axios.js)
+6. Bir sonraki dersinizde sizi neler bekliyor olacak? Sayfalandırma hakkında konuşacağız.

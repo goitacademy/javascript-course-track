@@ -1,8 +1,8 @@
 /**
  * Array.prototype.map()
- * - Поелементо перебирає оригінальний масив
- * - Не змінює оригінальний масив
- * - Повертає новий масив такої ж довжини
+ * - Orijinal diziyi öğe bazında yineler
+ * - Orijinal diziyi değiştirmez
+ * - Aynı uzunlukta yeni bir dizi döndürür
  */
 
 const allCars = [
@@ -19,7 +19,7 @@ const allCars = [
 ];
 
 /**
- * Нехай функція getModels повертає масив моделей (поле model) всіх автомобілів.
+ * Fonksiyon getModels, tüm arabaların model (model alanı) dizisini döndürsün.
  */
 
 const getModels = (cars) => {};
@@ -27,8 +27,8 @@ const getModels = (cars) => {};
 console.table(getModels(allCars));
 
 /**
- * Нехай функція makeCarsWithDiscount повертає новий масив об'єктів із змінним
- * значенням властивості price залежно від переданої знижки.
+ * Fonksiyon makeCarsWithDiscount, verilen indirim oranına bağlı olarak price 
+ * özelliği değişken olan yeni bir nesne dizisi döndürsün.
  */
 
 const makeCarsWithDiscount = (cars, discount) => {};
@@ -46,7 +46,7 @@ const players = [
 console.table(players);
 
 /*
- * Збільшуємо кількість годин гравця за id
+ * id'ye göre oyuncunun saat sayısını artırıyoruz
  */
 
 const playerIdToUpdate = "player-3";

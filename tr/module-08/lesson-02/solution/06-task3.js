@@ -1,21 +1,18 @@
 /**
- * Необхідно зрoбити рефакторинг функції calculateHousePerimeter,
- * так щоб вона приймала об'єкт з параметрами будинку,
- * включаючи довжини сторін будинку.
- * Функція повинна розрахувати та повернути периметр будинку.
+ * calculateHousePerimeter fonksiyonunun yeniden düzenlenmesi gerekmektedir,
+ * böylece evin parametrelerini içeren bir nesneyi kabul eder,
+ * Evin kenar uzunlukları da dahil olmak üzere.
+ * Fonksiyon evin çevresini hesaplamalı ve döndürmelidir.
  */
-
-function calculateHousePerimeter({ sideA, sideB, sideC, sideD }) {
+function calculateHousePerimeter({sideA, sideB, sideC, sideD}) {
   const perimeter = sideA + sideB + sideC + sideD;
   return perimeter;
 }
-
 const house = {
   sideA: 10,
   sideB: 15,
   sideC: 10,
-  sideD: 15,
+  sideD: 15
 };
-
 const perimeter = calculateHousePerimeter(house);
-console.log(`Периметр будинку: ${perimeter}`);
+console.log(`Ev Perimeter: ${ perimeter }`);

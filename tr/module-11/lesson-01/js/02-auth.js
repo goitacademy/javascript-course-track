@@ -1,8 +1,8 @@
 /**
- * Авторизація запитів з ключами
- * Які бувають:
- * - у query string
- * - у хедерах
+ * Anahtarlarla isteklerin kimlik doğrulaması
+ * Hangi türlerde olabileceği:
+ * - query string
+ * - başlıklarda
  *
- * Для прикладу використовуємо https://pixabay.com/api/docs/
+ * Örneğin, https://pixabay.com/api/docs/ adresini kullanıyoruz
  */

@@ -1,57 +1,40 @@
 /*
- * Промісифікація:
- * - Проблема доступу до результату проміса з колбеком
- * - Функція, яка повертає проміс
+ * Promissification:
+ * - Bir flask promix'in sonucuna erişme sorunu
+ * - Bir senet döndüren bir işlev
  */
-
 const makeOrder = (dish, onSuccess, onError) => {
-  const passed = Math.random() > 0.5;
-
+  const passed = Math.random() > '0.5';
   setTimeout(() => {
     if (passed) {
-      onSuccess(`✅ Ваше замовлення: ${dish}`);
+      onSuccess(`✅ Siparişiniz: ${ dish }`);
     }
-
-    onError("❌ Упс, у нас закінчилися продукти");
+    onError('❌ Üzgünüz, ürünlerimiz tükendi');
   }, 1000);
 };
-
-makeOrder(
-  "пиріжок",
-  (result) => {
-    console.log("onMakeOrderSuccess");
-    console.log(result);
-  },
-  (error) => {
-    console.log("onMakeOrderError");
-    console.log(error);
-  }
-);
-
+makeOrder('pastacı', result => {
+  console.log('onMakeOrderSuccess');
+  console.log(result);
+}, error => {
+  console.log('onMakeOrderError');
+  console.log(error);
+});
 /*
- * Промісифікація «синхронних» функцій
+ * "Eşzamanlı" işlevlerin teşvik edilmesi
  * - Promise.resolve()
  * - Promise.reject()
  */
-
 const prepareDish = (dish, onSuccess, onError) => {
-  const passed = Math.random() > 0.5;
-
+  const passed = Math.random() > '0.5';
   if (passed) {
-    onSuccess(`✅ Ваше замовлення: ${dish}`);
+    onSuccess(`✅ Siparişiniz: ${ dish }`);
   }
-
-  onError("❌ Упс, у нас закінчилися продукти");
+  onError('❌ Üzgünüz, ürünlerimiz tükendi');
 };
-
-makeOrder(
-  "пиріжок",
-  (result) => {
-    console.log("onMakeOrderSuccess");
-    console.log(result);
-  },
-  (error) => {
-    console.log("onMakeOrderError");
-    console.log(error);
-  }
-);
+makeOrder('pastacı', result => {
+  console.log('onMakeOrderSuccess');
+  console.log(result);
+}, error => {
+  console.log('onMakeOrderError');
+  console.log(error);
+});

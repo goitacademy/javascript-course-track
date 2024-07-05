@@ -1,25 +1,24 @@
 /**
- * Напиши програмне забезпечення для ігрового автомата.
- * Для вирішення завдання використай готову розмітку HTML та базову стилізацію.
+ * Bir slot makinesi için yazılım yazın.
+ * Görevi çözmek için hazır HTML biçimlendirmesini ve temel stilleri kullanın.
  *
- * Після натиснення на кнопку "Start game"
- * в кожному віконці по черзі має з'являтись
- * смайлик з затримкою в 1 секунду ('🤑' або '👿')
+ * "Start game" düğmesine tıkladıktan sonra
+ * her pencerede sırayla görünmelidir
+ * 1 saniye gecikmeli bir ifade ('🤑' veya '👿')
  *
- * Під час обробки кожного віконця створи масив з Promis-ами
- * в якому кожен з них буде відповідати за своє віконце,
- * після чого оброби даний масив за допомогою методу Promise.allSettled
+ * Her pencereyi işlerken, Sözler ile bir dizi oluşturun
+ * her biri kendi penceresinden sorumlu olacaktır,
+ * sonra Promise.allSettled yöntemini kullanarak bu diziyi işleyin
  *
- * Після того як всі віконця були заповнені потрібно
- * щоб скріпт автоматично визначав чи гравець переміг, чи ні.
- * Якщо в кожному віконці однаковий смайлик це означає що користувач переміг
+ * Tüm pencereler doldurulduktan sonra, ihtiyacınız olan
+ * Komut dosyası oyuncunun kazanıp kazanmadığını otomatik olarak belirlemelidir.
+ * Eğer her pencerede aynı ifade varsa, bu kullanıcının kazandığı anlamına gelir
  *
- * В поле result виводить повідомлення про статус гри ('Winner' або 'Loser')
+ * Sonuç alanında oyun durumu ('Winner' veya 'Loser') hakkında bir mesaj görüntüleyin
  *
- * Після повторного натискання на кнопку "Start game"
- * поле має очищатись, а гра починатись з початку.
+ * "Start game" düğmesine tekrar bastıktan sonra
+ * Saha temizlenmeli ve oyun baştan başlamalıdır.
  */
-
-const startBtn = document.querySelector(".start-btn");
-const container = document.querySelector(".container");
-const result = document.querySelector(".result");
+const startBtn = document.querySelector('.start-btn');
+const container = document.querySelector('.container');
+const result = document.querySelector('.result');

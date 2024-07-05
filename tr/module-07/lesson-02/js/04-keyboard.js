@@ -1,9 +1,8 @@
 /*
- * Типи подій: keypress, keydown, keyup
- * - Обмеження keypress
- * - Властивості key та code
+ * Olay türleri: keypress, keydown, keyup
+ * - Kısıtlamalar keypress
+ * - key ve code özellikleri
  */
-
 /**
- * Обробка комбінацій клавіш
+ * Tuş kombinasyonlarının işlenmesi
  */

@@ -1,15 +1,15 @@
 /**
- * Обробка помилок з try...catch
+ * Hataları try...catch ile işleme
  *
- * - Синтаксис
- * - Які помилки ловить
- * - ❌ помилки парсингу (parsing errors)
- * - ✅ помилки виконання (runtime errors)
- * - Ловить лише помилки в синхронному коді
- * - Як зловити помилку в асинхронному коді
- * - Об'єкт помилки
+ * - Sözdizimi
+ * - Hangi hatalar yakalanır
+ * - ❌ ayrıştırma hataları (parsing errors)
+ * - ✅ çalışma zamanı hataları (runtime errors)
+ * - Yalnızca senkron koddaki hataları yakalama
+ * - Eşzamansız kodda bir hata nasıl yakalanır
+ * - Hatanın nesnesi
  * - name
  * - message
  * - stack
- * - Блок catch без об'єкта помилки
+ * - Hata nesnesi olmayan bir catch bloğu
  */

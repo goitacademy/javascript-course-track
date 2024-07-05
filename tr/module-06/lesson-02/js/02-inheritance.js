@@ -1,7 +1,7 @@
 /**
- * Наслідування класів
+ * Sınıf mirası
  *
  *  - extends
- *  - Конструктор дочірнього класу (super)
- *  - Методи дочірнього класу
+ *  - Alt sınıf yapıcı (super)
+ *  - Alt sınıf yöntemleri
  */
