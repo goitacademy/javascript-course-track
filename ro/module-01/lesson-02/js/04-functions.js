@@ -1,9 +1,9 @@
 /**
- * Функции
+ * Funcții
  *
- * - Оголошення та виклик функції
- * - Параметри та аргументи
- * - Повернення значення
+ * - Declararea și apelarea funcțiilor
+ * - Parametri și argumente
+ * - Returnarea valorilor
  */
 
 // console.log("Before fnA execution");
@@ -19,15 +19,15 @@
 // console.log("After fnC execution");
 
 /**
- * Напиши функцію calcBMI(weight, height) яка розраховує та повертає індекс
- * маси тіла людини. Для цього необхідно розділити вагу на
- * квадрат висоти.
+ * Scrie o funcție calcBMI(weight, height) care calculează și returnează indicele
+ * de masă corporală (IMC) al unei persoane. Pentru aceasta, trebuie să împarți
+ * greutatea la pătratul înălțimii.
  *
- * Вага та висота будуть спеціально передані як рядки. Не цілі числа можуть
- * бути задані у вигляді 24.7 або 24,7, тобто як роздільник дробової
- * частини може бути кома.
+ * Greutatea și înălțimea vor fi furnizate ca string. Numerele zecimale pot
+ * fi date sub forma 24.7 sau 24,7, adică separatorul pentru partea zecimală
+ * poate fi o virgulă.
  *
- * Індекс маси тіла необхідно округлити до однієї цифри після коми.
+ * Indicele de masă corporală trebuie rotunjit la o zecimală.
  */
 
 // const bmi = calcBMI("88,3", "1.75");
