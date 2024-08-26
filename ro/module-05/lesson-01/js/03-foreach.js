@@ -1,8 +1,8 @@
 /**
- * Метод forEach(callback)
- * - Поелементо перебирає оригінальний масив
- * - Нічого не повертає
- * - Замінює класичний for, якщо не потрібно переривати цикл
+ * Metoda forEach(callback)
+ * - Iterează element cu element prin array-ul original
+ * - Nu returnează nimic
+ * - Înlocuiește bucla `for` dacă nu este necesară întreruperea ciclului
  */
 
 const numbers = [5, 10, 15, 20, 25];
@@ -11,8 +11,9 @@ let total = 0;
 console.log(total);
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Efectuează refactorizarea codului folosind metoda `forEach` și funcțiile arrow.
  */
+
 function logItems(items) {
   console.log(items);
   for (let i = 0; i < items.length; i += 1) {
@@ -24,8 +25,9 @@ logItems(["Mango", "Poly", "Ajax"]);
 logItems(["🍎", "🍇", "🍑", "🍌", "🍋"]);
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Efectuează refactorizarea codului folosind metoda `forEach` și funcțiile arrow.
  */
+
 function printContactsInfo({ names, phones }) {
   const nameList = names.split(",");
   const phoneList = phones.split(",");
@@ -40,8 +42,9 @@ printContactsInfo({
 });
 
 /**
- * Виконайте рефакторинг коду за допомогою методу forEach та стрілочні функції.
+ * Efectuează refactorizarea codului folosind metoda `forEach` și funcțiile arrow.
  */
+
 function calculateAverage(...args) {
   let total = 0;
   for (let i = 0; i < args.length; i++) {
