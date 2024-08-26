@@ -1,9 +1,9 @@
 /**
- * Типові помилки
+ * Greșeli comune
  *
- * - Звернення до змінної до її оголошення
- * - Перевизначення значення для змінної оголошеної через const
- * - Обращение по неправильному імени змінної
+ * - Accesarea unei variabile înainte de a fi declarată
+ * - Suprascrierea valorii pentru o variabilă declarată cu const
+ * - Accesarea unei variabile cu un nume greșit
  *
  */
 
