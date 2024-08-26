@@ -1,8 +1,8 @@
 /**
  * Type conversion: number
  *
- * - Convertirea explicită a tipurilor
- * - Convertirea implicită a tipurilor
+ * - Conversia explicită a tipurilor
+ * - Conversia implicită a tipurilor
  */
 
 console.log(Number("5")); // 5
