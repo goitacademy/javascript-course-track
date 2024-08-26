@@ -2,7 +2,7 @@ function foo() {
   console.log("foo -> this", this);
 }
 
-foo(); // Який this ???
+foo(); // Care this ???
 
 /**
  * -------------------------
@@ -17,10 +17,10 @@ const book = {
   },
 };
 
-book.showThis(); // Який this ???
+book.showThis(); // Care this ???
 
 const outerShowThis = book.showThis;
-outerShowThis(); // Який this ???
+outerShowThis(); // Care this ???
 
 const outerShowTitle = book.showTitle;
-outerShowTitle(); // Який this ???
+outerShowTitle(); // Care this ???
