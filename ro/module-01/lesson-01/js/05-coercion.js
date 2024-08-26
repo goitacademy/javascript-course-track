@@ -1,8 +1,8 @@
 /**
- * Перетворення типів: рядки
+ * Type conversion: string
  *
- * - Явне перетворення типів
- * - Неявне перетворення типів
+ * - Convertire explicită a tipurilor
+ * - Convertire implicită a tipurilor
  */
 
 console.log(String(5)); // "5"
