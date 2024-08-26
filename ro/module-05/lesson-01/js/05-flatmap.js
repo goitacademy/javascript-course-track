@@ -1,5 +1,5 @@
 /**
- * Метод flatMap
+ * Metoda flatMap
  */
 
 const tweets = [
