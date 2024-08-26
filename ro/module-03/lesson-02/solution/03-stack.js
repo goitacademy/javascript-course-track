@@ -1,6 +1,6 @@
 /**
- * - Стек викликів
- * - Порядок виконання
+ * - Call stack
+ * - Ordinea execuției
  */
 
 function fnA() {
