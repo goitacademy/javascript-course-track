@@ -1,16 +1,16 @@
 /**
- * Оператор switch
+ * Operatorul switch
  */
 
 const username = "Mango";
 
 /**
- * Виконай рефакторинг коду задачі використовуючи switch.
+ * Efectuează refactorizarea codului folosind switch.
  *
- * Якщо до дедлайну 0 днів - виведи рядок "Today"
- * Якщо до дедлайну 1 день - виведи рядок "Tomorrow"
- * Якщо до дедлайну 2 дні - виведи рядок "Overmorrow"
- * Якщо до дедлайну 3+ днів - виведи рядок "Date in the future"
+ * Dacă până la deadline mai sunt 0 zile - afișează șirul "Today"
+ * Dacă mai este 1 zi - afișează șirul "Tomorrow"
+ * Dacă mai sunt 2 zile - afișează șirul "Overmorrow"
+ * Dacă mai sunt 3+ zile - afișează șirul "Date in the future"
  */
 
 const daysUntilDeadline = 5;
@@ -26,14 +26,14 @@ if (daysUntilDeadline === 0) {
 }
 
 /*
- * Напиши скрипт выбора опции доставки товара.
- * Опция хранится в переменной option: 1 - самовывоз, 2 - курьер, 3 - почта
+ * Scrie un script pentru selectarea opțiunii de livrare a produsului.
+ * Opțiunea este stocată în variabila option: 1 - ridicare personală, 2 - curier, 3 - poștă.
  *
- * В переменную message записать сообщение в зависимости от опции.
- * - 'Вы сможете забрать товар завтра с 12:00 в нашем офисе'
- * - 'Курьер доставит заказ завтра с 9:00 до 18:00'
- * - 'Посылка будет отправлена сегодня'
- * - 'Вам перезвонит менеджер'
+ * În variabila message, salvează mesajul în funcție de opțiune.
+ * - 'Puteți ridica produsul de la biroul nostru mâine de la 12:00'
+ * - 'Curierul va livra comanda mâine între orele 9:00 și 18:00'
+ * - 'Coletul va fi expediat astăzi'
+ * - 'Vă va contacta un manager'
  */
 
 const option = 1;
