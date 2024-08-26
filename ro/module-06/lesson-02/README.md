@@ -1,31 +1,32 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Vom juca Kahoot și vom discuta întrebările
 
-2. Розберемо, що таке ООП
-- Процедурне програмування
-- Об'єктно-орієнтоване програмування
-- Клас
-- Екземпляр класу
-- Інтерфейс класу
+2. Vom analiza conceptul de **OOP (Programare Orientată pe Obiecte)**
+- Programare procedurală
+- Programare orientată pe obiecte
+- Clasă
+- Instanța unei clase
+- Interfața unei clase
 
-3. Вивчимо класи 
-- Оголошення класу
-- Конструктор класу
-- Об'єкт параметрів
-- Методи класу,
-- Прототип екземпляру
-- Приватні властивості
-- Приватні методи
-- Геттери і сеттери
-- Статичні властивості (практика 01-class.js)
-- Статичні методи
-- Наслідування класів
-- Конструктор і методи дочірнього класу (практика **02-inheritance.js)**
+3. Vom studia **clasele**
+- Declararea unei clase
+- Constructorul unei clase
+- Parameter object
+- Class methods
+- Prototipul unei instanțe
+- Proprietăți private
+- Metode private
+- Getters și setters
+- Proprietăți statice (practică în 01-class.js)
+- Metode statice
+- Moștenirea claselor
+- Constructorul și metodele clasei copil (practică în 02-inheritance.js)
 
-4. Розв’яжемо кілька практичних задач
-- Практика 03-bloger.js
-- Практика 04-user.js
-- Практика 05-storage.js
+4. Vom rezolva câteva sarcini practice
+- Practică în 03-blogger.js
+- Practică în 04-user.js
+- Practică în 05-storage.js
 
-5. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на використання ключового слова `this`, класів і методів класу! ДЗ виконуємо у редакторі коду VS Code
+5. Ce trebuie să faceți pentru temele de acasă?
+- În tema de acasă veți avea 3 sarcini mici care implică utilizarea cuvântului cheie `this`, a claselor și a metodelor de clasă! Temele se rezolvă în editorul VS Code.
