@@ -1,11 +1,11 @@
 /**
- * Рядки
+ * Șiruri de caractere
  *
- * - Конкатенація рядків
- * - Шаблонні рядки
- * - Довжина рядка
- * - Індексація елементів
- * - Незмінність рядків
+ * - Concatenarea șirurilor de caractere
+ * - Template literals
+ * - Lungimea unui șir de caractere
+ * - Indexarea elementelor
+ * - Imuabilitatea șirurilor de caractere
  */
 
 const firstName = "Chelsy";
@@ -20,8 +20,8 @@ const message = "This string is 28 chars long";
 // console.log(message);
 
 /**
- * Склади фразу за допомогою шаблонних рядків
- * A has B bots in stock, де A, B - змінні вставлені в рядок.
+ * Construiește o frază folosind template literals
+ * A has B bots in stock, unde A și B sunt variabile inserate în șir.
  */
 const companyName = "Cyberdyne Systems";
 const repairBots = 150;
