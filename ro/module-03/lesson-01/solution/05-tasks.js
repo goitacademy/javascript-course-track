@@ -38,8 +38,8 @@ const phones = "89001234567,89001112233,890055566377,890055566300";
 const string = "Welcome to the future";
 
 /**
- * Напиши скрипт пошуку найменшого числа у масиві. Код повинен працювати
- * для будь-якого масиву чисел. Використовуй цикл для розв'язання задачі.
+ * Scrie un script pentru a găsi cel mai mic număr dintr-un array. Codul trebuie să funcționeze
+ * pentru orice array de numere. Folosește o buclă pentru a rezolva sarcina.
  */
 
 const values = [2, 17, 94, 1, 23, 37];
