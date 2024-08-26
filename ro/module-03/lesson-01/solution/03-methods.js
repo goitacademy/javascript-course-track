@@ -1,5 +1,5 @@
 /**
- * Методи масиву
+ * Array methods
  *
  * - join
  * - split
