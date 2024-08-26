@@ -1,26 +1,26 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot 
+1. Vom juca Kahoot
 
-2. Познайомимось з мовою програмування **JavaScript**
-- Базова термінологія: що таке інструкція, вираз, літерал тощо
-- Як підключити скрипт до сторінки
-- Запуск із LiveServer
-- Виведення даних у консоль
-  
-3. Розберемо **змінні та типи даних**
-- Оголошення змінних з `const` і `let`, (практика в 01-vars.js)
-- Типи даних
-- Оператор typeof (практика 01-vars.js)
-- Типові помилки (практика 02-errors.js)
-- Арифметичні операції (03-operators.js)
+2. Ne vom familiariza cu limbajul de programare **JavaScript**
+   - Terminologie de bază: ce sunt instrucțiunile, expresiile, literals etc.
+   - Cum să conectați un script la pagină
+   - Lansarea cu LiveServer
+   - Afișarea datelor în consolă
 
-4. Рядки
-- Конкатенація рядків
-- Шаблонні рядки
-- Довжина рядка
-- Індексація (практика 04-strings.js)
-- Перетворення типів (практика 05-coercion.js)
+3. Vom explora **variabilele și tipurile de date**
+   - Declararea variabilelor cu `const` și `let` (practică în 01-vars.js)
+   - Tipuri de date
+   - Operatorul `typeof` (practică în 01-vars.js)
+   - Greșeli comune (practică în 02-errors.js)
+   - Operații aritmetice (03-operators.js)
 
-5. Що на вас чекатиме на **наступному занятті**? 
-Ми поговоримо про функції та потренуємося використовувати функції для нескладних обчислень
+4. Șiruri de caractere (string-uri)
+   - Concatenarea string-urilor
+   - Template strings
+   - Lungimea unui string
+   - Indexare (practică în 04-strings.js)
+   - Type conversion (practică în 05-coercion.js)
+
+5. Ce vă așteaptă la **următoarea lecție**?
+   Vom discuta despre funcții și vom exersa folosirea lor pentru calcule simple.
