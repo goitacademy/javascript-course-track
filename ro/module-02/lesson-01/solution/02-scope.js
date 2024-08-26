@@ -1,5 +1,5 @@
 /*
- * Блокова область видимості змінних
+ * Blocul de vizibilitate al variabilelor
  */
 
 const c = 15;
