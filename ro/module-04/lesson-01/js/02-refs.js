@@ -1,8 +1,8 @@
 /**
- * Об'єкти
+ * Obiecte
  *
- * - Тип даних за посиланням
- * - Масиви і функції - це об'єкти
+ * - Tip de date prin referință
+ * - Array-urile și funcțiile sunt obiecte
  */
 
 /**
