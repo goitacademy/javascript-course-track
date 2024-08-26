@@ -1,13 +1,13 @@
 /**
- * Об'єкти
+ * Obiecte
  *
- * - Створення об'єкта
- * - Вкладені властивості
- * - Доступ до властивостей через крапку
- * - Доступ до вкладених властивостей
- * - Доступ до властивостей через квадратні дужки
- * - Зміна значення властивостей
- * - Додавання властивостей
+ * - Crearea unui obiect
+ * - Proprietăți imbricate
+ * - Referință la o proprietate utilizând punctul
+ * - Referință la proprietățile imbricate
+ * - Referință la o proprietate folosind paranteze pătrate
+ * - Modificarea valorilor
+ * - Adăugarea unei proprietăți
  */
 
 const playlist = {
