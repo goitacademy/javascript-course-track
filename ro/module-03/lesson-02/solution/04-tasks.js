@@ -1,11 +1,11 @@
 /**
- * Напиши функцію logItems(items), яка отримує масив та використовує цикл,
- * який для кожного елемента масиву буде виводити в консоль повідомлення у
- * форматі <номер елемента> - <значення елемента>. Нумерація елементів
- * повинна починатися з 1.
+ * Scrie o funcție `logItems(items)` care primește un array și folosește o buclă
+ * pentru a afișa în consolă un mesaj pentru fiecare element din array în
+ * formatul <numărul elementului> - <valoarea elementului>. Numerotarea elementelor
+ * trebuie să înceapă de la 1.
  *
- * Наприклад для першого елемента масиву ['Mango', 'Poly', 'Ajax'] з
- * індексом 0 буде виведено 1 - Mango, а для індексу 2 виведе 3 - Ajax.
+ * De exemplu, pentru primul element din array-ul ['Mango', 'Poly', 'Ajax'] cu
+ * indexul 0, va afișa 1 - Mango, iar pentru indexul 2 va afișa 3 - Ajax.
  */
 
 function logItems(items) {}
@@ -14,12 +14,12 @@ logItems(["Mango", "Poly", "Ajax"]);
 logItems(["🍎", "🍇", "🍑", "🍌", "🍋"]);
 
 /**
- * Напиши функцію printInfo(names, phones) яка виводить
- * у консоль ім'я та телефонний номер користувача. У параметри
- * names та phones будуть передані рядки імен та телефонних номерів,
- * розділені комами. Порядковий номер імен та телефонів у рядках
- * вказують на відповідність. Кількість імен та телефонів
- * гарантовано однакова.
+ * Scrie o funcție `printInfo(names, phones)` care afișează
+ * în consolă numele și numărul de telefon al utilizatorului. Parametrii
+ * `names` și `phones` vor primi șiruri de caractere care conțin numele și 
+ * numerele de telefon, separate prin virgule. Fiecare nume din `names` corespunde 
+ * unui număr de telefon din `phones`, iar ordinea lor este aceeași. Numărul de 
+ * nume și numere de telefon va fi întotdeauna egal.
  */
 
 function printInfo(names, phones) {}
@@ -30,9 +30,9 @@ printInfo(
 );
 
 /**
- * Напиши функцію formatTime(minutes) яка переведе значення
- * minutes (кількість хвилин) у рядок у форматі годин
- * та хвилин HH:MM.
+ * Scrie o funcție `formatTime(minutes)` care transformă valoarea
+ * `minutes` (numărul de minute) într-un șir de caractere în formatul
+ * ore și minute HH:MM.
  */
 
 const hours = Math.floor(totalMinutes / 60);
