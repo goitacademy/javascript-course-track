@@ -7,7 +7,7 @@
 - Proprietăți imbricate
 - Referință la o proprietate utilizând punctul
 - Referință la proprietățile imbricate
-- Referință la proprietate folosind paranteze pătrate
+- Referință la o proprietate folosind paranteze pătrate
 - Modificarea valorilor
 - Adăugarea unei proprietăți (practică în 01-objects.js)
 - Array-urile și funcțiile sunt obiecte (practică în 02-refs.js)
