@@ -17,7 +17,7 @@ function fnB(number) {
 fnA("A message");
 
 /**
- * Функція calc(a, b, callback)
+ * Funcția calc(a, b, callback)
  */
 
 function calc(a, b) {}
