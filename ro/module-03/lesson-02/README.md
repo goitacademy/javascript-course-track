@@ -1,13 +1,13 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Vom juca Kahoot și vom discuta întrebările
 
-2. Розберемо **функції**
+2. Vom analiza **funcțiile**
 
-- Псевдомасив arguments (практика 01-args.js)
-- Область видимості (практика 02-scope.js)
-- Стек викликів (практика **03-stack.js)**
+- Pseudoarray-ul `arguments` (practică în 01-args.js)
+- Domeniul de vizibilitate (practică în 02-scope.js)
+- Call stack (practică în 03-stack.js)
 
-3. Виконаємо практичне завдання (практика **04-tasks.js)**
+3. Vom rezolva o sarcină practică (practică în 04-tasks.js)
 
-4. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на застосування функцій! ДЗ виконуємо у редакторі коду VS Code
+4. Ce trebuie să faceți pentru temele de acasă? În tema de acasă veți avea 3 sarcini mici care implică utilizarea funcțiilor! Temele se rezolvă în editorul VS Code.
