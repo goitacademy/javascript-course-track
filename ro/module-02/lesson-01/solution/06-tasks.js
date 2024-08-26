@@ -1,20 +1,20 @@
 /*
- * Напиши скрипт перевірки підписки користувача придоступі до контента
- * - Є три типа підписки: free, pro і vip.
- * - Отримати доступ можуть тільки користувачі pro і vip
+ * Scrie un script pentru a verifica accesul utilizatorului la conținut
+ * - Există trei tipuri de abonamente: free, pro și vip.
+ * - Accesul este permis doar utilizatorilor cu abonamente pro și vip.
  */
 
 const sub = "free";
 
 const canAccessContent = sub === "pro" || sub === "vip";
-console.log("Есть доступ к контенту? ", canAccessContent);
+console.log("Există acces la conținut? ", canAccessContent);
 
 /*
- * Напиши скрипт, який перевіряє можливість відкрити чат з користувачем.
- * Для цього, користувач має бути:
- * - другом
- * - онлайн
- * - без режима не турбувати
+ * Scrie un script care verifică dacă se poate deschide un chat cu un utilizator.
+ * Pentru aceasta, utilizatorul trebuie să fie:
+ * - un prieten
+ * - online
+ * - fără modul "Do not disturb"
  */
 
 const isOnline = true;
@@ -22,4 +22,4 @@ const isFriend = true;
 const isDnd = true;
 
 const canOpenChat = isOnline && isFriend && !isDnd;
-console.log("Можно открыть чат? ", canOpenChat);
+console.log("Se poate deschide chat-ul? ", canOpenChat);
