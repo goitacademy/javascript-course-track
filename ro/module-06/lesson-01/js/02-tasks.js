@@ -26,7 +26,7 @@ const outerShowTitle = book.showTitle;
 outerShowTitle(); // Care this ???
 
 /**
- * Scrieți metoda `calcTotalPrice(stoneName)`, care primește numele unei pietre și
+ * Scrieți metoda `calcTotalPrice(stoneName)`, care primește numele pietrei pretioase și
  * calculează și returnează costul total al pietrelor cu acel nume, prețul și
  * cantitatea din proprietatea `stones`.
  */
