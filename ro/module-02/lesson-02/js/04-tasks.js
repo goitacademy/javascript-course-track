@@ -1,15 +1,15 @@
 /**
- * Напиши цикл for, який виводить у консоль браузера
- * числа за зростанням від a до b, але тільки якщо число кратне 5.
+ * Scrie o buclă for care afișează în consola browserului
+ * numerele în ordine crescătoare de la a la b, dar numai dacă numărul este multiplu lui 5.
  */
 
 const a = 100;
 const b = 20;
 
 /*
- * Напиши скрипт, який підраховує суму всіх парних чисел,
- * які входять в діапазон чисел у змінних від min до max.
- * Наприклад, якщо min=0 и max=5, то діапазон 0-5, і в ньому два парних числа - 2 і 4, їх сума 6.
+ * Scrie un script care calculează suma tuturor numerelor pare
+ * dintr-un interval de numere specificat de variabilele min și max.
+ * De exemplu, dacă min=0 și max=5, atunci intervalul este 0-5, iar în acesta sunt două numere pare - 2 și 4, suma lor fiind 6.
  */
 
 const min = 0;
