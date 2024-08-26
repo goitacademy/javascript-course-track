@@ -1,8 +1,8 @@
 /**
- * Об'єкти
+ * Obiecte
  *
- * - Короткі властивості
- * - Обчислювальні властивості
+ * - Proprietăți prescurtate
+ * - Proprietăți calculate
  */
 
 const username = "Mango";
