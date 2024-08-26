@@ -1,13 +1,13 @@
 /**
- * Контекст виконання функції
+ * Contextul de execuție al funcției
  *
- * - Ключове слово this
- * - Глобальний контекст
- * - Контекст методу об'єкта
+ * - Cuvântul cheie `this`
+ * - Contextul global
+ * - Contextul unui method object
  */
 
 /**
- * Глобальний контекст
+ * Contextul global
  */
 function foo() {
   console.log("foo -> this", this);
@@ -16,7 +16,7 @@ function foo() {
 foo();
 
 /**
- * Контекст методу об'єкта
+ * Contextul unui method object
  */
 
 const user = {
@@ -29,7 +29,7 @@ const user = {
 user.showTag();
 
 /**
- * Контекст методу об'єкта, але оголошена як зовнішня функція.
+ * Contextul metodei unui obiect, dar declarată ca o funcție externă.
  */
 
 function showTag() {
@@ -49,7 +49,7 @@ console.log("mango", mango);
 mango.showUserTag();
 
 /**
- * Виклик без контексту, але оголошена як метод об'єкта.
+ * Apel fără context, dar declarat ca metodă a unui obiect.
  */
 
 const poly = {
@@ -67,7 +67,7 @@ const outerShowTag = poly.showTag;
 outerShowTag();
 
 /**
- * Контекст у callback-функціях
+ * Contextul în funcțiile callback
  */
 
 const jacob = {
