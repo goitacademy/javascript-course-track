@@ -1,5 +1,5 @@
 /**
- * Псевдомасив arguments и Array.from
+ * Pseudoarray-ul arguments și Array.from
  */
 
 function foo() {
@@ -13,8 +13,8 @@ fn(1, 2, 3, 4, 5);
 fn(1, 2, 3, 4, 5, 6, 7);
 
 /**
- * Напиши функцію add для складання довільної
- * кількості аргументів (чисел)
+ * Scrie o funcție `add` pentru a aduna 
+ * un număr variabil de argumente (numere).
  */
 
 const add = function (arguments) {
@@ -32,9 +32,9 @@ console.log(add(1, 2, 3));
 console.log(add(1, 2, 4, 5, 6));
 
 /**
- * Напиши функцію calAverage() яка приймає довільну кількість
- * аргументів і повертає їхнє середнє значення. Усі аргументи
- * будуть лише числами.
+ * Scrie o funcție `calAverage()` care acceptă un număr variabil de
+ * argumente și returnează valoarea lor medie. Toate argumentele
+ * vor fi doar numere.
  */
 function calAverage() {}
 
