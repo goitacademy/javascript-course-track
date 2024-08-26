@@ -1,10 +1,10 @@
 /**
- * Ітерація по масиву
+ * Iterații printr-un array
  *
- * - Ітерація по масиву циклом for
- * - Метод includes
- * - Цикл for...of
- * - Різниця у використанні for и for...of
+ * - Iterații prin array folosind bucla for
+ * - Metoda includes
+ * - Bucla for...of
+ * - Diferențele între utilizarea for și for...of
  */
 
 const friends = ["Mango", "Kiwi", "Poly", "Ajax"];
@@ -22,18 +22,18 @@ for (let friend of friends) {
 }
 
 /**
- * Напиши скрипт для обчислення площі прямокутника зі сторонами,
- * значення яких зберігаються у змінній values у вигляді рядка.
- * Значення гарантовано розділені пробілом.
+ * Scrie un script pentru calcularea suprafeței unui dreptunghi ale cărui
+ * laturi sunt stocate în variabila values sub formă de șir de caractere.
+ * Valorile sunt separate printr-un spațiu.
  */
 
 const values = "8 11";
 
 /**
- * Напиши скрипт для перебору масиву fruits.
- * Для кожного елемента масиву виведи в консоль рядок
- * у форматі номер_елемента: значення_елемента.
- * Нумерація елементів повинна починатися з 1.
+ * Scrie un script pentru iterarea prin array-ul fruits.
+ * Pentru fiecare element din array, afișează în consolă un șir
+ * în formatul numar_element: valoare_element.
+ * Numerotarea elementelor trebuie să înceapă de la 1.
  */
 
 const fruits = ["🍎", "🍇", "🍑", "🍌", "🍋"];
