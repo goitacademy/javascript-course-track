@@ -2,7 +2,7 @@ function foo() {
   console.log("foo -> this", this);
 }
 
-foo(); // Який this ???
+foo(); //  this ???
 
 /**
  * -------------------------
@@ -17,19 +17,20 @@ const book = {
   },
 };
 
-book.showThis(); // Який this ???
+book.showThis(); // Care this ???
 
 const outerShowThis = book.showThis;
-outerShowThis(); // Який this ???
+outerShowThis(); // Care this ???
 
 const outerShowTitle = book.showTitle;
-outerShowTitle(); // Який this ???
+outerShowTitle(); // Care this ???
 
 /**
- * Напишіть метод calcTotalPrice(stoneName), який приймає назву каменю і
- * розраховує та повертає загальну вартість каменів з таким ім'ям, ціною та
- * кількістю з властивості stones.
+ * Scrieți metoda `calcTotalPrice(stoneName)`, care primește numele unei pietre și
+ * calculează și returnează costul total al pietrelor cu acel nume, prețul și
+ * cantitatea din proprietatea `stones`.
  */
+
 const chopShop = {
   stones: [
     { name: "Emerald", price: 1300, quantity: 4 },
