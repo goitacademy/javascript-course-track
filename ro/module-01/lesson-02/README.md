@@ -1,20 +1,20 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot і обговоримо питання 
+1. Vom juca Kahoot și vom discuta întrebările
 
-2. Розберемо **оператори**
-- Оператори порівняння
-- Оператори рівності (практика в 02-comp.js)
-- Перетворення типів: числа
-- Перетворення типів: рядків у числа (практика в 01-coercion.js)
-- Арифметичні функції (практика в 03-numbers.js)
+2. Vom analiza **operatorii**
+   - Operatorii de comparație
+   - Operatorii de egalitate și inegalitate (practică în 02-comp.js)
+   - Type conversion: number
+   - Conversia șirurilor de caractere în numere (practică în 01-coercion.js)
+   - Funcții aritmetice (practică în 03-numbers.js)
 
-3. Познайомимося з **функціями**
-- Оголошення функцій
-- Параметри і аргументи
-- Повернення значення
-- Порядок виконання коду
-- Область видимості функцій (практика 04-functions.js)
+3. Ne vom familiariza cu **funcțiile**
+   - Declararea funcțiilor
+   - Parametri și argumente
+   - Returnarea valorilor
+   - Ordinea execuției codului
+   - Domeniul de aplicare al funcțiilor (practică în 04-functions.js)
 
-4. А що робити в ДЗ?
-У домашньому завданні на вас чекають 3 нескладні задачі на використання функцій, шаблонних рядків та застосування арифметичних операцій. ДЗ виконуємо у редакторі коду VS Code
+4. Ce trebuie să faceți pentru temele de acasă?
+   - În tema de acasă, veți avea de rezolvat 3 sarcini simple care implică utilizarea funcțiilor, template literals și aplicarea operațiilor aritmetice. Temele se rezolvă în editorul VS Code.
