@@ -1,9 +1,9 @@
 /**
- * Функція зворотнього виклика (callback)
+ * Funcții callback
  *
- * - Функція як значення
- * - Колбек-функції
- * - Інлайн-колбеки
+ * - Funcția ca valoare
+ * - Funcții callback
+ * - Inline callback 
  */
 
 function fnA(message) {
@@ -27,10 +27,10 @@ calc(2, 3);
 calc(10, 8);
 
 /**
- * Напишіть функцію each(array, callback), яка першим параметром очікує масив,
- * а другим - функцію, яка застосовується до кожного елемента масиву. Функція
- * each повинна повернути новий масив, елементами якого будуть
- * результати виклику коллбека.
+ * Scrie o funcție `each(array, callback)` care primește un array ca prim parametru,
+ * și o funcție ca al doilea parametru, care se aplică fiecărui element din array.
+ * Funcția `each` trebuie să returneze un nou array, ale cărui elemente sunt
+ * rezultatele apelării callback-ului.
  */
 
 function each(array, callback) {}
