@@ -1,12 +1,12 @@
 /**
- * Масиви
+ * Array-uri
  *
- * - Створення масиву
- * - Доступ до елементів
- * - Перевизначення значення елемента
- * - Довжина масиву
- * - Індекс останнього елемента
- * - Перевизначення
+ * - Crearea unui array
+ * - Accesul la elemente
+ * - Suprascrierea valorii unui element
+ * - Lungimea unui array
+ * - Indexul ultimului element
+ * - Suprascrierea valorilor
  */
 
 const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];
