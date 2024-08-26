@@ -1,10 +1,10 @@
 /**
- * Розгалуження
+ * Ramificații
  *
- * - Інструкція if
- * - Інструкція if...else
- * - Блок else...if
- * - Тернарний оператор
+ * - Instrucțiunea if
+ * - Instrucțiunea if...else
+ * - Blocul else...if
+ * - Operatorul ternar
  */
 
 console.log("Before");
