@@ -1,9 +1,9 @@
 /**
- * Напиши скрипт, який для об'єкта user, послідовно:
- * - додає поле mood зі значенням 'happy'
- * - замінює значення hobby на 'skydiving'
- * - замінює значення premium на false
- * - виводить вміст об'єкта user у форматі ключ:значення використовуючи Object.keys() та for...of
+ * Scrie un script care pentru obiectul user, face următoarele:
+ * - adaugă câmpul mood cu valoarea 'happy'
+ * - modifică valoarea hobby în 'skydiving'
+ * - modifică valoarea premium în false
+ * - afișează conținutul obiectului user în formatul cheie:valoare folosind Object.keys() și for...of
  */
 
 const user = {
@@ -14,10 +14,11 @@ const user = {
 };
 
 /**
- * У нас є об'єкт, де зберігаються зарплати нашої команди. Напишіть код для
- * підсумовування всіх зарплат і збережіть результат у змінній sum.
- * Повинно вийти 390. Якщо об'єкт salaries порожній, то результат має бути 0.
+ * Este dat un obiect care stochează salariile echipei noastre. Scrie un cod pentru a
+ * calcula suma tuturor salariilor și salvează rezultatul într-o variabilă sum.
+ * Trebui să obținem 390. Dacă obiectul salaries este gol, rezultatul trebui să fie 0.
  */
+
 const salaries = {
   John: 100,
   Ann: 160,
