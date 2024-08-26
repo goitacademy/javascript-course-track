@@ -1,10 +1,10 @@
 /**
- * Змінні та типи даних
+ * Variabile și tipuri de date
  *
- * - Оголошення змінних з let и const
- * - Перевизначення значення
- * - Найменування змінних
- * - Вибір між const і let
- * - Числа, рядки, булі, null, undefined
- * - Оператор typeof
+ * - Declararea variabilelor cu let și const
+ * - Suprascierea unei valori
+ * - Denumirea variabilelor
+ * - Diferența dintre const și let
+ * - Number, string, boolean, null, undefined
+ * - Operatorul typeof
  */
