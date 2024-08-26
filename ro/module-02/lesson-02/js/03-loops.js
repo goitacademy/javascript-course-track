@@ -1,12 +1,12 @@
 /**
- * Цикли
+ * Bucle
  *
- * - Цикл for
- * - Відлік від 0 до N
- * - Обратний відлік від N до 0
- * - Збільшення/зменшення лічильника на 2+
- * - Інкремент і декремент
- * - Цикли while і do...while
+ * - Bucla for
+ * - Numărătoare de la 0 la N
+ * - Numărătoare inversă de la N la 0
+ * - Creșterea/scăderea contorului cu 2+
+ * - Incrementare și decrementare
+ * - Bucle while și do...while
  */
 
 console.log("Before");
