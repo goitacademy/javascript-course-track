@@ -1,25 +1,25 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot і обговоримо питання
+1. Vom juca Kahoot și vom discuta întrebările
 
-2. Розберемо **масив об’єктів** (практика 01-array.js)
+2. Vom analiza un **array de obiecte** (practică în 01-array.js)
 
-- Пошук за значенням властивості
-- Колекція значень властивості
+   - Căutarea unui obiect după valoarea proprietății
+   - Colecția valorilor proprietății
 
-3. Обговоримо методи об'єкта (практика 02-methods.js)
+3. Vom discuta despre **metodele obiectului** (practică în 02-methods.js)
 
-- Доступ до властивостей об'єкта
-- Зміна за посиланням
+   - Accesarea proprietăților obiectului
+   - Modificarea după referință
 
-4. Розглянемо синтаксис `spread` і `rest` (практика 03-spread-rest.js)
+4. Vom explora sintaxa `spread` și `rest` (practică în 03-spread-rest.js)
 
-- Залишкові параметри
-- Збір частини аргументів
-- Входження параметрів
-- Створення масиву і об'єктів
-- Остаточные аргументы с rest
+   - Rest parameters
+   - Colectarea unei părți din argumente
+   - Prametrii de intrare
+   - Crearea array-urilor și obiectelor
+   - Argumente suplimentare cu rest
 
-5. Розв’яжемо декілька практичних завдань (практика **04-tasks.js)**
+5. Vom rezolva câteva sarcini practice (practică în 04-tasks.js)
 
-6. А що робити в ДЗ? У домашньому завданні на вас чекають 3 невеликі задачі на застосування об'єктів! ДЗ виконуємо у редакторі коду VS Code
+6. Ce trebuie să faceți pentru temele de acasă? În tema de acasă veți avea 3 sarcini mici care implică utilizarea obiectelor! Temele se rezolvă în editorul VS Code.
