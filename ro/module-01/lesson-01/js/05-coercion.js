@@ -1,8 +1,8 @@
 /**
  * Type conversion: string
  *
- * - Convertire explicită a tipurilor
- * - Convertire implicită a tipurilor
+ * - Conversia explicită a tipurilor
+ * - Conversia implicită a tipurilor
  */
 
 console.log(String(5)); // "5"
