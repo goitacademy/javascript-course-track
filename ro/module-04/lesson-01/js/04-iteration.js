@@ -1,9 +1,9 @@
 /**
- * Перебір об'єкта
+ * Iterarea printr-un obiect
  *
- * - Цикл for...in
- * - Метод Object.keys
- * - Метод Object.values
+ * - Bucla for...in
+ * - Metoda Object.keys
+ * - Metoda Object.values
  */
 
 const feedback = {
