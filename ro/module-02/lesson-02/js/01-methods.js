@@ -1,5 +1,5 @@
 /**
- * Методи рядків
+ * Metode pentru șiruri de caractere
  *
  *  - slice
  *  - toLowerCase/toUpperCase
