@@ -1,22 +1,22 @@
-# План заняття
+## Planul lecției
 
-1. Пограємо в Kahoot
+1. Vom juca Kahoot
 
-2. Познайомимось з розгалуженнями (практика 01-arrays.js)
-- Інструкція if
-- Інструкція if...else,
-- Блок else...if
-- Тернарний оператор (практика 01-branching.js)
-- Блокова область видимості (практика *02-scope.js)
-- Практичні завдання (практика 03-tasks.js)
-- Оператор switch (практика 04-switch.js)
+2. Ne vom familiariza cu ramificații (practică în 01-arrays.js)
+   - Instrucțiunea `if`
+   - Instrucțiunea `if...else`
+   - Blocul `else...if`
+   - Operatorul ternar (practică în 01-branching.js)
+   - Variable scope (practică în 02-scope.js)
+   - Sarcini practice (practică în 03-tasks.js)
+   - Operatorul `switch` (practică în 04-switch.js)
 
-3. Розберемо логічні оператори (практика 05-operators.js)
-- Перетворення типів: логічне
-- Оператор &&
-- Оператор ||
-- Оператор !
+3. Vom analiza operatorii logici (practică în 05-operators.js)
+   - Type conversion: valori logice
+   - Operatorul `&&`
+   - Operatorul `||`
+   - Operatorul `!`
 
-4. Розв’яжемо декілька практичних завдань (практика 06-tasks.js)
+4. Vom rezolva câteva sarcini practice (practică în 06-tasks.js)
 
-5. Що на вас чекатиме на **наступному занятті**? Ми поговоримо про методи рядків і цикли
+5. Ce vă așteaptă la **următoarea lecție**? Vom discuta despre metodele pentru string-uri și despre bucle.
