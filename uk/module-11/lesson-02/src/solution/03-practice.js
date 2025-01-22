@@ -1,4 +1,5 @@
-import '../css/common.css';
+import axios from 'axios';
+import '../common.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
