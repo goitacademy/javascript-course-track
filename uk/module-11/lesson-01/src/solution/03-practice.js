@@ -1,3 +1,5 @@
+import '../common.css';
+
 /**
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
  *
@@ -5,14 +7,14 @@
 
 function fetchPokemon(pokemonId) {
   return fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`).then(
-    (response) => response.json()
+    response => response.json()
   );
 }
 
-const cardContainer = document.querySelector(".card-container");
-const searchForm = document.querySelector(".search-form");
+const cardContainer = document.querySelector('.card-container');
+const searchForm = document.querySelector('.search-form');
 
-searchForm.addEventListener("submit", onSearch);
+searchForm.addEventListener('submit', onSearch);
 
 function onSearch(e) {
   e.preventDefault();
@@ -23,23 +25,23 @@ function onSearch(e) {
   fetchPokemon(searchQuery)
     .then(renderPokemonCard)
     .catch(onFetchError)
-    .finally(form.reset);
+    .finally(() => form.reset());
 }
 
 function renderPokemonCard({ name, sprites, weight, height, abilities }) {
   const abilityListItems = abilities
-    .map((item) => `<li class="list-group-item">${item.ability.name}</li>`)
-    .join("");
+    .map(item => `<li class="ability-item">${item.ability.name}</li>`)
+    .join('');
 
-  const markup = `<div class="card shadow-lg border-0 text-center">
-  <img src="${sprites.front_default}" class="card-img bg-light p-3" alt="${name}" >
+  const markup = `<div class="pokemon-card">
+  <img src="${sprites.front_default}" class="pokemon-image" alt="${name}" >
 
-  <div class="card-body">
-    <h2 class="fw-bold text-primary">${name}</h2>
-    <p><span class="fw-bold">Вага:</span> ${weight}</p>
-    <p><span class="fw-bold">Зростання:</span> ${height}</p>
-    <h5 class="mt-3">Уміння</h5>
-    <ul class="list-group list-group-flush">${abilityListItems}</ul>
+  <div class="pokemon-info">
+    <h2 class="pokemon-title">${name}</h2>
+    <p><span class="bold-text">Вага:</span> ${weight}</p>
+    <p><span class="bold-text">Зростання:</span> ${height}</p>
+    <h5 class="abilities-title">Уміння</h5>
+    <ul class="abilities-list">${abilityListItems}</ul>
   </div>
 </div>`;
 
@@ -47,5 +49,5 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
 }
 
 function onFetchError(error) {
-  alert("Упс, щось пішло не так і ми не знайшли вашого покемона!");
+  alert('Упс, щось пішло не так і ми не знайшли вашого покемона!');
 }

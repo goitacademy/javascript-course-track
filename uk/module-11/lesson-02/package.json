@@ -12,6 +12,6 @@
     "vite": "^6.0.5"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "axios": "^1.7.9"
   }
 }

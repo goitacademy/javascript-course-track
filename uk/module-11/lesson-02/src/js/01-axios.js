@@ -1,5 +1,4 @@
 import '../common.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * Додаємо та використовуємо бібліотеку https://axios-http.com/

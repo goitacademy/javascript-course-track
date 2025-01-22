@@ -1,6 +1,5 @@
 import axios from 'axios';
-import '../css/common.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../common.css';
 
 /**
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
@@ -23,12 +22,12 @@ function onSearch(e) {
   e.preventDefault();
 
   const form = e.currentTarget;
-  const searchQuery = form.elements.query.value;
+  const searchQuery = form.elements.query.value.toLowerCase();
 
   fetchPokemon(searchQuery)
     .then(renderPokemonCard)
     .catch(onFetchError)
-    .finally(form.reset);
+    .finally(() => form.reset());
 }
 
 function renderPokemonCard({ name, sprites, weight, height, abilities }) {
@@ -36,18 +35,16 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
     .map(item => `<li class="list-group-item">${item.ability.name}</li>`)
     .join('');
 
-  const markup = `<div class="card">
-   <div class="card-img-top">
-     <img src="${sprites.front_default}" alt="${name}">
-   </div>
-   <div class="card-body">
-     <h2 class="card-title">Ім'я: ${name}</h2>
-     <p class="card-text">Вага: ${weight}</p>
-     <p class="card-text">Зростання: ${height}</p>
+  const markup = `<div class="pokemon-card">
+  <img src="${sprites.front_default}" class="pokemon-image" alt="${name}" >
 
-     <p class="card-text"><b>Уміння</b></p>
-     <ul class="list-group">${abilityListItems}</ul>
-   </div>
+  <div class="pokemon-info">
+    <h2 class="pokemon-title">${name}</h2>
+    <p><span class="bold-text">Вага:</span> ${weight}</p>
+    <p><span class="bold-text">Зростання:</span> ${height}</p>
+    <h5 class="abilities-title">Уміння</h5>
+    <ul class="abilities-list">${abilityListItems}</ul>
+  </div>
 </div>`;
 
   cardContainer.innerHTML = markup;

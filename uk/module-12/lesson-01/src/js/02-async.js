@@ -1,6 +1,5 @@
 import axios from 'axios';
-import '../css/common.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../common.css';
 
 /**
  * Синтаксис async/await

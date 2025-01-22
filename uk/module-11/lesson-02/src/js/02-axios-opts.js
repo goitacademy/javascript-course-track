@@ -1,5 +1,4 @@
 import '../common.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * Робимо рефакторинг авторизації запитів з ключами

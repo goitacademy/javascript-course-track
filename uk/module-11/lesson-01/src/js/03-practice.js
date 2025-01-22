@@ -1,5 +1,4 @@
 import '../common.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
@@ -15,15 +14,15 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
     .map(item => `<li class="list-group-item">${item.ability.name}</li>`)
     .join('');
 
-  const markup = `<div class="card shadow-lg border-0 text-center">
-  <img src="${sprites.front_default}" class="card-img bg-light p-3" alt="${name}" >
+  const markup = `<div class="pokemon-card">
+  <img src="${sprites.front_default}" class="pokemon-image" alt="${name}" >
 
-  <div class="card-body">
-    <h2 class="fw-bold text-primary">${name}</h2>
-    <p><span class="fw-bold">Вага:</span> ${weight}</p>
-    <p><span class="fw-bold">Зростання:</span> ${height}</p>
-    <h5 class="mt-3">Уміння</h5>
-    <ul class="list-group list-group-flush">${abilityListItems}</ul>
+  <div class="pokemon-info">
+    <h2 class="pokemon-title">${name}</h2>
+    <p><span class="bold-text">Вага:</span> ${weight}</p>
+    <p><span class="bold-text">Зростання:</span> ${height}</p>
+    <h5 class="abilities-title">Уміння</h5>
+    <ul class="abilities-list">${abilityListItems}</ul>
   </div>
 </div>`;
 

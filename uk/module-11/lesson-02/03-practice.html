@@ -6,40 +6,36 @@
     <title>TheCatAPI practice</title>
   </head>
   <body>
-    <p class="mt-4">
-      <a href="index.html" class="btn btn-outline-secondary"> ← Go Back </a>
+    <p>
+      <a href="index.html">← Go Back </a>
     </p>
 
-    <div class="container py-5">
+    <div class="wrapper">
       <!-- Форма пошуку -->
-      <form id="search-form" class="p-4 bg-white rounded shadow-sm">
-        <div class="mb-3">
-          <label for="breed-input" class="form-label"
-            >Оберіть породу кота:</label
-          >
+      <form id="search-form" class="search-form">
+        <div class="form-group">
+          <label for="breed-input">Оберіть породу кота:</label>
           <input
             list="breeds-list"
             id="breed-input"
-            class="form-control"
+            class="input-field"
             placeholder="Наприклад: Bengal"
             autocomplete="off"
           />
           <datalist id="breeds-list"></datalist>
         </div>
 
-        <button type="submit" class="btn btn-primary w-100">
-          Знайти зображення
-        </button>
+        <button type="submit" class="btn">Знайти зображення</button>
       </form>
 
       <!-- Лоадер -->
-      <div id="loader" class="text-center mt-4 d-none">
-        <p class="text-muted">Завантаження...</p>
+      <div id="loader" class="loader hidden">
+        <p>Завантаження...</p>
       </div>
     </div>
 
     <!-- Контейнер для картки -->
-    <div id="cat-card" class="mt-4"></div>
+    <div id="cat-card" class="card-container"></div>
 
     <script src="src/js/03-practice.js" type="module"></script>
   </body>

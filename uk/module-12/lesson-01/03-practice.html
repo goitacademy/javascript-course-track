@@ -4,18 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p class="mt-4">
-      <a href="index.html" class="btn btn-outline-secondary"> ← Go Back </a>
+    <p>
+      <a href="index.html" class="back-link">← Go Back</a>
     </p>
 
-    <form class="form-inline search-form">
+    <form class="search-form">
       <div class="form-group">
-        <input type="text" class="form-control" name="query" />
+        <label for="searchQuery">Пошук Покемона</label>
+        <input
+          type="text"
+          id="searchQuery"
+          name="query"
+          placeholder="Введіть ім'я покемона..."
+        />
+        <small class="help-text"
+          >Наприклад: Ditto, Bulbasaur, Charmeleon, Psyduck, Persian</small
+        >
       </div>
-
-      <button type="submit" class="btn btn-primary">Search</button>
+      <button type="submit" class="btn">Search</button>
     </form>
 
     <div class="card-container"></div>
