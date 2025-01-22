@@ -1,4 +1,4 @@
-import '../css/common.css';
+import '../common.css';
 
 /**
  * Напишемо клас Timer, який буде

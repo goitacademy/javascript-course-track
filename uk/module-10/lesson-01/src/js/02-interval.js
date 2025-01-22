@@ -1,4 +1,4 @@
-import '../css/common.css';
+import '../common.css';
 
 /*
  * Метод setInterval(callback, delay, args)
