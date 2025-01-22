@@ -4,5 +4,5 @@
  * - у query string
  * - у хедерах
  *
- * Для прикладу використовуємо https://pixabay.com/api/docs/
+ * Для прикладу використовуємо https://thecatapi.com/
  */
