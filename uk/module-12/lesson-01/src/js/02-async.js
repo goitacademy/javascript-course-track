@@ -9,9 +9,7 @@ import '../common.css';
 const fetchTodos = () => {
   return axios
     .get('https://jsonplaceholder.typicode.com/todos')
-    .then(response => {
-      return response.data;
-    });
+    .then(response => response.data);
 };
 
 fetchTodos()

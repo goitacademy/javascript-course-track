@@ -4,10 +4,34 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>VNews Search</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="src/index.js"></script>
+    <div class="container">
+      <h1>News Search</h1>
+
+      <!-- Форма пошуку -->
+      <form class="search-form">
+        <input
+          type="text"
+          name="query"
+          placeholder="Enter a keyword..."
+          class="search-input"
+        />
+        <button type="submit" class="btn">Search</button>
+      </form>
+
+      <!-- Лоадер -->
+      <div id="loader" class="loader hidden">Loading...</div>
+
+      <!-- Список статей -->
+      <ul class="articles"></ul>
+
+      <!-- Кнопка "Завантажити ще" -->
+      <button class="btn load-more hidden">Load More</button>
+    </div>
+
+    <!-- <script type="module" src="src/index.js"></script> -->
+    <script type="module" src="src/solution.js"></script>
   </body>
 </html>
