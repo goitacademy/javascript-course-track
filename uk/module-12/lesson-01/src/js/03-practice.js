@@ -1,3 +1,7 @@
+import axios from 'axios';
+import '../css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
  *
@@ -5,15 +9,15 @@
  */
 
 function fetchPokemon(pokemonId) {
-  return fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`).then(
-    (response) => response.json()
-  );
+  return axios
+    .get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`)
+    .then(response => response.data);
 }
 
-const cardContainer = document.querySelector(".card-container");
-const searchForm = document.querySelector(".search-form");
+const cardContainer = document.querySelector('.card-container');
+const searchForm = document.querySelector('.search-form');
 
-searchForm.addEventListener("submit", onSearch);
+searchForm.addEventListener('submit', onSearch);
 
 function onSearch(e) {
   e.preventDefault();
@@ -29,8 +33,8 @@ function onSearch(e) {
 
 function renderPokemonCard({ name, sprites, weight, height, abilities }) {
   const abilityListItems = abilities
-    .map((ability) => `<li class="list-group-item">${ability.name}</li>`)
-    .join("");
+    .map(item => `<li class="list-group-item">${item.ability.name}</li>`)
+    .join('');
 
   const markup = `<div class="card">
    <div class="card-img-top">
@@ -45,9 +49,10 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
      <ul class="list-group">${abilityListItems}</ul>
    </div>
 </div>`;
+
   cardContainer.innerHTML = markup;
 }
 
 function onFetchError(error) {
-  alert("Упс, щось пішло не так і ми не знайшли вашого покемона!");
+  alert('Упс, щось пішло не так і ми не знайшли вашого покемона!');
 }

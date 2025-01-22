@@ -1,18 +1,20 @@
+import './common.css';
+
 /**
  * Отримуємо ключ https://newsapi.org/
  * Запити робитимемо на http://newsapi.org/v2/everything?q=cat&language=en&pageSize=5&page=1
  *
  * Пагінація: номер групи та кількість елементів групи
- * - Завантажуємо статті при самітті форми
+ * - Завантажуємо статті при сабміті форми
  * - Завантажуємо статті при натисканні на кнопку «Завантажити ще»
  * - Оновлюємо групу в параметрах запиту
  * - Рендерим статті
  * - Скидання значення при пошуку за новим критерієм
- * - Показуємо спинер поки йде запит
+ * - Показуємо лоадер поки йде запит
  */
 
-const searchForm = document.querySelector(".search-form");
-const articlesContainer = document.querySelector(".articles");
+const searchForm = document.querySelector('.search-form');
+const articlesContainer = document.querySelector('.articles');
 const loadMoreBtn = document.querySelector('[data-action="load-more"]');
 
 function appendArticlesMarkup(articles) {
@@ -30,7 +32,7 @@ function appendArticlesMarkup(articles) {
      </a>
    </li>`
     )
-    .join("");
+    .join('');
 
-  articlesContainer.insertAdjacentHTML("beforeend", markup);
+  articlesContainer.insertAdjacentHTML('beforeend', markup);
 }

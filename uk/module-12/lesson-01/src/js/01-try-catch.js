@@ -1,3 +1,6 @@
+import '../css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Обробка помилок з try...catch
  *
