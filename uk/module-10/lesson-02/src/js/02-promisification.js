@@ -1,3 +1,5 @@
+import '../common.css';
+
 /*
  * Промісифікація:
  * - Проблема доступу до результату проміса з колбеком
@@ -12,18 +14,18 @@ const makeOrder = (dish, onSuccess, onError) => {
       onSuccess(`✅ Ваше замовлення: ${dish}`);
     }
 
-    onError("❌ Упс, у нас закінчилися продукти");
+    onError('❌ Упс, у нас закінчилися продукти');
   }, 1000);
 };
 
 makeOrder(
-  "пиріжок",
-  (result) => {
-    console.log("onMakeOrderSuccess");
+  'пиріжок',
+  result => {
+    console.log('onMakeOrderSuccess');
     console.log(result);
   },
-  (error) => {
-    console.log("onMakeOrderError");
+  error => {
+    console.log('onMakeOrderError');
     console.log(error);
   }
 );
@@ -41,17 +43,17 @@ const prepareDish = (dish, onSuccess, onError) => {
     onSuccess(`✅ Ваше замовлення: ${dish}`);
   }
 
-  onError("❌ Упс, у нас закінчилися продукти");
+  onError('❌ Упс, у нас закінчилися продукти');
 };
 
 makeOrder(
-  "пиріжок",
-  (result) => {
-    console.log("onMakeOrderSuccess");
+  'пиріжок',
+  result => {
+    console.log('onMakeOrderSuccess');
     console.log(result);
   },
-  (error) => {
-    console.log("onMakeOrderError");
+  error => {
+    console.log('onMakeOrderError');
     console.log(error);
   }
 );

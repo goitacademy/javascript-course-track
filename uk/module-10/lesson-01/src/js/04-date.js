@@ -1,3 +1,5 @@
+import '../css/common.css';
+
 /*
  - Створення
  - Unix-час
@@ -7,4 +9,4 @@
 */
 
 const date1 = Date.now();
-console.log("date1", date1);
+console.log('date1', date1);

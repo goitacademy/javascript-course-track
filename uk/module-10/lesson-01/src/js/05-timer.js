@@ -1,3 +1,5 @@
+import '../css/common.css';
+
 /**
  * Напишемо клас Timer, який буде
  * запускати та зупиняти відлік часу
@@ -30,13 +32,13 @@ class Timer {
    * Приймає число, перетворює його в рядок і додає в початок 0, якщо число менше 2-х знаків
    */
   pad(value) {
-    return String(value).padStart(2, "0");
+    return String(value).padStart(2, '0');
   }
 }
 
-const startBtn = document.querySelector("button[data-action-start]");
-const stopBtn = document.querySelector("button[data-action-stop]");
-const clockface = document.querySelector(".js-clockface");
+const startBtn = document.querySelector('button[data-action-start]');
+const stopBtn = document.querySelector('button[data-action-stop]');
+const clockface = document.querySelector('.js-clockface');
 
 const timer = new Timer({
   onTick: updateClockface,

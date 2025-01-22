@@ -1,3 +1,5 @@
+import '../common.css';
+
 /**
  * Напиши програмне забезпечення для ігрового автомата.
  * Для вирішення завдання використай готову розмітку HTML та базову стилізацію.
@@ -20,6 +22,6 @@
  * поле має очищатись, а гра починатись з початку.
  */
 
-const startBtn = document.querySelector(".start-btn");
-const container = document.querySelector(".container");
-const result = document.querySelector(".result");
+const startBtn = document.querySelector('.start-btn');
+const container = document.querySelector('.container');
+const result = document.querySelector('.result');

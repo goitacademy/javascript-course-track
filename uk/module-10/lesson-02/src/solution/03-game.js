@@ -1,3 +1,5 @@
+import '../common.css';
+
 /**
  * Напиши програмне забезпечення для ігрового автомата.
  * Для вирішення завдання використай готову розмітку HTML та базову стилізацію.
@@ -20,11 +22,11 @@
  * поле має очищатись, а гра починатись з початку.
  */
 
-const startBtn = document.querySelector(".start-btn");
-const container = document.querySelector(".container");
-const result = document.querySelector(".result");
+const startBtn = document.querySelector('.start-btn');
+const container = document.querySelector('.container');
+const result = document.querySelector('.result');
 
-startBtn.addEventListener("click", handleStart);
+startBtn.addEventListener('click', handleStart);
 
 function handleStart() {
   const promises = [...container.children].map(() => {
@@ -32,28 +34,28 @@ function handleStart() {
       const random = Math.random();
 
       if (random > 0.5) {
-        resolve("🤑");
+        resolve('🤑');
       } else {
-        reject("👿");
+        reject('👿');
       }
     });
   });
 
-  Promise.allSettled(promises).then((items) => {
+  Promise.allSettled(promises).then(items => {
     items.forEach((item, i) => {
-      container.children[i].textContent = "";
+      container.children[i].textContent = '';
 
       setTimeout(() => {
         container.children[i].textContent = item.value || item.reason;
 
         if (i === items.length - 1) {
-          result.innerHTML = `${isWinner ? "Winner" : "Loser"}`;
+          result.innerHTML = `${isWinner ? 'Winner' : 'Loser'}`;
         }
       }, 1000 * (i + 1));
     });
 
     const isWinner =
-      items.every((item) => item.status === "fulfilled") ||
-      items.every((item) => item.status === "rejected");
+      items.every(item => item.status === 'fulfilled') ||
+      items.every(item => item.status === 'rejected');
   });
 }
