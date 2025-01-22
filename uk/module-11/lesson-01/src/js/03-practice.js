@@ -1,16 +1,19 @@
+import '../css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Використовуємо https://pokeapi.co/ та створимо сторінку перегляду покемонів
  */
 
 function fetchPokemon(pokemonId) {}
 
-const cardContainer = document.querySelector(".card-container");
-const searchForm = document.querySelector(".search-form");
+const cardContainer = document.querySelector('.card-container');
+const searchForm = document.querySelector('.search-form');
 
 function renderPokemonCard({ name, sprites, weight, height, abilities }) {
   const abilityListItems = abilities
-    .map((item) => `<li class="list-group-item">${item.ability.name}</li>`)
-    .join("");
+    .map(item => `<li class="list-group-item">${item.ability.name}</li>`)
+    .join('');
 
   const markup = `<div class="card shadow-lg border-0 text-center">
   <img src="${sprites.front_default}" class="card-img bg-light p-3" alt="${name}" >
@@ -28,5 +31,5 @@ function renderPokemonCard({ name, sprites, weight, height, abilities }) {
 }
 
 function onFetchError(error) {
-  alert("Упс, щось пішло не так і ми не знайшли вашого покемона!");
+  alert('Упс, щось пішло не так і ми не знайшли вашого покемона!');
 }

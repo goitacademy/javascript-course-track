@@ -1,3 +1,6 @@
+import '../css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Основи запиту
  * - Fetch API
@@ -8,7 +11,7 @@
  * https://jsonplaceholder.typicode.com/
  */
 
-const list = document.querySelector(".todo-list");
+const list = document.querySelector('.todo-list');
 
 /**
  * Всередині функції запит, зовні обробка

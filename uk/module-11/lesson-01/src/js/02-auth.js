@@ -1,3 +1,6 @@
+import '../css/common.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 /**
  * Авторизація запитів з ключами
  * Які бувають:
