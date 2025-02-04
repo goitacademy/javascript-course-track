@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Основні стилі */
+body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Контейнер */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Форма пошуку */
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Кнопка */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Лоадер */
+.loader {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Ховаємо елементи */
+.hidden {
+  display: none;
+}
+
+/* Статті */
+.articles {
+  list-style: none;
+  padding: 0;
+}
+
+.articles li {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.articles a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.articles h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.articles p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Кнопка "Load More" (тепер завжди під статтями) */
+.load-more {
+  display: block;
+  margin: 20px auto 0; /* Додає відступи зверху */
+  width: 100%;
+  max-width: 200px;
+}
